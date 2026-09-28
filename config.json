@@ -1,0 +1,49 @@
+{
+  "nome_perfil": "Radar dos Achados",
+  "arroba_instagram": "@radardosachados",
+
+  "palavras_chave": [
+    "organizador cozinha",
+    "utensilios cozinha",
+    "decoracao quarto",
+    "luminaria led",
+    "fone bluetooth",
+    "suporte celular",
+    "garrafa termica",
+    "necessaire",
+    "skincare",
+    "maquiagem",
+    "organizador closet",
+    "acessorios pet",
+    "brinquedo educativo",
+    "tapete banheiro",
+    "mochila"
+  ],
+  "palavras_por_execucao": 3,
+  "produtos_por_palavra": 30,
+
+  "filtros": {
+    "desconto_minimo": 20,
+    "nota_minima": 4.6,
+    "vendas_minimas": 100,
+    "preco_minimo": 10,
+    "preco_maximo": 300,
+    "dias_sem_repetir": 30,
+    "palavras_proibidas": ["replica", "réplica", "sexy", "adulto", "cigarro", "vape", "arma"]
+  },
+
+  "instagram": {
+    "ativo": true,
+    "hashtags": "#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados"
+  },
+
+  "pinterest": {
+    "ativo": false,
+    "sandbox": true,
+    "board_id": "COLE_AQUI_O_ID_DA_PASTA"
+  },
+
+  "vitrine": {
+    "quantidade_na_pagina": 60
+  }
+}
