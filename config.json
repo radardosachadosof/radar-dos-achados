@@ -1,6 +1,6 @@
 {
   "nome_perfil": "Radar dos Achados",
-  "arroba_instagram": "@radardosachados",
+  "arroba_instagram": "@radardosachadosof",
 
   "palavras_chave": [
     "organizador cozinha",
@@ -35,6 +35,13 @@
   "instagram": {
     "ativo": true,
     "hashtags": "#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados"
+  },
+
+  "facebook": {
+    "ativo": true,
+    "comentario_com_link": true,
+    "link_grupo": "",
+    "hashtags": "#achadinhos #achadosshopee #promocao #ofertas #radardosachados"
   },
 
   "pinterest": {
