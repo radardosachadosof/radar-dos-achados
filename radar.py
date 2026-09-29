@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Radar dos Achados: busca ofertas na Shopee e publica no Instagram e no Pinterest.
+Radar dos Achados: busca ofertas na Shopee e publica no Instagram, no Facebook e no Pinterest.
 
 Comandos:
   python radar.py preparar   -> escolhe uma oferta, gera a arte e atualiza a vitrine
@@ -10,6 +10,7 @@ Comandos:
 Variáveis de ambiente (no GitHub ficam em Settings > Secrets):
   SHOPEE_APP_ID, SHOPEE_SECRET
   IG_TOKEN, IG_USER_ID (opcional)
+  FB_PAGE_TOKEN, FB_PAGE_ID (opcional)  -> Página do Facebook
   PINTEREST_ACCESS_TOKEN  ou  PINTEREST_REFRESH_TOKEN + PINTEREST_APP_ID + PINTEREST_APP_SECRET
   DRY_RUN=1  -> não publica, só simula
 """
@@ -403,9 +404,15 @@ def gerar_pagina_oferta(o, url_arte):
 
 # ---------------------------------------------------------------- Instagram
 def publicar_instagram(p, url_arte):
-    token = os.environ["IG_TOKEN"]
-    base = "https://graph.instagram.com/v23.0"
+    # Caminho 1 (preferido): token da Página do Facebook + IG_USER_ID (não vence).
+    # Caminho 2: token do login do Instagram (IG_TOKEN, vence em 60 dias).
     ig_id = os.getenv("IG_USER_ID")
+    if os.getenv("FB_PAGE_TOKEN") and ig_id:
+        token = os.environ["FB_PAGE_TOKEN"]
+        base = "https://graph.facebook.com/v23.0"
+    else:
+        token = os.environ["IG_TOKEN"]
+        base = "https://graph.instagram.com/v23.0"
     if not ig_id:
         r = requests.get(f"{base}/me", params={"fields": "user_id,username", "access_token": token}, timeout=30)
         r.raise_for_status()
@@ -425,6 +432,60 @@ def publicar_instagram(p, url_arte):
     if not r.ok:
         raise RuntimeError(f"Instagram (publicar): {r.text}")
     return r.json()["id"]
+
+
+# ----------------------------------------------------------------- Facebook
+def legenda_facebook(p):
+    """No Facebook o link é clicável, então vai o link direto da oferta."""
+    cfg = CONFIG.get("facebook", {})
+    linhas = [random.choice(ABERTURAS), "", f"🛍️ {nome_curto(p['nome'])}", ""]
+    if p.get("baixou_de"):
+        linhas.append(f"📉 BAIXOU! Estava {brl(p['baixou_de'])}")
+    if p["preco_original"]:
+        linhas.append(f"💸 De {brl(p['preco_original'])} por {brl(p['preco'])} ({p['desconto']}% OFF)")
+    else:
+        linhas.append(f"💸 Por apenas {brl(p['preco'])}")
+    linhas.append(f"⭐ {p['nota']:.1f} • +{p['vendas']} vendidos")
+    linhas += ["", f"👉 Comprar: {p['link']}"]
+    if cfg.get("link_grupo"):
+        linhas.append(f"📲 Mais achados todo dia no grupo: {cfg['link_grupo']}")
+    linhas += [
+        "",
+        "⚠️ Preço e estoque podem mudar a qualquer momento.",
+        "#publi • link de afiliado",
+        "",
+        cfg.get("hashtags", ""),
+    ]
+    return "\n".join(linhas).strip()
+
+
+def publicar_facebook(p, url_arte):
+    token = os.environ["FB_PAGE_TOKEN"]
+    base = "https://graph.facebook.com/v23.0"
+    page_id = os.getenv("FB_PAGE_ID")
+    if not page_id:
+        r = requests.get(f"{base}/me", params={"fields": "id,name", "access_token": token}, timeout=30)
+        if not r.ok:
+            raise RuntimeError(f"Facebook (token): {r.text}")
+        page_id = r.json()["id"]
+    r = requests.post(
+        f"{base}/{page_id}/photos",
+        data={"url": url_arte, "message": legenda_facebook(p), "published": "true", "access_token": token},
+        timeout=90,
+    )
+    if not r.ok:
+        raise RuntimeError(f"Facebook (post): {r.text}")
+    resp = r.json()
+    post_id = resp.get("post_id") or resp["id"]
+    cfg = CONFIG.get("facebook", {})
+    if cfg.get("comentario_com_link", True):
+        texto = f"🛒 Link da oferta: {p['link']}"
+        if cfg.get("link_grupo"):
+            texto += f"\n📲 Grupo de achados: {cfg['link_grupo']}"
+        c = requests.post(f"{base}/{post_id}/comments", data={"message": texto, "access_token": token}, timeout=60)
+        if not c.ok:
+            log(f"Aviso: post saiu, mas o comentário com o link falhou: {c.text}")
+    return post_id
 
 
 # ---------------------------------------------------------------- Pinterest
@@ -508,6 +569,8 @@ def publicar():
 
     if DRY_RUN:
         log(f"[SIMULAÇÃO] Publicaria {url_arte}")
+        if CONFIG.get("facebook", {}).get("ativo"):
+            log("[SIMULAÇÃO] Legenda do Facebook:\n" + legenda_facebook(p))
         estado["pendente"] = None
         salvar_estado(estado)
         return
@@ -519,6 +582,18 @@ def publicar():
         except Exception as e:
             erros.append(str(e))
             log(f"ERRO Instagram: {e}")
+
+    fb_cfg = CONFIG.get("facebook", {})
+    if fb_cfg.get("ativo") and "facebook" not in p["publicado"]:
+        if not os.getenv("FB_PAGE_TOKEN"):
+            log("Facebook: secret FB_PAGE_TOKEN ainda não cadastrado, pulando.")
+        else:
+            try:
+                p["publicado"]["facebook"] = publicar_facebook(p, url_arte)
+                log(f"Facebook OK: {p['publicado']['facebook']}")
+            except Exception as e:
+                erros.append(str(e))
+                log(f"ERRO Facebook: {e}")
 
     if CONFIG["pinterest"]["ativo"] and "pinterest" not in p["publicado"]:
         try:
@@ -547,6 +622,9 @@ def teste():
         return
     p["numero"] = estado["contador"] + 1
     print("\n" + montar_legenda(p) + "\n")
+    if CONFIG.get("facebook", {}).get("ativo"):
+        p.setdefault("link", "https://s.shopee.com.br/EXEMPLO")
+        print("--- Facebook ---\n" + legenda_facebook(p) + "\n")
     gerar_arte(p, RAIZ / "teste_arte.jpg")
     log("Arte de teste salva em teste_arte.jpg")
 
