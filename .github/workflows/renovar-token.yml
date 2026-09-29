@@ -16,6 +16,7 @@ jobs:
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
           GH_TOKEN: ${{ secrets.GH_PAT }}
         run: |
+          if [ -z "$IG_TOKEN" ]; then echo "Sem IG_TOKEN (usando o token da Página do Facebook): nada a renovar."; exit 0; fi
           RESP=$(curl -sS "https://graph.instagram.com/refresh_access_token?grant_type=ig_refresh_token&access_token=${IG_TOKEN}")
           NOVO=$(echo "$RESP" | python3 -c "import sys,json;print(json.load(sys.stdin).get('access_token',''))")
           if [ -z "$NOVO" ]; then echo "Falhou: $RESP"; exit 1; fi

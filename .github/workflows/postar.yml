@@ -22,6 +22,8 @@ jobs:
       SHOPEE_SECRET: ${{ secrets.SHOPEE_SECRET }}
       IG_TOKEN: ${{ secrets.IG_TOKEN }}
       IG_USER_ID: ${{ secrets.IG_USER_ID }}
+      FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+      FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
       PINTEREST_ACCESS_TOKEN: ${{ secrets.PINTEREST_ACCESS_TOKEN }}
       PINTEREST_REFRESH_TOKEN: ${{ secrets.PINTEREST_REFRESH_TOKEN }}
       PINTEREST_APP_ID: ${{ secrets.PINTEREST_APP_ID }}
@@ -59,7 +61,7 @@ jobs:
       - name: Esperar a imagem ficar pública
         run: sleep 25
 
-      - name: Publicar no Instagram / Pinterest
+      - name: Publicar no Instagram / Facebook / Pinterest
         run: python radar.py publicar
 
       - name: Salvar resultado
