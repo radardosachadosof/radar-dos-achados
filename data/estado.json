@@ -1,1 +1,47 @@
-{"contador": 0, "postados": {}, "precos": {}, "pendente": null, "ofertas": []}
+{
+ "contador": 1,
+ "postados": {
+  "22099285853": {
+   "data": "2026-09-29T18:46:06.117480-03:00",
+   "numero": 1
+  }
+ },
+ "precos": {
+  "22099285853": [
+   {
+    "data": "2026-09-29T18:46:06.117469-03:00",
+    "preco": 12.99
+   }
+  ]
+ },
+ "pendente": {
+  "id": "22099285853",
+  "nome": "Bola Brinquedos De Rolamento Automático Cauda Do Falso Recarregável Bola Inteligente Gato Interativo",
+  "preco": 12.99,
+  "preco_original": 99.92,
+  "desconto": 87,
+  "imagem": "https://cf.shopee.com.br/file/br-11134207-81z1k-mio4meb5vj7q60",
+  "link": "https://s.shopee.com.br/4qG1tJkMjD",
+  "link_produto": "https://shopee.com.br/product/1580145778/22099285853",
+  "vendas": 3938,
+  "nota": 4.8,
+  "loja": "JUNGE TECH LTDA",
+  "palavra": "acessorios pet",
+  "pontos": 185.75296031221,
+  "numero": 1,
+  "legenda": "✨ Achadinho do dia!\n\n🛍️ Bola Brinquedos De Rolamento Automático Cauda Do Falso Recarregável Bola Inteligente…\n\n💸 De R$ 99,92 por R$ 12,99 (87% OFF)\n⭐ 4.8 • +3938 vendidos\n\n🔗 Link na bio → procure o achado nº 1\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
+ "ofertas": [
+  {
+   "numero": 1,
+   "id": "22099285853",
+   "nome": "Bola Brinquedos De Rolamento Automático Cauda Do Falso Recarregável Bola Inteligente Gato Interativo",
+   "preco": 12.99,
+   "preco_original": 99.92,
+   "desconto": 87,
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-81z1k-mio4meb5vj7q60",
+   "link": "https://s.shopee.com.br/4qG1tJkMjD"
+  }
+ ]
+}
