@@ -19,11 +19,17 @@
     "tapete banheiro",
     "mochila"
   ],
+  "categorias": {
+    "Beleza": ["skincare", "maquiagem", "necessaire", "batom", "base ", "rimel", "máscara de cílios", "sérum", "serum", "hidratante", "protetor solar", "pincel", "esmalte", "perfume", "cabelo", "escova de cabelo", "secador", "chapinha"],
+    "Pets": ["pet", "gato", "cachorro", "cão", "coleira", "arranhador", "comedouro", "bebedouro", "caminha", "ração", "petisco", "brinquedo para gato", "brinquedo para cachorro"],
+    "Cozinha": ["cozinha", "utensilio", "utensílio", "garrafa termica", "garrafa térmica", "pote", "panela", "frigideira", "airfryer", "air fryer", "talher", "copo", "caneca", "tábua", "tabua", "escorredor", "porta tempero", "marmita"]
+  },
   "palavras_por_execucao": 3,
   "produtos_por_palavra": 30,
 
   "filtros": {
     "desconto_minimo": 20,
+    "desconto_maximo": 70,
     "nota_minima": 4.6,
     "vendas_minimas": 100,
     "preco_minimo": 10,

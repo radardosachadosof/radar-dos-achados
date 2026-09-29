@@ -128,6 +128,18 @@ def normalizar(p):
     }
 
 
+LOGO = RAIZ / "docs" / "logo.png"
+
+
+def categoria_de(p):
+    """Descobre a aba da vitrine pela palavra-chave da busca ou pelo nome do produto."""
+    texto = f"{p.get('palavra', '')} {p.get('nome', '')}".lower()
+    for cat, termos in CONFIG.get("categorias", {}).items():
+        if any(t.lower() in texto for t in termos):
+            return cat
+    return "Outros"
+
+
 def escolher_oferta(estado):
     f = CONFIG["filtros"]
     limite_data = agora() - timedelta(days=f["dias_sem_repetir"])
@@ -143,6 +155,7 @@ def escolher_oferta(estado):
         for bruto in nos:
             p = normalizar(bruto)
             p["palavra"] = palavra
+            p["categoria"] = categoria_de(p)
             candidatos.append(p)
 
     def aprovado(p, exigir_desconto=True):
@@ -157,6 +170,8 @@ def escolher_oferta(estado):
             return False
         if exigir_desconto and p["desconto"] < f["desconto_minimo"]:
             return False
+        if p["desconto"] > f.get("desconto_maximo", 100):
+            return False  # desconto exagerado costuma ter "preço original" inflado
         antigo = estado["postados"].get(p["id"])
         if antigo and datetime.fromisoformat(antigo["data"]) > limite_data:
             return False
@@ -227,6 +242,7 @@ COR_FUNDO = (255, 247, 240)
 COR_MARCA = (238, 77, 45)  # laranja Shopee-like
 COR_TEXTO = (33, 33, 33)
 COR_SUAVE = (120, 120, 120)
+COR_AZUL = (1, 33, 67)  # azul-marinho do logo
 
 
 def fonte(tamanho, peso="Bold"):
@@ -260,58 +276,65 @@ def quebrar(draw, texto, fnt, largura, max_linhas):
     return linhas
 
 
+CHAMADAS = ["QUERO O MEU", "CORRE, QUE ACABA", "PEGA O SEU", "APROVEITA"]
+
+
 def gerar_arte(p, destino):
+    """Arte 1080x1350: produto em destaque, marca discreta e chamada para ação."""
     W, H = 1080, 1350
     img = Image.new("RGB", (W, H), COR_FUNDO)
     d = ImageDraw.Draw(img)
 
-    # Faixa da marca
-    d.rectangle([0, 0, W, 120], fill=COR_MARCA)
-    cx, cy = 80, 60
-    for r in (34, 22, 10):
-        d.ellipse([cx - r, cy - r, cx + r, cy + r], outline="white", width=4)
-    d.line([cx, cy, cx + 30, cy - 22], fill="white", width=5)
-    d.text((135, 60), CONFIG["nome_perfil"].upper(), font=fonte(46, "ExtraBold"), fill="white", anchor="lm")
-    d.text((W - 50, 60), f"nº {p['numero']}", font=fonte(40, "Bold"), fill="white", anchor="rm")
+    # Faixa fina da marca
+    d.rectangle([0, 0, W, 84], fill=COR_MARCA)
+    x_nome = 40
+    if LOGO.exists():
+        logo = ImageOps.contain(Image.open(LOGO).convert("RGBA"), (68, 68), Image.LANCZOS)
+        img.paste(logo, (40, 42 - logo.height // 2), logo)
+        x_nome = 124
+    d.text((x_nome, 42), CONFIG["nome_perfil"], font=fonte(30, "Bold"), fill="white", anchor="lm")
 
-    # Foto do produto
+    # Foto do produto, grande e inteira (sem cortar)
     resp = requests.get(p["imagem"], headers=UA, timeout=30)
     resp.raise_for_status()
     foto = Image.open(io.BytesIO(resp.content)).convert("RGB")
-    foto = ImageOps.contain(foto, (760, 760), Image.LANCZOS)
-    caixa = Image.new("RGB", (820, 820), "white")
-    caixa.paste(foto, ((820 - foto.width) // 2, (820 - foto.height) // 2))
+    CX, CY, CW, CH = 40, 108, 1000, 870
+    foto = ImageOps.contain(foto, (CW - 40, CH - 40), Image.LANCZOS)
+    caixa = Image.new("RGB", (CW, CH), "white")
+    caixa.paste(foto, ((CW - foto.width) // 2, (CH - foto.height) // 2))
     mascara = Image.new("L", caixa.size, 0)
-    ImageDraw.Draw(mascara).rounded_rectangle([0, 0, 820, 820], radius=40, fill=255)
-    img.paste(caixa, ((W - 820) // 2, 160), mascara)
+    ImageDraw.Draw(mascara).rounded_rectangle([0, 0, CW, CH], radius=36, fill=255)
+    img.paste(caixa, (CX, CY), mascara)
 
     # Selo de desconto
     if p["desconto"]:
-        sx, sy, sr = W - 150, 230, 95
+        sx, sy, sr = W - 130, CY + 110, 88
         d.ellipse([sx - sr, sy - sr, sx + sr, sy + sr], fill=COR_MARCA)
-        d.text((sx, sy - 18), f"-{p['desconto']}%", font=fonte(54, "ExtraBold"), fill="white", anchor="mm")
-        d.text((sx, sy + 34), "OFF", font=fonte(34, "Bold"), fill="white", anchor="mm")
+        d.text((sx, sy - 16), f"-{p['desconto']}%", font=fonte(50, "ExtraBold"), fill="white", anchor="mm")
+        d.text((sx, sy + 32), "OFF", font=fonte(30, "Bold"), fill="white", anchor="mm")
 
-    # Nome
-    y = 1005
-    for linha in quebrar(d, p["nome"], fonte(38, "Regular"), W - 140, 2):
-        d.text((70, y), linha, font=fonte(38, "Regular"), fill=COR_TEXTO)
-        y += 50
+    # Nome (1 linha)
+    f_nome = fonte(34, "Regular")
+    d.text((50, 1000), quebrar(d, p["nome"], f_nome, W - 100, 1)[0], font=f_nome, fill=COR_TEXTO)
 
     # Preços
-    y = 1130
+    y = 1058
     if p["preco_original"]:
         txt = f"de {brl(p['preco_original'])}"
-        f_de = fonte(40, "Regular")
-        d.text((70, y), txt, font=f_de, fill=COR_SUAVE)
-        larg = d.textlength(txt, font=f_de)
-        d.line([70 + d.textlength('de ', font=f_de), y + 26, 70 + larg, y + 26], fill=COR_SUAVE, width=3)
-        y += 55
-    d.text((70, y), f"por {brl(p['preco'])}", font=fonte(78, "ExtraBold"), fill=COR_MARCA)
+        f_de = fonte(34, "Regular")
+        d.text((50, y), txt, font=f_de, fill=COR_SUAVE)
+        d.line([50 + d.textlength("de ", font=f_de), y + 22, 50 + d.textlength(txt, font=f_de), y + 22], fill=COR_SUAVE, width=3)
+        y += 46
+    d.text((50, y), f"por {brl(p['preco'])}", font=fonte(76, "ExtraBold"), fill=COR_MARCA)
 
-    # Chamada
-    d.rounded_rectangle([W - 390, 1215, W - 60, 1300], radius=42, fill=COR_TEXTO)
-    d.text((W - 225, 1257), "LINK NA BIO", font=fonte(36, "Bold"), fill="white", anchor="mm")
+    # Chamada para ação + número discreto
+    chamada = random.choice(CHAMADAS)
+    f_cta = fonte(32, "ExtraBold")
+    larg = int(d.textlength(chamada + "  →", font=f_cta)) + 80
+    bx1, by0 = W - 50, 1226
+    d.rounded_rectangle([bx1 - larg, by0, bx1, by0 + 84], radius=42, fill=COR_AZUL)
+    d.text((bx1 - larg / 2, by0 + 42), chamada + "  →", font=f_cta, fill="white", anchor="mm")
+    d.text((50, by0 + 42), f"achado nº {p['numero']} • link na bio", font=fonte(28, "Regular"), fill=COR_SUAVE, anchor="lm")
 
     destino.parent.mkdir(parents=True, exist_ok=True)
     img.save(destino, "JPEG", quality=90)
@@ -323,7 +346,11 @@ ESTILO = """
 @media (prefers-color-scheme:dark){:root{--fundo:#161312;--texto:#f2f2f2;--suave:#aaa;--card:#221e1c}}
 *{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:var(--fundo);color:var(--texto)}
 header{background:var(--marca);color:#fff;padding:22px 16px;text-align:center}
-header h1{margin:0;font-size:1.6rem;letter-spacing:.04em}header p{margin:6px 0 0;opacity:.9}
+header h1{margin:0;font-size:1.6rem;letter-spacing:.04em}
+.logo{width:132px;height:132px;display:block;margin:0 auto 6px;filter:drop-shadow(0 2px 6px rgba(0,0,0,.25))}
+.abas{display:flex;gap:8px;overflow-x:auto;padding:12px 16px;position:sticky;top:0;z-index:5;background:var(--fundo);box-shadow:0 2px 6px rgba(0,0,0,.06);max-width:980px;margin:0 auto}
+.aba{flex:0 0 auto;border:2px solid var(--marca);background:var(--card);color:var(--texto);border-radius:999px;padding:8px 16px;font-weight:700;font-size:.9rem;cursor:pointer}
+.aba.ativa{background:#012143;border-color:#012143;color:#fff}header p{margin:6px 0 0;opacity:.9}
 main{max-width:980px;margin:0 auto;padding:16px}
 input{width:100%;padding:14px;border-radius:12px;border:2px solid var(--marca);font-size:1rem;margin-bottom:16px;background:var(--card);color:var(--texto)}
 .grade{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:12px}
@@ -344,7 +371,7 @@ AVISO = "Links de afiliado: posso receber comissão pelas compras, sem custo ext
 def cartao_html(o):
     de = f'<span class="de">{brl(o["preco_original"])}</span>' if o.get("preco_original") else ""
     return (
-        f'<a class="card" href="{html.escape(o["link"])}" target="_blank" rel="nofollow sponsored noopener" data-n="{o["numero"]}">'
+        f'<a class="card" href="{html.escape(o["link"])}" target="_blank" rel="nofollow sponsored noopener" data-n="{o["numero"]}" data-cat="{html.escape(o.get("categoria") or "Outros")}">'
         f'<img loading="lazy" src="{html.escape(o["imagem"])}" alt="">'
         f'<div class="info"><span class="num">nº {o["numero"]}</span><span class="nome">{html.escape(o["nome"])}</span>'
         f'{de}<span class="por">{brl(o["preco"])}</span><span class="btn">Ver na Shopee</span></div></a>'
@@ -354,19 +381,34 @@ def cartao_html(o):
 def gerar_vitrine(estado):
     nome = html.escape(CONFIG["nome_perfil"])
     ofertas = estado["ofertas"][: CONFIG["vitrine"]["quantidade_na_pagina"]]
+    for o in ofertas:  # ofertas antigas (ou categoria nova no config) são reclassificadas
+        o["categoria"] = categoria_de(o)
     cards = "\n".join(cartao_html(o) for o in ofertas)
+    marca = f'<h1><img class="logo" src="logo.png" alt="{nome}"></h1>' if LOGO.exists() else f"<h1>📡 {nome}</h1>"
+    nomes_abas = ["Todos"] + list(CONFIG.get("categorias", {}))
+    if any(o["categoria"] == "Outros" for o in ofertas):
+        nomes_abas.append("Outros")
+    abas = "".join(
+        f'<button class="aba{" ativa" if i == 0 else ""}" data-aba="{html.escape(a)}">{html.escape(a)}</button>'
+        for i, a in enumerate(nomes_abas)
+    )
     pagina = f"""<!doctype html><html lang="pt-BR"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1"><title>{nome}</title>
 <meta name="description" content="Os melhores achadinhos da Shopee, atualizados todo dia.">
 <style>{ESTILO}</style></head><body>
-<header><h1>📡 {nome}</h1><p>Digite o número do achado que você viu no post</p></header>
+<header>{marca}<p>Digite o número do achado que você viu no post</p></header>
+<nav class="abas" id="abas">{abas}</nav>
 <main><input id="busca" type="search" inputmode="numeric" placeholder="Ex.: 123 ou fone">
 <div class="grade" id="grade">{cards}</div></main>
 <footer>{AVISO}<br>Atualizado em {agora():%d/%m/%Y %H:%M} • <a href="privacidade.html">Privacidade</a></footer>
 <script>
-const b=document.getElementById('busca');
-b.addEventListener('input',()=>{{const t=b.value.trim().toLowerCase();
-document.querySelectorAll('.card').forEach(c=>{{const ok=!t||c.dataset.n===t.replace('#','')||c.textContent.toLowerCase().includes(t);c.style.display=ok?'':'none';}});}});
+const b=document.getElementById('busca');let aba='Todos';
+function filtrar(){{const t=b.value.trim().toLowerCase();
+document.querySelectorAll('.card').forEach(c=>{{const okBusca=!t||c.dataset.n===t.replace('#','')||c.textContent.toLowerCase().includes(t);
+const okAba=aba==='Todos'||c.dataset.cat===aba;c.style.display=(okBusca&&(t||okAba))?'':'none';}});}}
+b.addEventListener('input',filtrar);
+document.querySelectorAll('.aba').forEach(x=>x.addEventListener('click',()=>{{aba=x.dataset.aba;
+document.querySelectorAll('.aba').forEach(y=>y.classList.toggle('ativa',y===x));filtrar();}}));
 </script></body></html>"""
     PASTA_SITE.mkdir(parents=True, exist_ok=True)
     (PASTA_SITE / "index.html").write_text(pagina, encoding="utf-8")
@@ -391,7 +433,7 @@ def gerar_pagina_oferta(o, url_arte):
 <meta name="viewport" content="width=device-width,initial-scale=1"><title>{nome}</title>
 <meta property="og:title" content="{nome}"><meta property="og:image" content="{html.escape(url_arte)}">
 <meta property="og:description" content="Por {brl(o['preco'])} na Shopee">
-<style>{ESTILO}</style></head><body><header><h1>📡 {html.escape(CONFIG['nome_perfil'])}</h1></header>
+<style>{ESTILO}</style></head><body><header>{'<img class="logo" src="../logo.png" alt="">' if LOGO.exists() else '📡 '}<h1>{html.escape(CONFIG['nome_perfil'])}</h1></header>
 <main class="unico"><img src="{html.escape(o['imagem'])}" alt="{nome}"><h2>{nome}</h2>{de}
 <p class="por" style="font-size:1.6rem;color:var(--marca)">{brl(o['preco'])}</p>
 <a class="btn" href="{html.escape(o['link'])}" rel="nofollow sponsored noopener">Ver oferta na Shopee</a>
@@ -539,6 +581,7 @@ def preparar():
     gerar_arte(p, arquivo_arte)
 
     oferta_vitrine = {k: p[k] for k in ("numero", "id", "nome", "preco", "preco_original", "desconto", "imagem", "link")}
+    oferta_vitrine["categoria"] = p.get("categoria", "Outros")
     raw, site = urls_publicas()
     estado["ofertas"].insert(0, oferta_vitrine)
     estado["ofertas"] = estado["ofertas"][:200]
