@@ -1,5 +1,5 @@
 {
- "contador": 10,
+ "contador": 11,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -40,6 +40,10 @@
   "23098686875": {
    "data": "2026-10-01T15:34:26.234263-03:00",
    "numero": 10
+  },
+  "20298320200": {
+   "data": "2026-10-01T18:28:44.776991-03:00",
+   "numero": 11
   }
  },
  "precos": {
@@ -102,10 +106,45 @@
     "data": "2026-10-01T15:34:26.234251-03:00",
     "preco": 29.99
    }
+  ],
+  "20298320200": [
+   {
+    "data": "2026-10-01T18:28:44.776980-03:00",
+    "preco": 35.49
+   }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "20298320200",
+  "nome": "Luminária Led Escrever De Caneta Lousa Quadro Mesa Anotações",
+  "preco": 35.49,
+  "preco_original": 118.3,
+  "desconto": 70,
+  "imagem": "https://cf.shopee.com.br/file/br-11134207-81z1k-mhfp7x0vf1fo3c",
+  "link": "https://s.shopee.com.br/W75twZxmz",
+  "link_produto": "https://shopee.com.br/product/1484279813/20298320200",
+  "vendas": 1927,
+  "nota": 4.7,
+  "loja": "Capitãozinho",
+  "palavra": "luminaria led",
+  "categoria": "Outros",
+  "pontos": 166.6936840696431,
+  "numero": 11,
+  "legenda": "✨ Achadinho do dia!\n\n🛍️ Luminária Led Escrever De Caneta Lousa Quadro Mesa Anotações\n\n💸 De R$ 118,30 por R$ 35,49 (70% OFF)\n⭐ 4.7 • +1927 vendidos\n\n🔗 Link na bio → procure o achado nº 11\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 11,
+   "id": "20298320200",
+   "nome": "Luminária Led Escrever De Caneta Lousa Quadro Mesa Anotações",
+   "preco": 35.49,
+   "preco_original": 118.3,
+   "desconto": 70,
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-81z1k-mhfp7x0vf1fo3c",
+   "link": "https://s.shopee.com.br/W75twZxmz",
+   "categoria": "Outros"
+  },
   {
    "numero": 10,
    "id": "23098686875",
