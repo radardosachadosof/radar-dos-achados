@@ -1,5 +1,5 @@
 {
- "contador": 6,
+ "contador": 7,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -24,6 +24,10 @@
   "58209895415": {
    "data": "2026-09-30T18:29:36.810943-03:00",
    "numero": 6
+  },
+  "58200448338": {
+   "data": "2026-09-30T21:38:24.830782-03:00",
+   "numero": 7
   }
  },
  "precos": {
@@ -62,10 +66,45 @@
     "data": "2026-09-30T18:29:36.810930-03:00",
     "preco": 94.98
    }
+  ],
+  "58200448338": [
+   {
+    "data": "2026-09-30T21:38:24.830771-03:00",
+    "preco": 32.99
+   }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "58200448338",
+  "nome": "Fone de ouvido estéreo sem fio à prova d'água com Bluetooth caixa de carregamento longa duração T70",
+  "preco": 32.99,
+  "preco_original": 106.42,
+  "desconto": 69,
+  "imagem": "https://cf.shopee.com.br/file/br-11134207-820lc-ms04vb3imy2vc7",
+  "link": "https://s.shopee.com.br/7AdySKRCRu",
+  "link_produto": "https://shopee.com.br/product/1457230584/58200448338",
+  "vendas": 8307,
+  "nota": 4.7,
+  "loja": "Cuco Variedades",
+  "palavra": "fone bluetooth",
+  "categoria": "Pets",
+  "pontos": 168.74580738656383,
+  "numero": 7,
+  "legenda": "👀 Olha o que o radar encontrou:\n\n🛍️ Fone de ouvido estéreo sem fio à prova d'água com Bluetooth caixa de carregamento longa…\n\n💸 De R$ 106,42 por R$ 32,99 (69% OFF)\n⭐ 4.7 • +8307 vendidos\n\n🔗 Link na bio → procure o achado nº 7\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 7,
+   "id": "58200448338",
+   "nome": "Fone de ouvido estéreo sem fio à prova d'água com Bluetooth caixa de carregamento longa duração T70",
+   "preco": 32.99,
+   "preco_original": 106.42,
+   "desconto": 69,
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-820lc-ms04vb3imy2vc7",
+   "link": "https://s.shopee.com.br/7AdySKRCRu",
+   "categoria": "Pets"
+  },
   {
    "numero": 6,
    "id": "58209895415",
