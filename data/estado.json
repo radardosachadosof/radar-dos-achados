@@ -1,5 +1,5 @@
 {
- "contador": 11,
+ "contador": 12,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -44,6 +44,10 @@
   "20298320200": {
    "data": "2026-10-01T18:28:44.776991-03:00",
    "numero": 11
+  },
+  "23499025640": {
+   "data": "2026-10-01T21:36:43.749295-03:00",
+   "numero": 12
   }
  },
  "precos": {
@@ -112,10 +116,45 @@
     "data": "2026-10-01T18:28:44.776980-03:00",
     "preco": 35.49
    }
+  ],
+  "23499025640": [
+   {
+    "data": "2026-10-01T21:36:43.749284-03:00",
+    "preco": 13.88
+   }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "23499025640",
+  "nome": "Bola Brinquedos com Cauda De Rolamento Automático Do Falso Recarregável Bola Inteligente Gato Interativo",
+  "preco": 13.88,
+  "preco_original": 42.06,
+  "desconto": 67,
+  "imagem": "https://cf.shopee.com.br/file/br-11134201-820lz-mqy706szhts7bf",
+  "link": "https://s.shopee.com.br/8V9Mq70lpW",
+  "link_produto": "https://shopee.com.br/product/1291506568/23499025640",
+  "vendas": 3268,
+  "nota": 4.8,
+  "loja": "POPOCOLA",
+  "palavra": "acessorios pet",
+  "categoria": "Pets",
+  "pontos": 161.91353359504274,
+  "numero": 12,
+  "legenda": "✨ Achadinho do dia!\n\n🛍️ Bola Brinquedos com Cauda De Rolamento Automático Do Falso Recarregável Bola Inteligente…\n\n💸 De R$ 42,06 por R$ 13,88 (67% OFF)\n⭐ 4.8 • +3268 vendidos\n\n🔗 Link na bio → procure o achado nº 12\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 12,
+   "id": "23499025640",
+   "nome": "Bola Brinquedos com Cauda De Rolamento Automático Do Falso Recarregável Bola Inteligente Gato Interativo",
+   "preco": 13.88,
+   "preco_original": 42.06,
+   "desconto": 67,
+   "imagem": "https://cf.shopee.com.br/file/br-11134201-820lz-mqy706szhts7bf",
+   "link": "https://s.shopee.com.br/8V9Mq70lpW",
+   "categoria": "Pets"
+  },
   {
    "numero": 11,
    "id": "20298320200",
