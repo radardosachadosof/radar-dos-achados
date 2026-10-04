@@ -1,5 +1,5 @@
 {
- "contador": 21,
+ "contador": 22,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -84,6 +84,10 @@
   "23199020709": {
    "data": "2026-10-04T15:18:28.811897-03:00",
    "numero": 21
+  },
+  "57653356201": {
+   "data": "2026-10-04T18:39:03.755323-03:00",
+   "numero": 22
   }
  },
  "precos": {
@@ -212,10 +216,45 @@
     "data": "2026-10-04T15:18:28.811886-03:00",
     "preco": 29.98
    }
+  ],
+  "57653356201": [
+   {
+    "data": "2026-10-04T18:39:03.755312-03:00",
+    "preco": 29.99
+   }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "57653356201",
+  "nome": "Creme Gel Regenerador Facial Gota de Colágeno Kokeshi 45g",
+  "preco": 29.99,
+  "preco_original": 99.97,
+  "desconto": 70,
+  "imagem": "https://cf.shopee.com.br/file/br-11134207-820lx-mrsse4s2xt6s68",
+  "link": "https://s.shopee.com.br/3qNbPlpcRy",
+  "link_produto": "https://shopee.com.br/product/1414801857/57653356201",
+  "vendas": 4626,
+  "nota": 4.9,
+  "loja": "Los Angeles World",
+  "palavra": "skincare",
+  "categoria": "Beleza",
+  "pontos": 167.20544588753378,
+  "numero": 22,
+  "legenda": "👀 Olha o que o radar encontrou:\n\n🛍️ Creme Gel Regenerador Facial Gota de Colágeno Kokeshi 45g\n\n💸 De R$ 99,97 por R$ 29,99 (70% OFF)\n⭐ 4.9 • +4626 vendidos\n\n🔗 Link na bio → procure o achado nº 22\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 22,
+   "id": "57653356201",
+   "nome": "Creme Gel Regenerador Facial Gota de Colágeno Kokeshi 45g",
+   "preco": 29.99,
+   "preco_original": 99.97,
+   "desconto": 70,
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-820lx-mrsse4s2xt6s68",
+   "link": "https://s.shopee.com.br/3qNbPlpcRy",
+   "categoria": "Outros"
+  },
   {
    "numero": 21,
    "id": "23199020709",
