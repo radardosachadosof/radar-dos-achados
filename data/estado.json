@@ -1,5 +1,5 @@
 {
- "contador": 25,
+ "contador": 26,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -100,6 +100,10 @@
   "22694204664": {
    "data": "2026-10-05T12:33:26.501458-03:00",
    "numero": 25
+  },
+  "52658057285": {
+   "data": "2026-10-05T15:35:37.386755-03:00",
+   "numero": 26
   }
  },
  "precos": {
@@ -252,10 +256,45 @@
     "data": "2026-10-05T12:33:26.501445-03:00",
     "preco": 29.98
    }
+  ],
+  "52658057285": [
+   {
+    "data": "2026-10-05T15:35:37.386746-03:00",
+    "preco": 79.98
+   }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "52658057285",
+  "nome": "ROMANTIC CROWN Kit 2 Copo Térmico Inox Portátil 1200ml/600ml Garrafa Térmica Inoxidável com Tampa e Canudo",
+  "preco": 79.98,
+  "preco_original": 199.95,
+  "desconto": 60,
+  "imagem": "https://cf.shopee.com.br/file/br-11134207-820ln-ms9nflkeskck4f",
+  "link": "https://s.shopee.com.br/1gJ9TlMSx0",
+  "link_produto": "https://shopee.com.br/product/1350045638/52658057285",
+  "vendas": 2494,
+  "nota": 5.0,
+  "loja": "Romantic.Crown.07",
+  "palavra": "garrafa termica",
+  "categoria": "Cozinha",
+  "pontos": 157.86033920208573,
+  "numero": 26,
+  "legenda": "✨ Achadinho do dia!\n\n🛍️ ROMANTIC CROWN Kit 2 Copo Térmico Inox Portátil 1200ml/600ml Garrafa Térmica Inoxidável…\n\n💸 De R$ 199,95 por R$ 79,98 (60% OFF)\n⭐ 5.0 • +2494 vendidos\n\n🔗 Link na bio → procure o achado nº 26\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 26,
+   "id": "52658057285",
+   "nome": "ROMANTIC CROWN Kit 2 Copo Térmico Inox Portátil 1200ml/600ml Garrafa Térmica Inoxidável com Tampa e Canudo",
+   "preco": 79.98,
+   "preco_original": 199.95,
+   "desconto": 60,
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-820ln-ms9nflkeskck4f",
+   "link": "https://s.shopee.com.br/1gJ9TlMSx0",
+   "categoria": "Cozinha"
+  },
   {
    "numero": 25,
    "id": "22694204664",
