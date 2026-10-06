@@ -1,5 +1,5 @@
 {
- "contador": 27,
+ "contador": 28,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -108,6 +108,10 @@
   "23699159711": {
    "data": "2026-10-05T18:32:10.501558-03:00",
    "numero": 27
+  },
+  "23993270251": {
+   "data": "2026-10-05T21:40:22.070955-03:00",
+   "numero": 28
   }
  },
  "precos": {
@@ -272,10 +276,45 @@
     "data": "2026-10-05T18:32:10.501545-03:00",
     "preco": 11.98
    }
+  ],
+  "23993270251": [
+   {
+    "data": "2026-10-05T21:40:22.070941-03:00",
+    "preco": 14.99
+   }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "23993270251",
+  "nome": "[75L] Caixa Saco Organizador Cobertor Casaco Guarda Roupa Ecológico Anti-Poeira Umidade Insetos Multiuso. OG-121-BC",
+  "preco": 14.99,
+  "preco_original": 40.51,
+  "desconto": 63,
+  "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-m0am5wk2gg2v23",
+  "link": "https://s.shopee.com.br/9V21DChLR5",
+  "link_produto": "https://shopee.com.br/product/1195620126/23993270251",
+  "vendas": 1629,
+  "nota": 4.8,
+  "loja": "New Daily _Brasil",
+  "palavra": "organizador closet",
+  "categoria": "Outros",
+  "pontos": 156.53105369640977,
+  "numero": 28,
+  "legenda": "✨ Achadinho do dia!\n\n🛍️ [75L] Caixa Saco Organizador Cobertor Casaco Guarda Roupa Ecológico Anti-Poeira Umidade…\n\n💸 De R$ 40,51 por R$ 14,99 (63% OFF)\n⭐ 4.8 • +1629 vendidos\n\n🔗 Link na bio → procure o achado nº 28\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 28,
+   "id": "23993270251",
+   "nome": "[75L] Caixa Saco Organizador Cobertor Casaco Guarda Roupa Ecológico Anti-Poeira Umidade Insetos Multiuso. OG-121-BC",
+   "preco": 14.99,
+   "preco_original": 40.51,
+   "desconto": 63,
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-m0am5wk2gg2v23",
+   "link": "https://s.shopee.com.br/9V21DChLR5",
+   "categoria": "Outros"
+  },
   {
    "numero": 27,
    "id": "23699159711",
