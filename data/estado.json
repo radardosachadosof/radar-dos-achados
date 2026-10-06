@@ -1,5 +1,5 @@
 {
- "contador": 30,
+ "contador": 31,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -120,6 +120,10 @@
   "58200459415": {
    "data": "2026-10-06T12:30:08.748561-03:00",
    "numero": 30
+  },
+  "58211381206": {
+   "data": "2026-10-06T15:32:54.200066-03:00",
+   "numero": 31
   }
  },
  "precos": {
@@ -302,10 +306,45 @@
     "data": "2026-10-06T12:30:08.748551-03:00",
     "preco": 13.91
    }
+  ],
+  "58211381206": [
+   {
+    "data": "2026-10-06T15:32:54.200055-03:00",
+    "preco": 24.99
+   }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "58211381206",
+  "nome": "Corretivo Líquido Under Eye 10 ML - Ruby Kisses",
+  "preco": 24.99,
+  "preco_original": 78.09,
+  "desconto": 68,
+  "imagem": "https://cf.shopee.com.br/file/sg-11134201-823oh-mooszr6efbwgfc",
+  "link": "https://s.shopee.com.br/9V22OrSw7e",
+  "link_produto": "https://shopee.com.br/product/1126064857/58211381206",
+  "vendas": 4825,
+  "nota": 4.9,
+  "loja": "VICTORIA BAZAR EIRELI",
+  "palavra": "maquiagem",
+  "categoria": "Beleza",
+  "pontos": 168.8813307645473,
+  "numero": 31,
+  "legenda": "🔥 Tá barato demais pra deixar passar!\n\n🛍️ Corretivo Líquido Under Eye 10 ML - Ruby Kisses\n\n💸 De R$ 78,09 por R$ 24,99 (68% OFF)\n⭐ 4.9 • +4825 vendidos\n\n🔗 Link na bio → procure o achado nº 31\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 31,
+   "id": "58211381206",
+   "nome": "Corretivo Líquido Under Eye 10 ML - Ruby Kisses",
+   "preco": 24.99,
+   "preco_original": 78.09,
+   "desconto": 68,
+   "imagem": "https://cf.shopee.com.br/file/sg-11134201-823oh-mooszr6efbwgfc",
+   "link": "https://s.shopee.com.br/9V22OrSw7e",
+   "categoria": "Outros"
+  },
   {
    "numero": 30,
    "id": "58200459415",
