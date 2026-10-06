@@ -1,5 +1,5 @@
 {
- "contador": 29,
+ "contador": 30,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -116,6 +116,10 @@
   "22397985542": {
    "data": "2026-10-06T09:35:57.936527-03:00",
    "numero": 29
+  },
+  "58200459415": {
+   "data": "2026-10-06T12:30:08.748561-03:00",
+   "numero": 30
   }
  },
  "precos": {
@@ -292,10 +296,45 @@
     "data": "2026-10-06T09:35:57.936516-03:00",
     "preco": 21.23
    }
+  ],
+  "58200459415": [
+   {
+    "data": "2026-10-06T12:30:08.748551-03:00",
+    "preco": 13.91
+   }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "58200459415",
+  "nome": "Papel De Parede Premiun Ripado Adesivo Cabeceira Com Faixa Meia Parede Luxo Quarto Casa",
+  "preco": 13.91,
+  "preco_original": 38.64,
+  "desconto": 64,
+  "imagem": "https://cf.shopee.com.br/file/br-11134207-81z1k-mgtijylwhn9gbb",
+  "link": "https://s.shopee.com.br/1gJArucVrU",
+  "link_produto": "https://shopee.com.br/product/1500497716/58200459415",
+  "vendas": 5036,
+  "nota": 4.7,
+  "loja": "bellalardecoraes",
+  "palavra": "decoracao quarto",
+  "categoria": "Outros",
+  "pontos": 159.40669572234208,
+  "numero": 30,
+  "legenda": "✨ Achadinho do dia!\n\n🛍️ Papel De Parede Premiun Ripado Adesivo Cabeceira Com Faixa Meia Parede Luxo Quarto Casa\n\n💸 De R$ 38,64 por R$ 13,91 (64% OFF)\n⭐ 4.7 • +5036 vendidos\n\n🔗 Link na bio → procure o achado nº 30\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 30,
+   "id": "58200459415",
+   "nome": "Papel De Parede Premiun Ripado Adesivo Cabeceira Com Faixa Meia Parede Luxo Quarto Casa",
+   "preco": 13.91,
+   "preco_original": 38.64,
+   "desconto": 64,
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-81z1k-mgtijylwhn9gbb",
+   "link": "https://s.shopee.com.br/1gJArucVrU",
+   "categoria": "Outros"
+  },
   {
    "numero": 29,
    "id": "22397985542",
