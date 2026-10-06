@@ -1,5 +1,5 @@
 {
- "contador": 31,
+ "contador": 32,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -124,6 +124,10 @@
   "58211381206": {
    "data": "2026-10-06T15:32:54.200066-03:00",
    "numero": 31
+  },
+  "22994820028": {
+   "data": "2026-10-06T18:28:39.941063-03:00",
+   "numero": 32
   }
  },
  "precos": {
@@ -312,10 +316,45 @@
     "data": "2026-10-06T15:32:54.200055-03:00",
     "preco": 24.99
    }
+  ],
+  "22994820028": [
+   {
+    "data": "2026-10-06T18:28:39.941056-03:00",
+    "preco": 10.99
+   }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "22994820028",
+  "nome": "Suporte Organizador de Parede Adesivo Alta Resistência para Shampoo Banheiro e Cozinha",
+  "preco": 10.99,
+  "preco_original": 32.32,
+  "desconto": 66,
+  "imagem": "https://cf.shopee.com.br/file/br-11134207-81ztc-mju1knjp0ykh49",
+  "link": "https://s.shopee.com.br/5VVtpa1Bru",
+  "link_produto": "https://shopee.com.br/product/1553175352/22994820028",
+  "vendas": 4653,
+  "nota": 4.8,
+  "loja": "hogarutilidades",
+  "palavra": "organizador cozinha",
+  "categoria": "Cozinha",
+  "pontos": 161.08019155532992,
+  "numero": 32,
+  "legenda": "🚨 Achado detectado no radar!\n\n🛍️ Suporte Organizador de Parede Adesivo Alta Resistência para Shampoo Banheiro e Cozinha\n\n💸 De R$ 32,32 por R$ 10,99 (66% OFF)\n⭐ 4.8 • +4653 vendidos\n\n🔗 Link na bio → procure o achado nº 32\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 32,
+   "id": "22994820028",
+   "nome": "Suporte Organizador de Parede Adesivo Alta Resistência para Shampoo Banheiro e Cozinha",
+   "preco": 10.99,
+   "preco_original": 32.32,
+   "desconto": 66,
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-81ztc-mju1knjp0ykh49",
+   "link": "https://s.shopee.com.br/5VVtpa1Bru",
+   "categoria": "Cozinha"
+  },
   {
    "numero": 31,
    "id": "58211381206",
