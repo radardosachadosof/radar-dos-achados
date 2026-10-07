@@ -1,5 +1,5 @@
 {
- "contador": 33,
+ "contador": 34,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -132,6 +132,10 @@
   "22094000249": {
    "data": "2026-10-06T21:41:06.972784-03:00",
    "numero": 33
+  },
+  "58260951242": {
+   "data": "2026-10-07T09:38:09.000909-03:00",
+   "numero": 34
   }
  },
  "precos": {
@@ -332,10 +336,45 @@
     "data": "2026-10-06T21:41:06.972772-03:00",
     "preco": 39.9
    }
+  ],
+  "58260951242": [
+   {
+    "data": "2026-10-07T09:38:09.000891-03:00",
+    "preco": 12.88
+   }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "58260951242",
+  "nome": "Tapetes para Banheiro Absorvente Antiderrapante Secagem Rápida Macio Durável",
+  "preco": 12.88,
+  "preco_original": 31.41,
+  "desconto": 59,
+  "imagem": "https://cf.shopee.com.br/file/br-11134207-820mh-mpo2bk4yxt6q61",
+  "link": "https://s.shopee.com.br/8Kq6DFIwr5",
+  "link_produto": "https://shopee.com.br/product/1679523081/58260951242",
+  "vendas": 6649,
+  "nota": 4.9,
+  "loja": "Fnix Comercio",
+  "palavra": "tapete banheiro",
+  "categoria": "Pets",
+  "pontos": 157.15663058963,
+  "numero": 34,
+  "legenda": "👀 Olha o que o radar encontrou:\n\n🛍️ Tapetes para Banheiro Absorvente Antiderrapante Secagem Rápida Macio Durável\n\n💸 De R$ 31,41 por R$ 12,88 (59% OFF)\n⭐ 4.9 • +6649 vendidos\n\n🔗 Link na bio → procure o achado nº 34\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 34,
+   "id": "58260951242",
+   "nome": "Tapetes para Banheiro Absorvente Antiderrapante Secagem Rápida Macio Durável",
+   "preco": 12.88,
+   "preco_original": 31.41,
+   "desconto": 59,
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-820mh-mpo2bk4yxt6q61",
+   "link": "https://s.shopee.com.br/8Kq6DFIwr5",
+   "categoria": "Pets"
+  },
   {
    "numero": 33,
    "id": "22094000249",
