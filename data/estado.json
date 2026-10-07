@@ -1,5 +1,5 @@
 {
- "contador": 36,
+ "contador": 37,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -144,6 +144,10 @@
   "20797389690": {
    "data": "2026-10-07T15:34:53.911242-03:00",
    "numero": 36
+  },
+  "58214755898": {
+   "data": "2026-10-07T18:30:33.897339-03:00",
+   "numero": 37
   }
  },
  "precos": {
@@ -362,10 +366,45 @@
     "data": "2026-10-07T15:34:53.911230-03:00",
     "preco": 12.99
    }
+  ],
+  "58214755898": [
+   {
+    "data": "2026-10-07T18:30:33.897328-03:00",
+    "preco": 19.99
+   }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "58214755898",
+  "nome": "Kit 3 Quadros Decorativos Geometria Abstrata Estilo zen Moderno Decoração Artística Para Sala de Estar e Quarto",
+  "preco": 19.99,
+  "preco_original": 64.48,
+  "desconto": 69,
+  "imagem": "https://cf.shopee.com.br/file/sg-11134201-82580-mqygbw9afrph39",
+  "link": "https://s.shopee.com.br/1BMwGdapB6",
+  "link_produto": "https://shopee.com.br/product/1476709702/58214755898",
+  "vendas": 2878,
+  "nota": 4.7,
+  "loja": "PINTURA COMERCIO LTDA",
+  "palavra": "decoracao quarto",
+  "categoria": "Pets",
+  "pontos": 165.76405337748767,
+  "numero": 37,
+  "legenda": "🚨 Achado detectado no radar!\n\n🛍️ Kit 3 Quadros Decorativos Geometria Abstrata Estilo zen Moderno Decoração Artística Para…\n\n💸 De R$ 64,48 por R$ 19,99 (69% OFF)\n⭐ 4.7 • +2878 vendidos\n\n🔗 Link na bio → procure o achado nº 37\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 37,
+   "id": "58214755898",
+   "nome": "Kit 3 Quadros Decorativos Geometria Abstrata Estilo zen Moderno Decoração Artística Para Sala de Estar e Quarto",
+   "preco": 19.99,
+   "preco_original": 64.48,
+   "desconto": 69,
+   "imagem": "https://cf.shopee.com.br/file/sg-11134201-82580-mqygbw9afrph39",
+   "link": "https://s.shopee.com.br/1BMwGdapB6",
+   "categoria": "Pets"
+  },
   {
    "numero": 36,
    "id": "20797389690",
