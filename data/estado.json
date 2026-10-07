@@ -1,5 +1,5 @@
 {
- "contador": 32,
+ "contador": 33,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -128,6 +128,10 @@
   "22994820028": {
    "data": "2026-10-06T18:28:39.941063-03:00",
    "numero": 32
+  },
+  "22094000249": {
+   "data": "2026-10-06T21:41:06.972784-03:00",
+   "numero": 33
   }
  },
  "precos": {
@@ -322,10 +326,45 @@
     "data": "2026-10-06T18:28:39.941056-03:00",
     "preco": 10.99
    }
+  ],
+  "22094000249": [
+   {
+    "data": "2026-10-06T21:41:06.972772-03:00",
+    "preco": 39.9
+   }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "22094000249",
+  "nome": "Tela de proteção para cachorro ou bebê cerca para interior de casa -PROMOÇÃO! ENVIO IMEDIATO!!!",
+  "preco": 39.9,
+  "preco_original": 114.0,
+  "desconto": 65,
+  "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-m9qwu6didcmx3c",
+  "link": "https://s.shopee.com.br/8pmM0v9Zpl",
+  "link_produto": "https://shopee.com.br/product/1087983137/22094000249",
+  "vendas": 2871,
+  "nota": 4.6,
+  "loja": "Novelty Department Store",
+  "palavra": "acessorios pet",
+  "categoria": "Pets",
+  "pontos": 154.7746337220741,
+  "numero": 33,
+  "legenda": "🔥 Tá barato demais pra deixar passar!\n\n🛍️ Tela de proteção para cachorro ou bebê cerca para interior de casa -PROMOÇÃO! ENVIO…\n\n💸 De R$ 114,00 por R$ 39,90 (65% OFF)\n⭐ 4.6 • +2871 vendidos\n\n🔗 Link na bio → procure o achado nº 33\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 33,
+   "id": "22094000249",
+   "nome": "Tela de proteção para cachorro ou bebê cerca para interior de casa -PROMOÇÃO! ENVIO IMEDIATO!!!",
+   "preco": 39.9,
+   "preco_original": 114.0,
+   "desconto": 65,
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-m9qwu6didcmx3c",
+   "link": "https://s.shopee.com.br/8pmM0v9Zpl",
+   "categoria": "Pets"
+  },
   {
    "numero": 32,
    "id": "22994820028",
