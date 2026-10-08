@@ -1,5 +1,5 @@
 {
- "contador": 37,
+ "contador": 38,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -148,6 +148,10 @@
   "58214755898": {
    "data": "2026-10-07T18:30:33.897339-03:00",
    "numero": 37
+  },
+  "58255159172": {
+   "data": "2026-10-07T21:39:56.704876-03:00",
+   "numero": 38
   }
  },
  "precos": {
@@ -372,10 +376,45 @@
     "data": "2026-10-07T18:30:33.897328-03:00",
     "preco": 19.99
    }
+  ],
+  "58255159172": [
+   {
+    "data": "2026-10-07T21:39:56.704864-03:00",
+    "preco": 21.79
+   }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "58255159172",
+  "nome": "Fones de ouvido sem fio Bluetooth compactos Xiaomi Redmi Airdots com Estojo Recarregável",
+  "preco": 21.79,
+  "preco_original": 55.87,
+  "desconto": 61,
+  "imagem": "https://cf.shopee.com.br/file/br-11134207-820la-mltkawis4qo439",
+  "link": "https://s.shopee.com.br/9APDnL1pcX",
+  "link_produto": "https://shopee.com.br/product/1382685526/58255159172",
+  "vendas": 7383,
+  "nota": 4.8,
+  "loja": "YYYNN",
+  "palavra": "fone bluetooth",
+  "categoria": "Outros",
+  "pontos": 159.67699940417577,
+  "numero": 38,
+  "legenda": "📡 O radar apitou!\n\n🛍️ Fones de ouvido sem fio Bluetooth compactos Xiaomi Redmi Airdots com Estojo Recarregável\n\n💸 De R$ 55,87 por R$ 21,79 (61% OFF)\n⭐ 4.8 • +7383 vendidos\n\n🔗 Link na bio → procure o achado nº 38\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 38,
+   "id": "58255159172",
+   "nome": "Fones de ouvido sem fio Bluetooth compactos Xiaomi Redmi Airdots com Estojo Recarregável",
+   "preco": 21.79,
+   "preco_original": 55.87,
+   "desconto": 61,
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-820la-mltkawis4qo439",
+   "link": "https://s.shopee.com.br/9APDnL1pcX",
+   "categoria": "Outros"
+  },
   {
    "numero": 37,
    "id": "58214755898",
