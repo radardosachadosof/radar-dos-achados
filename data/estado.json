@@ -1,5 +1,5 @@
 {
- "contador": 44,
+ "contador": 45,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -176,6 +176,10 @@
   "23393881853": {
    "data": "2026-10-09T09:35:31.022533-03:00",
    "numero": 44
+  },
+  "21235699753": {
+   "data": "2026-10-09T12:31:11.191678-03:00",
+   "numero": 45
   }
  },
  "precos": {
@@ -442,10 +446,45 @@
     "data": "2026-10-09T09:35:31.022522-03:00",
     "preco": 29.9
    }
+  ],
+  "21235699753": [
+   {
+    "data": "2026-10-09T12:31:11.191666-03:00",
+    "preco": 22.25
+   }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "21235699753",
+  "nome": "Fadvan 5D W Extensões De Cílios Em Forma De 0.07 C/D Faux Mink Natural Pestanas Profissionais Suaves",
+  "preco": 22.25,
+  "preco_original": 58.55,
+  "desconto": 62,
+  "imagem": "https://cf.shopee.com.br/file/cn-11134207-820l4-mlr6x8dggpa8d1",
+  "link": "https://s.shopee.com.br/1B1far5jB",
+  "link_produto": "https://shopee.com.br/product/711418084/21235699753",
+  "vendas": 16197,
+  "nota": 4.8,
+  "loja": "fadvan.br",
+  "palavra": "maquiagem",
+  "categoria": "Beleza",
+  "pontos": 157.16183847818516,
+  "numero": 45,
+  "legenda": "🔥 Tá barato demais pra deixar passar!\n\n🛍️ Fadvan 5D W Extensões De Cílios Em Forma De 0.07 C/D Faux Mink Natural Pestanas…\n\n💸 De R$ 58,55 por R$ 22,25 (62% OFF)\n⭐ 4.8 • +16197 vendidos\n\n🔗 Link na bio → procure o achado nº 45\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 45,
+   "id": "21235699753",
+   "nome": "Fadvan 5D W Extensões De Cílios Em Forma De 0.07 C/D Faux Mink Natural Pestanas Profissionais Suaves",
+   "preco": 22.25,
+   "preco_original": 58.55,
+   "desconto": 62,
+   "imagem": "https://cf.shopee.com.br/file/cn-11134207-820l4-mlr6x8dggpa8d1",
+   "link": "https://s.shopee.com.br/1B1far5jB",
+   "categoria": "Outros"
+  },
   {
    "numero": 44,
    "id": "23393881853",
