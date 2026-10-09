@@ -1,5 +1,5 @@
 {
- "contador": 43,
+ "contador": 44,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -172,6 +172,10 @@
   "58254641333": {
    "data": "2026-10-08T21:42:54.568382-03:00",
    "numero": 43
+  },
+  "23393881853": {
+   "data": "2026-10-09T09:35:31.022533-03:00",
+   "numero": 44
   }
  },
  "precos": {
@@ -432,10 +436,45 @@
     "data": "2026-10-08T21:42:54.568370-03:00",
     "preco": 17.89
    }
+  ],
+  "23393881853": [
+   {
+    "data": "2026-10-09T09:35:31.022522-03:00",
+    "preco": 29.9
+   }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "23393881853",
+  "nome": "Tesoura Multifuncional Para Corte Alimentos Legumes Peixes Frangos Verdura",
+  "preco": 29.9,
+  "preco_original": 99.67,
+  "desconto": 70,
+  "imagem": "https://cf.shopee.com.br/file/br-11134207-820m8-mmgtv88q60w65d",
+  "link": "https://s.shopee.com.br/3g4JqGg2I2",
+  "link_produto": "https://shopee.com.br/product/1430462083/23393881853",
+  "vendas": 7661,
+  "nota": 4.8,
+  "loja": "FUTURO ADA SHOP",
+  "palavra": "utensilios cozinha",
+  "categoria": "Cozinha",
+  "pontos": 169.0400117747202,
+  "numero": 44,
+  "legenda": "✨ Achadinho do dia!\n\n🛍️ Tesoura Multifuncional Para Corte Alimentos Legumes Peixes Frangos Verdura\n\n💸 De R$ 99,67 por R$ 29,90 (70% OFF)\n⭐ 4.8 • +7661 vendidos\n\n🔗 Link na bio → procure o achado nº 44\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 44,
+   "id": "23393881853",
+   "nome": "Tesoura Multifuncional Para Corte Alimentos Legumes Peixes Frangos Verdura",
+   "preco": 29.9,
+   "preco_original": 99.67,
+   "desconto": 70,
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-820m8-mmgtv88q60w65d",
+   "link": "https://s.shopee.com.br/3g4JqGg2I2",
+   "categoria": "Outros"
+  },
   {
    "numero": 43,
    "id": "58254641333",
