@@ -1,5 +1,5 @@
 {
- "contador": 51,
+ "contador": 52,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -204,6 +204,10 @@
   "22798224799": {
    "data": "2026-10-10T15:31:51.547962-03:00",
    "numero": 51
+  },
+  "40010876912": {
+   "data": "2026-10-10T18:28:04.683531-03:00",
+   "numero": 52
   }
  },
  "precos": {
@@ -512,10 +516,45 @@
     "data": "2026-10-10T15:31:51.547950-03:00",
     "preco": 17.92
    }
+  ],
+  "40010876912": [
+   {
+    "data": "2026-10-10T18:28:04.683522-03:00",
+    "preco": 12.9
+   }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "40010876912",
+  "nome": "Compre 1 E Ganhe 1 Fone De Ouvido Sem Fio Bluetooth Único À Prova D'água Fones Bateria Longa Escritório Negócios Com Mic",
+  "preco": 12.9,
+  "preco_original": 33.08,
+  "desconto": 61,
+  "imagem": "https://cf.shopee.com.br/file/sg-11134201-823rs-mp4kzyp077yma8",
+  "link": "https://s.shopee.com.br/gQk3VOprm",
+  "link_produto": "https://shopee.com.br/product/230709939/40010876912",
+  "vendas": 4133,
+  "nota": 4.8,
+  "loja": "Value Choice",
+  "palavra": "fone bluetooth",
+  "categoria": "Outros",
+  "pontos": 158.13693461825633,
+  "numero": 52,
+  "legenda": "✨ Achadinho do dia!\n\n🛍️ Compre 1 E Ganhe 1 Fone De Ouvido Sem Fio Bluetooth Único À Prova D'água Fones Bateria…\n\n💸 De R$ 33,08 por R$ 12,90 (61% OFF)\n⭐ 4.8 • +4133 vendidos\n\n🔗 Link na bio → procure o achado nº 52\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 52,
+   "id": "40010876912",
+   "nome": "Compre 1 E Ganhe 1 Fone De Ouvido Sem Fio Bluetooth Único À Prova D'água Fones Bateria Longa Escritório Negócios Com Mic",
+   "preco": 12.9,
+   "preco_original": 33.08,
+   "desconto": 61,
+   "imagem": "https://cf.shopee.com.br/file/sg-11134201-823rs-mp4kzyp077yma8",
+   "link": "https://s.shopee.com.br/gQk3VOprm",
+   "categoria": "Outros"
+  },
   {
    "numero": 51,
    "id": "22798224799",
