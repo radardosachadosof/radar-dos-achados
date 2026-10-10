@@ -1,5 +1,5 @@
 {
- "contador": 50,
+ "contador": 51,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -200,6 +200,10 @@
   "43781714813": {
    "data": "2026-10-10T12:28:14.536901-03:00",
    "numero": 50
+  },
+  "22798224799": {
+   "data": "2026-10-10T15:31:51.547962-03:00",
+   "numero": 51
   }
  },
  "precos": {
@@ -502,10 +506,45 @@
     "data": "2026-10-10T12:28:14.536880-03:00",
     "preco": 19.99
    }
+  ],
+  "22798224799": [
+   {
+    "data": "2026-10-10T15:31:51.547950-03:00",
+    "preco": 17.92
+   }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "22798224799",
+  "nome": "Papel de Parede Autocolante Textura Madeira 5m x 45cm, Impermeável Removível, Ideal para Parede, Móveis, Sala e Quarto",
+  "preco": 17.92,
+  "preco_original": 52.71,
+  "desconto": 66,
+  "imagem": "https://cf.shopee.com.br/file/br-11134207-820lq-mndneuqbbbwh90",
+  "link": "https://s.shopee.com.br/60SGPJ8vrx",
+  "link_produto": "https://shopee.com.br/product/1416381986/22798224799",
+  "vendas": 3480,
+  "nota": 4.8,
+  "loja": "Papel de Parede - Loja",
+  "palavra": "decoracao quarto",
+  "categoria": "Outros",
+  "pontos": 161.30203724228244,
+  "numero": 51,
+  "legenda": "👀 Olha o que o radar encontrou:\n\n🛍️ Papel de Parede Autocolante Textura Madeira 5m x 45cm, Impermeável Removível, Ideal para…\n\n💸 De R$ 52,71 por R$ 17,92 (66% OFF)\n⭐ 4.8 • +3480 vendidos\n\n🔗 Link na bio → procure o achado nº 51\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 51,
+   "id": "22798224799",
+   "nome": "Papel de Parede Autocolante Textura Madeira 5m x 45cm, Impermeável Removível, Ideal para Parede, Móveis, Sala e Quarto",
+   "preco": 17.92,
+   "preco_original": 52.71,
+   "desconto": 66,
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-820lq-mndneuqbbbwh90",
+   "link": "https://s.shopee.com.br/60SGPJ8vrx",
+   "categoria": "Outros"
+  },
   {
    "numero": 50,
    "id": "43781714813",
