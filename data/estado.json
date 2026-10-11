@@ -1,5 +1,5 @@
 {
- "contador": 54,
+ "contador": 55,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -216,6 +216,10 @@
   "21199598476": {
    "data": "2026-10-11T09:35:15.544724-03:00",
    "numero": 54
+  },
+  "20099202888": {
+   "data": "2026-10-11T12:29:13.100539-03:00",
+   "numero": 55
   }
  },
  "precos": {
@@ -542,10 +546,45 @@
     "data": "2026-10-11T09:35:15.544715-03:00",
     "preco": 16.9
    }
+  ],
+  "20099202888": [
+   {
+    "data": "2026-10-11T12:29:13.100509-03:00",
+    "preco": 22.9
+   }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "20099202888",
+  "nome": "Luminária De Mesa Recarregáveis Led Com Proteção Os Olhos Usb Iluminaria Abajur Lâmpada De Mesa Para Quarto Dormitório",
+  "preco": 22.9,
+  "preco_original": 60.26,
+  "desconto": 62,
+  "imagem": "https://cf.shopee.com.br/file/sg-11134201-7rcd1-lrs4fclyezce23",
+  "link": "https://s.shopee.com.br/70KoD22GDo",
+  "link_produto": "https://shopee.com.br/product/421446882/20099202888",
+  "vendas": 2498,
+  "nota": 4.9,
+  "loja": "Abcshop.br",
+  "palavra": "luminaria led",
+  "categoria": "Outros",
+  "pontos": 156.47723422516276,
+  "numero": 55,
+  "legenda": "🔥 Tá barato demais pra deixar passar!\n\n🛍️ Luminária De Mesa Recarregáveis Led Com Proteção Os Olhos Usb Iluminaria Abajur Lâmpada…\n\n💸 De R$ 60,26 por R$ 22,90 (62% OFF)\n⭐ 4.9 • +2498 vendidos\n\n🔗 Link na bio → procure o achado nº 55\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 55,
+   "id": "20099202888",
+   "nome": "Luminária De Mesa Recarregáveis Led Com Proteção Os Olhos Usb Iluminaria Abajur Lâmpada De Mesa Para Quarto Dormitório",
+   "preco": 22.9,
+   "preco_original": 60.26,
+   "desconto": 62,
+   "imagem": "https://cf.shopee.com.br/file/sg-11134201-7rcd1-lrs4fclyezce23",
+   "link": "https://s.shopee.com.br/70KoD22GDo",
+   "categoria": "Outros"
+  },
   {
    "numero": 54,
    "id": "21199598476",
