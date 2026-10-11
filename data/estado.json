@@ -1,5 +1,5 @@
 {
- "contador": 55,
+ "contador": 56,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -220,6 +220,10 @@
   "20099202888": {
    "data": "2026-10-11T12:29:13.100539-03:00",
    "numero": 55
+  },
+  "23499011933": {
+   "data": "2026-10-11T15:32:37.039860-03:00",
+   "numero": 56
   }
  },
  "precos": {
@@ -552,10 +556,45 @@
     "data": "2026-10-11T12:29:13.100509-03:00",
     "preco": 22.9
    }
+  ],
+  "23499011933": [
+   {
+    "data": "2026-10-11T15:32:37.039850-03:00",
+    "preco": 15.78
+   }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "23499011933",
+  "nome": "Suporte Magnético 360° Dobrável p/ Celular com Sucção a Vácuo Forte – Carro Mesa Parede",
+  "preco": 15.78,
+  "preco_original": 45.09,
+  "desconto": 65,
+  "imagem": "https://cf.shopee.com.br/file/sg-11134201-824gc-mfprp3yzdrm497",
+  "link": "https://s.shopee.com.br/9APJygNOav",
+  "link_produto": "https://shopee.com.br/product/1074025557/23499011933",
+  "vendas": 3633,
+  "nota": 4.7,
+  "loja": "COCONUT SHOP",
+  "palavra": "suporte celular",
+  "categoria": "Outros",
+  "pontos": 155.73205004038024,
+  "numero": 56,
+  "legenda": "🔥 Tá barato demais pra deixar passar!\n\n🛍️ Suporte Magnético 360° Dobrável p/ Celular com Sucção a Vácuo Forte – Carro Mesa Parede\n\n💸 De R$ 45,09 por R$ 15,78 (65% OFF)\n⭐ 4.7 • +3633 vendidos\n\n🔗 Link na bio → procure o achado nº 56\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 56,
+   "id": "23499011933",
+   "nome": "Suporte Magnético 360° Dobrável p/ Celular com Sucção a Vácuo Forte – Carro Mesa Parede",
+   "preco": 15.78,
+   "preco_original": 45.09,
+   "desconto": 65,
+   "imagem": "https://cf.shopee.com.br/file/sg-11134201-824gc-mfprp3yzdrm497",
+   "link": "https://s.shopee.com.br/9APJygNOav",
+   "categoria": "Outros"
+  },
   {
    "numero": 55,
    "id": "20099202888",
