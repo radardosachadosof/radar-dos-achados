@@ -1,5 +1,5 @@
 {
- "contador": 56,
+ "contador": 57,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -224,6 +224,10 @@
   "23499011933": {
    "data": "2026-10-11T15:32:37.039860-03:00",
    "numero": 56
+  },
+  "22693482091": {
+   "data": "2026-10-11T18:29:14.870936-03:00",
+   "numero": 57
   }
  },
  "precos": {
@@ -562,10 +566,45 @@
     "data": "2026-10-11T15:32:37.039850-03:00",
     "preco": 15.78
    }
+  ],
+  "22693482091": [
+   {
+    "data": "2026-10-11T18:29:14.870926-03:00",
+    "preco": 29.99
+   }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "22693482091",
+  "nome": "KIT 12 Peças de Utensílios Para Cozinha em Silicone e Bambu",
+  "preco": 29.99,
+  "preco_original": 99.97,
+  "desconto": 70,
+  "imagem": "https://cf.shopee.com.br/file/sg-11134201-7rdx1-m1egwx31u1x61f",
+  "link": "https://s.shopee.com.br/2qVGdAh3WZ",
+  "link_produto": "https://shopee.com.br/product/415175805/22693482091",
+  "vendas": 4221,
+  "nota": 4.7,
+  "loja": "Isabela Top",
+  "palavra": "utensilios cozinha",
+  "categoria": "Cozinha",
+  "pontos": 164.43231179259558,
+  "numero": 57,
+  "legenda": "✨ Achadinho do dia!\n\n🛍️ KIT 12 Peças de Utensílios Para Cozinha em Silicone e Bambu\n\n💸 De R$ 99,97 por R$ 29,99 (70% OFF)\n⭐ 4.7 • +4221 vendidos\n\n🔗 Link na bio → procure o achado nº 57\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 57,
+   "id": "22693482091",
+   "nome": "KIT 12 Peças de Utensílios Para Cozinha em Silicone e Bambu",
+   "preco": 29.99,
+   "preco_original": 99.97,
+   "desconto": 70,
+   "imagem": "https://cf.shopee.com.br/file/sg-11134201-7rdx1-m1egwx31u1x61f",
+   "link": "https://s.shopee.com.br/2qVGdAh3WZ",
+   "categoria": "Cozinha"
+  },
   {
    "numero": 56,
    "id": "23499011933",
