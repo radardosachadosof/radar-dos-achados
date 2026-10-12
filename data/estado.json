@@ -1,5 +1,5 @@
 {
- "contador": 59,
+ "contador": 60,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -236,6 +236,10 @@
   "55057204520": {
    "data": "2026-10-12T09:53:02.068515-03:00",
    "numero": 59
+  },
+  "25338080323": {
+   "data": "2026-10-12T12:33:47.676955-03:00",
+   "numero": 60
   }
  },
  "precos": {
@@ -592,10 +596,45 @@
     "data": "2026-10-12T09:53:02.068503-03:00",
     "preco": 42.99
    }
+  ],
+  "25338080323": [
+   {
+    "data": "2026-10-12T12:33:47.676945-03:00",
+    "preco": 54.45
+   }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "25338080323",
+  "nome": "Dr.Althea 345 Relief Cream 15ml,50ml/147 Barrier Cream 50ml",
+  "preco": 54.45,
+  "preco_original": 143.29,
+  "desconto": 62,
+  "imagem": "https://cf.shopee.com.br/file/sg-11134207-823pa-mpa7rmkjv3t9e6",
+  "link": "https://s.shopee.com.br/BUWekiSUr",
+  "link_produto": "https://shopee.com.br/product/457864097/25338080323",
+  "vendas": 5356,
+  "nota": 5.0,
+  "loja": "koksara.kbeauty",
+  "palavra": "skincare",
+  "categoria": "Beleza",
+  "pontos": 159.99236697571783,
+  "numero": 60,
+  "legenda": "👀 Olha o que o radar encontrou:\n\n🛍️ Dr.Althea 345 Relief Cream 15ml,50ml/147 Barrier Cream 50ml\n\n💸 De R$ 143,29 por R$ 54,45 (62% OFF)\n⭐ 5.0 • +5356 vendidos\n\n🔗 Link na bio → procure o achado nº 60\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 60,
+   "id": "25338080323",
+   "nome": "Dr.Althea 345 Relief Cream 15ml,50ml/147 Barrier Cream 50ml",
+   "preco": 54.45,
+   "preco_original": 143.29,
+   "desconto": 62,
+   "imagem": "https://cf.shopee.com.br/file/sg-11134207-823pa-mpa7rmkjv3t9e6",
+   "link": "https://s.shopee.com.br/BUWekiSUr",
+   "categoria": "Outros"
+  },
   {
    "numero": 59,
    "id": "55057204520",
