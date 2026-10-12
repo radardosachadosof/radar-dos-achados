@@ -1,5 +1,5 @@
 {
- "contador": 60,
+ "contador": 61,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -240,6 +240,10 @@
   "25338080323": {
    "data": "2026-10-12T12:33:47.676955-03:00",
    "numero": 60
+  },
+  "23993275214": {
+   "data": "2026-10-12T15:35:45.407843-03:00",
+   "numero": 61
   }
  },
  "precos": {
@@ -602,10 +606,45 @@
     "data": "2026-10-12T12:33:47.676945-03:00",
     "preco": 54.45
    }
+  ],
+  "23993275214": [
+   {
+    "data": "2026-10-12T15:35:45.407835-03:00",
+    "preco": 69.0
+   }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "23993275214",
+  "nome": "Estante 6 OU 5 Prateleiras Cozinha de Aço Multiuso Panelas Casa Sala Quarto Organizador",
+  "preco": 69.0,
+  "preco_original": 176.92,
+  "desconto": 61,
+  "imagem": "https://cf.shopee.com.br/file/br-11134207-81z1k-mfyartcdant3ce",
+  "link": "https://s.shopee.com.br/80DOBe55d8",
+  "link_produto": "https://shopee.com.br/product/979724994/23993275214",
+  "vendas": 4895,
+  "nota": 4.7,
+  "loja": "BOMM FAMILIA",
+  "palavra": "organizador cozinha",
+  "categoria": "Cozinha",
+  "pontos": 156.69222552539233,
+  "numero": 61,
+  "legenda": "🚨 Achado detectado no radar!\n\n🛍️ Estante 6 OU 5 Prateleiras Cozinha de Aço Multiuso Panelas Casa Sala Quarto Organizador\n\n💸 De R$ 176,92 por R$ 69,00 (61% OFF)\n⭐ 4.7 • +4895 vendidos\n\n🔗 Link na bio → procure o achado nº 61\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 61,
+   "id": "23993275214",
+   "nome": "Estante 6 OU 5 Prateleiras Cozinha de Aço Multiuso Panelas Casa Sala Quarto Organizador",
+   "preco": 69.0,
+   "preco_original": 176.92,
+   "desconto": 61,
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-81z1k-mfyartcdant3ce",
+   "link": "https://s.shopee.com.br/80DOBe55d8",
+   "categoria": "Cozinha"
+  },
   {
    "numero": 60,
    "id": "25338080323",
