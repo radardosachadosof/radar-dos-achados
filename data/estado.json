@@ -1,5 +1,5 @@
 {
- "contador": 63,
+ "contador": 64,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -252,6 +252,10 @@
   "22593832914": {
    "data": "2026-10-12T21:44:36.081472-03:00",
    "numero": 63
+  },
+  "58254975674": {
+   "data": "2026-10-13T09:41:46.502823-03:00",
+   "numero": 64
   }
  },
  "precos": {
@@ -632,10 +636,45 @@
     "data": "2026-10-12T21:44:36.081461-03:00",
     "preco": 21.99
    }
+  ],
+  "58254975674": [
+   {
+    "data": "2026-10-13T09:41:46.502811-03:00",
+    "preco": 11.99
+   }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "58254975674",
+  "nome": "Lápis De Sobrancelha Líquido À Prova D'água, De Longa Duração , Definição Natural , Maquiagem Acessível",
+  "preco": 11.99,
+  "preco_original": 32.41,
+  "desconto": 63,
+  "imagem": "https://cf.shopee.com.br/file/sg-11134201-82620-mkjr5fqpg26e40",
+  "link": "https://s.shopee.com.br/W7OSRMTAa",
+  "link_produto": "https://shopee.com.br/product/375201738/58254975674",
+  "vendas": 8373,
+  "nota": 4.8,
+  "loja": "LUCKY BAZAR",
+  "palavra": "maquiagem",
+  "categoria": "Beleza",
+  "pontos": 151.3526361449213,
+  "numero": 64,
+  "legenda": "💥 Oferta fresquinha!\n\n🛍️ Lápis De Sobrancelha Líquido À Prova D'água, De Longa Duração , Definição Natural ,…\n\n💸 De R$ 32,41 por R$ 11,99 (63% OFF)\n⭐ 4.8 • +8373 vendidos\n\n🔗 Link na bio → procure o achado nº 64\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 64,
+   "id": "58254975674",
+   "nome": "Lápis De Sobrancelha Líquido À Prova D'água, De Longa Duração , Definição Natural , Maquiagem Acessível",
+   "preco": 11.99,
+   "preco_original": 32.41,
+   "desconto": 63,
+   "imagem": "https://cf.shopee.com.br/file/sg-11134201-82620-mkjr5fqpg26e40",
+   "link": "https://s.shopee.com.br/W7OSRMTAa",
+   "categoria": "Beleza"
+  },
   {
    "numero": 63,
    "id": "22593832914",
