@@ -1,5 +1,5 @@
 {
- "contador": 66,
+ "contador": 67,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -264,6 +264,10 @@
   "58257090824": {
    "data": "2026-10-13T15:39:28.660382-03:00",
    "numero": 66
+  },
+  "23292479898": {
+   "data": "2026-10-13T18:40:54.439056-03:00",
+   "numero": 67
   }
  },
  "precos": {
@@ -662,10 +666,45 @@
     "data": "2026-10-13T15:39:28.660371-03:00",
     "preco": 31.99
    }
+  ],
+  "23292479898": [
+   {
+    "data": "2026-10-13T18:40:54.439045-03:00",
+    "preco": 29.59
+   }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "23292479898",
+  "nome": "Tapete Passadeira 2,00 x 0,60 Corredor Quarto Sala Beira de Cama Felpudo Peludo",
+  "preco": 29.59,
+  "preco_original": 73.97,
+  "desconto": 60,
+  "imagem": "https://cf.shopee.com.br/file/br-11134207-820m1-mlz552dh7w9389",
+  "link": "https://s.shopee.com.br/3g4QcpOQle",
+  "link_produto": "https://shopee.com.br/product/346235717/23292479898",
+  "vendas": 4337,
+  "nota": 4.8,
+  "loja": "HeyBox­­",
+  "palavra": "decoracao quarto",
+  "categoria": "Pets",
+  "pontos": 153.5304673017151,
+  "numero": 67,
+  "legenda": "✨ Achadinho do dia!\n\n🛍️ Tapete Passadeira 2,00 x 0,60 Corredor Quarto Sala Beira de Cama Felpudo Peludo\n\n💸 De R$ 73,97 por R$ 29,59 (60% OFF)\n⭐ 4.8 • +4337 vendidos\n\n🔗 Link na bio → procure o achado nº 67\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 67,
+   "id": "23292479898",
+   "nome": "Tapete Passadeira 2,00 x 0,60 Corredor Quarto Sala Beira de Cama Felpudo Peludo",
+   "preco": 29.59,
+   "preco_original": 73.97,
+   "desconto": 60,
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-820m1-mlz552dh7w9389",
+   "link": "https://s.shopee.com.br/3g4QcpOQle",
+   "categoria": "Pets"
+  },
   {
    "numero": 66,
    "id": "58257090824",
