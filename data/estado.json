@@ -1,5 +1,5 @@
 {
- "contador": 64,
+ "contador": 65,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -256,6 +256,10 @@
   "58254975674": {
    "data": "2026-10-13T09:41:46.502823-03:00",
    "numero": 64
+  },
+  "22994809836": {
+   "data": "2026-10-13T12:35:00.554423-03:00",
+   "numero": 65
   }
  },
  "precos": {
@@ -642,10 +646,45 @@
     "data": "2026-10-13T09:41:46.502811-03:00",
     "preco": 11.99
    }
+  ],
+  "22994809836": [
+   {
+    "data": "2026-10-13T12:35:00.554411-03:00",
+    "preco": 12.99
+   }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "22994809836",
+  "nome": "Tapete de Banheiro Absorvente Antiderrapante Secagem Rápida",
+  "preco": 12.99,
+  "preco_original": 30.93,
+  "desconto": 58,
+  "imagem": "https://cf.shopee.com.br/file/br-11134207-820mf-mlywfo81ux38cb",
+  "link": "https://s.shopee.com.br/BUYFiyTbq",
+  "link_produto": "https://shopee.com.br/product/1249391293/22994809836",
+  "vendas": 2230,
+  "nota": 4.8,
+  "loja": "soooi",
+  "palavra": "tapete banheiro",
+  "categoria": "Pets",
+  "pontos": 147.68485661809558,
+  "numero": 65,
+  "legenda": "✨ Achadinho do dia!\n\n🛍️ Tapete de Banheiro Absorvente Antiderrapante Secagem Rápida\n\n💸 De R$ 30,93 por R$ 12,99 (58% OFF)\n⭐ 4.8 • +2230 vendidos\n\n🔗 Link na bio → procure o achado nº 65\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 65,
+   "id": "22994809836",
+   "nome": "Tapete de Banheiro Absorvente Antiderrapante Secagem Rápida",
+   "preco": 12.99,
+   "preco_original": 30.93,
+   "desconto": 58,
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-820mf-mlywfo81ux38cb",
+   "link": "https://s.shopee.com.br/BUYFiyTbq",
+   "categoria": "Pets"
+  },
   {
    "numero": 64,
    "id": "58254975674",
