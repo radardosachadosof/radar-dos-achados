@@ -1,5 +1,5 @@
 {
- "contador": 71,
+ "contador": 72,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -284,6 +284,10 @@
   "58202256718": {
    "data": "2026-10-14T15:51:32.181863-03:00",
    "numero": 71
+  },
+  "20797868953": {
+   "data": "2026-10-14T18:42:18.303079-03:00",
+   "numero": 72
   }
  },
  "precos": {
@@ -712,10 +716,45 @@
     "data": "2026-10-14T15:51:32.181826-03:00",
     "preco": 15.98
    }
+  ],
+  "20797868953": [
+   {
+    "data": "2026-10-14T18:42:18.303069-03:00",
+    "preco": 60.0
+   }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "20797868953",
+  "nome": "Guarda Roupa Portátil Desmontável Organizador Prático Solteiro e Casal",
+  "preco": 60.0,
+  "preco_original": 166.67,
+  "desconto": 64,
+  "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-m0epmdejhyn47a",
+  "link": "https://s.shopee.com.br/gQqql7fME",
+  "link_produto": "https://shopee.com.br/product/771750144/20797868953",
+  "vendas": 3850,
+  "nota": 4.6,
+  "loja": "DonaLarana_Casa",
+  "palavra": "organizador closet",
+  "categoria": "Outros",
+  "pontos": 157.09176354920083,
+  "numero": 72,
+  "legenda": "💥 Oferta fresquinha!\n\n🛍️ Guarda Roupa Portátil Desmontável Organizador Prático Solteiro e Casal\n\n💸 De R$ 166,67 por R$ 60,00 (64% OFF)\n⭐ 4.6 • +3850 vendidos\n\n🔗 Link na bio → procure o achado nº 72\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 72,
+   "id": "20797868953",
+   "nome": "Guarda Roupa Portátil Desmontável Organizador Prático Solteiro e Casal",
+   "preco": 60.0,
+   "preco_original": 166.67,
+   "desconto": 64,
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-m0epmdejhyn47a",
+   "link": "https://s.shopee.com.br/gQqql7fME",
+   "categoria": "Outros"
+  },
   {
    "numero": 71,
    "id": "58202256718",
