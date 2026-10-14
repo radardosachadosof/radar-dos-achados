@@ -1,5 +1,5 @@
 {
- "contador": 68,
+ "contador": 69,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -272,6 +272,10 @@
   "23598387487": {
    "data": "2026-10-13T21:54:28.511877-03:00",
    "numero": 68
+  },
+  "26181234420": {
+   "data": "2026-10-14T09:52:35.053239-03:00",
+   "numero": 69
   }
  },
  "precos": {
@@ -682,10 +686,45 @@
     "data": "2026-10-13T21:54:28.511867-03:00",
     "preco": 12.49
    }
+  ],
+  "26181234420": [
+   {
+    "data": "2026-10-14T09:52:35.053228-03:00",
+    "preco": 42.99
+   }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "26181234420",
+  "nome": "Fone de Ouvido Sem Fio Bluetooth Pro 6 Com Cancelamento De Ruído Pop-Up para iOS -GPS",
+  "preco": 42.99,
+  "preco_original": 99.98,
+  "desconto": 57,
+  "imagem": "https://cf.shopee.com.br/file/cn-11134207-820l4-mqhg200cth4w38",
+  "link": "https://s.shopee.com.br/6fi3PPOqhf",
+  "link_produto": "https://shopee.com.br/product/1378634997/26181234420",
+  "vendas": 4528,
+  "nota": 4.8,
+  "loja": "LOJA_DO_POVO.br",
+  "palavra": "fone bluetooth",
+  "categoria": "Outros",
+  "pontos": 152.17065076789976,
+  "numero": 69,
+  "legenda": "📡 O radar apitou!\n\n🛍️ Fone de Ouvido Sem Fio Bluetooth Pro 6 Com Cancelamento De Ruído Pop-Up para iOS -GPS\n\n💸 De R$ 99,98 por R$ 42,99 (57% OFF)\n⭐ 4.8 • +4528 vendidos\n\n🔗 Link na bio → procure o achado nº 69\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 69,
+   "id": "26181234420",
+   "nome": "Fone de Ouvido Sem Fio Bluetooth Pro 6 Com Cancelamento De Ruído Pop-Up para iOS -GPS",
+   "preco": 42.99,
+   "preco_original": 99.98,
+   "desconto": 57,
+   "imagem": "https://cf.shopee.com.br/file/cn-11134207-820l4-mqhg200cth4w38",
+   "link": "https://s.shopee.com.br/6fi3PPOqhf",
+   "categoria": "Outros"
+  },
   {
    "numero": 68,
    "id": "23598387487",
