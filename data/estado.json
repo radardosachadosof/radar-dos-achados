@@ -1,5 +1,5 @@
 {
- "contador": 70,
+ "contador": 71,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -280,6 +280,10 @@
   "58253145740": {
    "data": "2026-10-14T12:48:43.049140-03:00",
    "numero": 70
+  },
+  "58202256718": {
+   "data": "2026-10-14T15:51:32.181863-03:00",
+   "numero": 71
   }
  },
  "precos": {
@@ -702,10 +706,45 @@
     "data": "2026-10-14T12:48:43.049129-03:00",
     "preco": 69.98
    }
+  ],
+  "58202256718": [
+   {
+    "data": "2026-10-14T15:51:32.181826-03:00",
+    "preco": 15.98
+   }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "58202256718",
+  "nome": "Bolsa Necessaire Super Espaçosa Maquiagem Portátil Para Viagem",
+  "preco": 15.98,
+  "preco_original": 49.94,
+  "desconto": 68,
+  "imagem": "https://cf.shopee.com.br/file/br-11134207-81z1k-migduepiy51eac",
+  "link": "https://s.shopee.com.br/5VW6PufHpg",
+  "link_produto": "https://shopee.com.br/product/1392850246/58202256718",
+  "vendas": 1422,
+  "nota": 4.7,
+  "loja": "Casa Essencial_Br",
+  "palavra": "necessaire",
+  "categoria": "Beleza",
+  "pontos": 158.0551797658585,
+  "numero": 71,
+  "legenda": "✨ Achadinho do dia!\n\n🛍️ Bolsa Necessaire Super Espaçosa Maquiagem Portátil Para Viagem\n\n💸 De R$ 49,94 por R$ 15,98 (68% OFF)\n⭐ 4.7 • +1422 vendidos\n\n🔗 Link na bio → procure o achado nº 71\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 71,
+   "id": "58202256718",
+   "nome": "Bolsa Necessaire Super Espaçosa Maquiagem Portátil Para Viagem",
+   "preco": 15.98,
+   "preco_original": 49.94,
+   "desconto": 68,
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-81z1k-migduepiy51eac",
+   "link": "https://s.shopee.com.br/5VW6PufHpg",
+   "categoria": "Beleza"
+  },
   {
    "numero": 70,
    "id": "58253145740",
