@@ -1,5 +1,5 @@
 {
- "contador": 72,
+ "contador": 73,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -288,6 +288,10 @@
   "20797868953": {
    "data": "2026-10-14T18:42:18.303079-03:00",
    "numero": 72
+  },
+  "55666184367": {
+   "data": "2026-10-14T21:52:23.340952-03:00",
+   "numero": 73
   }
  },
  "precos": {
@@ -722,10 +726,45 @@
     "data": "2026-10-14T18:42:18.303069-03:00",
     "preco": 60.0
    }
+  ],
+  "55666184367": [
+   {
+    "data": "2026-10-14T21:52:23.340942-03:00",
+    "preco": 44.98
+   }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "55666184367",
+  "nome": "ROMANTIC CROWN Garrafa Térmica 800ml Aço Inox 304 Grande Capacidade com 2 Formas de Beber para Viagem e Esporte",
+  "preco": 44.98,
+  "preco_original": 99.96,
+  "desconto": 55,
+  "imagem": "https://cf.shopee.com.br/file/br-11134207-820m2-mtgcw2memgoy63",
+  "link": "https://s.shopee.com.br/2qVLQjzLjB",
+  "link_produto": "https://shopee.com.br/product/1350045638/55666184367",
+  "vendas": 4020,
+  "nota": 5.0,
+  "loja": "Romantic.Crown.07",
+  "palavra": "garrafa termica",
+  "categoria": "Cozinha",
+  "pontos": 152.8316681258021,
+  "numero": 73,
+  "legenda": "🔥 Tá barato demais pra deixar passar!\n\n🛍️ ROMANTIC CROWN Garrafa Térmica 800ml Aço Inox 304 Grande Capacidade com 2 Formas de…\n\n💸 De R$ 99,96 por R$ 44,98 (55% OFF)\n⭐ 5.0 • +4020 vendidos\n\n🔗 Link na bio → procure o achado nº 73\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 73,
+   "id": "55666184367",
+   "nome": "ROMANTIC CROWN Garrafa Térmica 800ml Aço Inox 304 Grande Capacidade com 2 Formas de Beber para Viagem e Esporte",
+   "preco": 44.98,
+   "preco_original": 99.96,
+   "desconto": 55,
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-820m2-mtgcw2memgoy63",
+   "link": "https://s.shopee.com.br/2qVLQjzLjB",
+   "categoria": "Cozinha"
+  },
   {
    "numero": 72,
    "id": "20797868953",
