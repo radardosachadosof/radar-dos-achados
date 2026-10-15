@@ -1,5 +1,5 @@
 {
- "contador": 76,
+ "contador": 77,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -304,6 +304,10 @@
   "22299265128": {
    "data": "2026-10-15T15:50:50.938707-03:00",
    "numero": 76
+  },
+  "22698099010": {
+   "data": "2026-10-15T18:43:15.006597-03:00",
+   "numero": 77
   }
  },
  "precos": {
@@ -762,10 +766,45 @@
     "data": "2026-10-15T15:50:50.938698-03:00",
     "preco": 29.99
    }
+  ],
+  "22698099010": [
+   {
+    "data": "2026-10-15T18:43:15.006586-03:00",
+    "preco": 47.9
+   }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "22698099010",
+  "nome": "Armário Carrinho Organizador Multiuso com Rodinhas Banheiro Lavanderia Cozinha Quarto - Promoção",
+  "preco": 47.9,
+  "preco_original": 140.88,
+  "desconto": 66,
+  "imagem": "https://cf.shopee.com.br/file/br-11134207-820lj-msvlc851f0926d",
+  "link": "https://s.shopee.com.br/2gBwpOKo2Q",
+  "link_produto": "https://shopee.com.br/product/689082261/22698099010",
+  "vendas": 1099,
+  "nota": 4.9,
+  "loja": "MB Variedadesss",
+  "palavra": "organizador closet",
+  "categoria": "Cozinha",
+  "pontos": 159.42775659023422,
+  "numero": 77,
+  "legenda": "📡 O radar apitou!\n\n🛍️ Armário Carrinho Organizador Multiuso com Rodinhas Banheiro Lavanderia Cozinha Quarto -…\n\n💸 De R$ 140,88 por R$ 47,90 (66% OFF)\n⭐ 4.9 • +1099 vendidos\n\n🔗 Link na bio → procure o achado nº 77\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 77,
+   "id": "22698099010",
+   "nome": "Armário Carrinho Organizador Multiuso com Rodinhas Banheiro Lavanderia Cozinha Quarto - Promoção",
+   "preco": 47.9,
+   "preco_original": 140.88,
+   "desconto": 66,
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-820lj-msvlc851f0926d",
+   "link": "https://s.shopee.com.br/2gBwpOKo2Q",
+   "categoria": "Cozinha"
+  },
   {
    "numero": 76,
    "id": "22299265128",
