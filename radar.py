@@ -135,8 +135,10 @@ def categoria_de(p):
     """Descobre a aba da vitrine pela palavra-chave da busca ou pelo nome do produto."""
     texto = f"{p.get('palavra', '')} {p.get('nome', '')}".lower()
     for cat, termos in CONFIG.get("categorias", {}).items():
-        if any(t.lower() in texto for t in termos):
-            return cat
+        for t in termos:
+            t = t.strip().lower()
+            if t and re.search(r"(?<![a-zà-ú])" + re.escape(t) + r"(?![a-zà-ú])", texto):
+                return cat
     return "Outros"
 
 
@@ -289,7 +291,12 @@ def gerar_arte(p, destino):
     d.rectangle([0, 0, W, 84], fill=COR_MARCA)
     x_nome = 40
     if LOGO.exists():
-        logo = ImageOps.contain(Image.open(LOGO).convert("RGBA"), (68, 68), Image.LANCZOS)
+        logo = ImageOps.fit(Image.open(LOGO).convert("RGBA"), (68, 68), Image.LANCZOS)
+        redondo = Image.new("L", (272, 272), 0)
+        ImageDraw.Draw(redondo).ellipse([0, 0, 271, 271], fill=255)
+        redondo = redondo.resize((68, 68), Image.LANCZOS)
+        alfa = Image.composite(logo.getchannel("A"), Image.new("L", (68, 68), 0), redondo)
+        logo.putalpha(alfa)
         img.paste(logo, (40, 42 - logo.height // 2), logo)
         x_nome = 124
     d.text((x_nome, 42), CONFIG["nome_perfil"], font=fonte(30, "Bold"), fill="white", anchor="lm")
@@ -330,10 +337,14 @@ def gerar_arte(p, destino):
     # Chamada para ação + número discreto
     chamada = random.choice(CHAMADAS)
     f_cta = fonte(32, "ExtraBold")
-    larg = int(d.textlength(chamada + "  →", font=f_cta)) + 80
+    larg = int(d.textlength(chamada, font=f_cta)) + 120
     bx1, by0 = W - 50, 1226
     d.rounded_rectangle([bx1 - larg, by0, bx1, by0 + 84], radius=42, fill=COR_AZUL)
-    d.text((bx1 - larg / 2, by0 + 42), chamada + "  →", font=f_cta, fill="white", anchor="mm")
+    tx = bx1 - larg / 2 - 18
+    d.text((tx, by0 + 42), chamada, font=f_cta, fill="white", anchor="mm")
+    ax = tx + d.textlength(chamada, font=f_cta) / 2 + 22  # seta desenhada
+    d.line([ax, by0 + 42, ax + 26, by0 + 42], fill="white", width=5)
+    d.polygon([(ax + 34, by0 + 42), (ax + 20, by0 + 31), (ax + 20, by0 + 53)], fill="white")
     d.text((50, by0 + 42), f"achado nº {p['numero']} • link na bio", font=fonte(28, "Regular"), fill=COR_SUAVE, anchor="lm")
 
     destino.parent.mkdir(parents=True, exist_ok=True)
