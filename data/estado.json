@@ -1,5 +1,5 @@
 {
- "contador": 73,
+ "contador": 74,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -292,6 +292,10 @@
   "55666184367": {
    "data": "2026-10-14T21:52:23.340952-03:00",
    "numero": 73
+  },
+  "40579805420": {
+   "data": "2026-10-15T09:55:04.008073-03:00",
+   "numero": 74
   }
  },
  "precos": {
@@ -732,10 +736,45 @@
     "data": "2026-10-14T21:52:23.340942-03:00",
     "preco": 44.98
    }
+  ],
+  "40579805420": [
+   {
+    "data": "2026-10-15T09:55:04.008063-03:00",
+    "preco": 19.9
+   }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "40579805420",
+  "nome": "Tapete Infantil de Água Inflável para Bebê Sensorial Coordenação Motora Brinquedo Educativo",
+  "preco": 19.9,
+  "preco_original": 49.75,
+  "desconto": 60,
+  "imagem": "https://cf.shopee.com.br/file/br-11134207-820l6-mmq5jxduwbggec",
+  "link": "https://s.shopee.com.br/6q1VCm2gER",
+  "link_produto": "https://shopee.com.br/product/1109263850/40579805420",
+  "vendas": 3030,
+  "nota": 4.9,
+  "loja": "Benetton Utilidades",
+  "palavra": "brinquedo educativo",
+  "categoria": "Pets",
+  "pontos": 156.1797639956135,
+  "numero": 74,
+  "legenda": "💥 Oferta fresquinha!\n\n🛍️ Tapete Infantil de Água Inflável para Bebê Sensorial Coordenação Motora Brinquedo…\n\n💸 De R$ 49,75 por R$ 19,90 (60% OFF)\n⭐ 4.9 • +3030 vendidos\n\n🔗 Link na bio → procure o achado nº 74\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 74,
+   "id": "40579805420",
+   "nome": "Tapete Infantil de Água Inflável para Bebê Sensorial Coordenação Motora Brinquedo Educativo",
+   "preco": 19.9,
+   "preco_original": 49.75,
+   "desconto": 60,
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-820l6-mmq5jxduwbggec",
+   "link": "https://s.shopee.com.br/6q1VCm2gER",
+   "categoria": "Pets"
+  },
   {
    "numero": 73,
    "id": "55666184367",
