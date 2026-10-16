@@ -1,5 +1,5 @@
 {
- "contador": 78,
+ "contador": 79,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -312,6 +312,10 @@
   "58204182050": {
    "data": "2026-10-15T21:51:48.886804-03:00",
    "numero": 78
+  },
+  "58265421821": {
+   "data": "2026-10-16T09:54:01.595105-03:00",
+   "numero": 79
   }
  },
  "precos": {
@@ -782,10 +786,45 @@
     "data": "2026-10-15T21:51:48.886794-03:00",
     "preco": 14.9
    }
+  ],
+  "58265421821": [
+   {
+    "data": "2026-10-16T09:54:01.595094-03:00",
+    "preco": 71.99
+   }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "58265421821",
+  "nome": "Caminhão Dinossauro Engolidor com Carrinhos Multifuncional Interativo Educativo Presente Infantil",
+  "preco": 71.99,
+  "preco_original": 179.97,
+  "desconto": 60,
+  "imagem": "https://cf.shopee.com.br/file/sg-11134201-825ab-mrcu2huo2zglff",
+  "link": "https://s.shopee.com.br/qkJeZ9q8e",
+  "link_produto": "https://shopee.com.br/product/1905647169/58265421821",
+  "vendas": 1539,
+  "nota": 4.9,
+  "loja": "LIDEASTAR COMERCIO",
+  "palavra": "brinquedo educativo",
+  "categoria": "Outros",
+  "pontos": 154.29006749092105,
+  "numero": 79,
+  "legenda": "🚨 Achado detectado no radar!\n\n🛍️ Caminhão Dinossauro Engolidor com Carrinhos Multifuncional Interativo Educativo Presente…\n\n💸 De R$ 179,97 por R$ 71,99 (60% OFF)\n⭐ 4.9 • +1539 vendidos\n\n🔗 Link na bio → procure o achado nº 79\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 79,
+   "id": "58265421821",
+   "nome": "Caminhão Dinossauro Engolidor com Carrinhos Multifuncional Interativo Educativo Presente Infantil",
+   "preco": 71.99,
+   "preco_original": 179.97,
+   "desconto": 60,
+   "imagem": "https://cf.shopee.com.br/file/sg-11134201-825ab-mrcu2huo2zglff",
+   "link": "https://s.shopee.com.br/qkJeZ9q8e",
+   "categoria": "Outros"
+  },
   {
    "numero": 78,
    "id": "58204182050",
