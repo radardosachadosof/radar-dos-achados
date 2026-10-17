@@ -1,5 +1,5 @@
 {
- "contador": 86,
+ "contador": 87,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -344,6 +344,10 @@
   "58204421120": {
    "data": "2026-10-17T15:40:53.635863-03:00",
    "numero": 86
+  },
+  "58251498745": {
+   "data": "2026-10-17T18:38:51.052459-03:00",
+   "numero": 87
   }
  },
  "precos": {
@@ -862,10 +866,45 @@
     "data": "2026-10-17T15:40:53.635851-03:00",
     "preco": 92.0
    }
+  ],
+  "58251498745": [
+   {
+    "data": "2026-10-17T18:38:51.052430-03:00",
+    "preco": 18.9
+   }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "58251498745",
+  "nome": "Jornal tapete Higiênico Grande 300 folhas Biodegradável para Pet Descartável Ótimo Custo X Benefício",
+  "preco": 18.9,
+  "preco_original": 45.0,
+  "desconto": 58,
+  "imagem": "https://cf.shopee.com.br/file/br-11134207-81z1k-mhut3bthr4ee26",
+  "link": "https://s.shopee.com.br/30oqPU19O6",
+  "link_produto": "https://shopee.com.br/product/1655354747/58251498745",
+  "vendas": 4711,
+  "nota": 4.8,
+  "loja": "Bicho & Companhia",
+  "palavra": "tapete banheiro",
+  "categoria": "Pets",
+  "pontos": 153.0147815177041,
+  "numero": 87,
+  "legenda": "✨ Achadinho do dia!\n\n🛍️ Jornal tapete Higiênico Grande 300 folhas Biodegradável para Pet Descartável Ótimo Custo…\n\n💸 De R$ 45,00 por R$ 18,90 (58% OFF)\n⭐ 4.8 • +4711 vendidos\n\n🔗 Link na bio → procure o achado nº 87\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 87,
+   "id": "58251498745",
+   "nome": "Jornal tapete Higiênico Grande 300 folhas Biodegradável para Pet Descartável Ótimo Custo X Benefício",
+   "preco": 18.9,
+   "preco_original": 45.0,
+   "desconto": 58,
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-81z1k-mhut3bthr4ee26",
+   "link": "https://s.shopee.com.br/30oqPU19O6",
+   "categoria": "Pets"
+  },
   {
    "numero": 86,
    "id": "58204421120",
