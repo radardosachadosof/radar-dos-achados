@@ -1,5 +1,5 @@
 {
- "contador": 84,
+ "contador": 85,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -336,6 +336,10 @@
   "22999054525": {
    "data": "2026-10-17T09:46:10.844979-03:00",
    "numero": 84
+  },
+  "23794330101": {
+   "data": "2026-10-17T12:38:38.896478-03:00",
+   "numero": 85
   }
  },
  "precos": {
@@ -842,10 +846,45 @@
     "data": "2026-10-17T09:46:10.844972-03:00",
     "preco": 49.99
    }
+  ],
+  "23794330101": [
+   {
+    "data": "2026-10-17T12:38:38.896467-03:00",
+    "preco": 13.38
+   }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "23794330101",
+  "nome": "Porta Ovos 4 Andares Rolante em Plástico para Geladeira Organizador 20 a 30 Ovos",
+  "preco": 13.38,
+  "preco_original": 44.6,
+  "desconto": 70,
+  "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-mdq1kgvrfpvdba",
+  "link": "https://s.shopee.com.br/1W02DzF1WA",
+  "link_produto": "https://shopee.com.br/product/462426918/23794330101",
+  "vendas": 11302,
+  "nota": 4.8,
+  "loja": "3 PAO",
+  "palavra": "organizador cozinha",
+  "categoria": "Cozinha",
+  "pontos": 175.48341863529927,
+  "numero": 85,
+  "legenda": "📡 O radar apitou!\n\n🛍️ Porta Ovos 4 Andares Rolante em Plástico para Geladeira Organizador 20 a 30 Ovos\n\n💸 De R$ 44,60 por R$ 13,38 (70% OFF)\n⭐ 4.8 • +11302 vendidos\n\n🔗 Link na bio → procure o achado nº 85\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 85,
+   "id": "23794330101",
+   "nome": "Porta Ovos 4 Andares Rolante em Plástico para Geladeira Organizador 20 a 30 Ovos",
+   "preco": 13.38,
+   "preco_original": 44.6,
+   "desconto": 70,
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-mdq1kgvrfpvdba",
+   "link": "https://s.shopee.com.br/1W02DzF1WA",
+   "categoria": "Outros"
+  },
   {
    "numero": 84,
    "id": "22999054525",
