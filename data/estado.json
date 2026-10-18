@@ -1,5 +1,5 @@
 {
- "contador": 91,
+ "contador": 92,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -364,6 +364,10 @@
   "58254256002": {
    "data": "2026-10-18T15:41:34.485353-03:00",
    "numero": 91
+  },
+  "54052225033": {
+   "data": "2026-10-18T18:38:58.474978-03:00",
+   "numero": 92
   }
  },
  "precos": {
@@ -912,10 +916,45 @@
     "data": "2026-10-18T15:41:34.485339-03:00",
     "preco": 28.98
    }
+  ],
+  "54052225033": [
+   {
+    "data": "2026-10-18T18:38:58.474966-03:00",
+    "preco": 79.0
+   }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "54052225033",
+  "nome": "32 Peças Kit De Maquiagem Para Crianças Lavável/Conjunto Portátil Meninas",
+  "preco": 79.0,
+  "preco_original": 197.5,
+  "desconto": 60,
+  "imagem": "https://cf.shopee.com.br/file/cn-11134207-820l4-mhkecw4985qc28",
+  "link": "https://s.shopee.com.br/6VOkAoRrZY",
+  "link_produto": "https://shopee.com.br/product/1480010644/54052225033",
+  "vendas": 4696,
+  "nota": 4.8,
+  "loja": "DJ Super Direct Shop",
+  "palavra": "maquiagem",
+  "categoria": "Beleza",
+  "pontos": 157.59265029750497,
+  "numero": 92,
+  "legenda": "✨ Achadinho do dia!\n\n🛍️ 32 Peças Kit De Maquiagem Para Crianças Lavável/Conjunto Portátil Meninas\n\n💸 De R$ 197,50 por R$ 79,00 (60% OFF)\n⭐ 4.8 • +4696 vendidos\n\n🔗 Link na bio → procure o achado nº 92\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 92,
+   "id": "54052225033",
+   "nome": "32 Peças Kit De Maquiagem Para Crianças Lavável/Conjunto Portátil Meninas",
+   "preco": 79.0,
+   "preco_original": 197.5,
+   "desconto": 60,
+   "imagem": "https://cf.shopee.com.br/file/cn-11134207-820l4-mhkecw4985qc28",
+   "link": "https://s.shopee.com.br/6VOkAoRrZY",
+   "categoria": "Beleza"
+  },
   {
    "numero": 91,
    "id": "58254256002",
