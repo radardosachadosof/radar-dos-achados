@@ -1,5 +1,5 @@
 {
- "contador": 89,
+ "contador": 90,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -356,6 +356,10 @@
   "22794149442": {
    "data": "2026-10-18T09:46:16.242845-03:00",
    "numero": 89
+  },
+  "54508095749": {
+   "data": "2026-10-18T12:38:40.807606-03:00",
+   "numero": 90
   }
  },
  "precos": {
@@ -892,10 +896,45 @@
     "data": "2026-10-18T09:46:16.242834-03:00",
     "preco": 21.9
    }
+  ],
+  "54508095749": [
+   {
+    "data": "2026-10-18T12:38:40.807596-03:00",
+    "preco": 42.98
+   }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "54508095749",
+  "nome": "Fone de Ouvido Sem Fio PODSPRO 6 Estereo Com Cancelamento De Ruído Bluetooth Pop-Up para iOS E Android",
+  "preco": 42.98,
+  "preco_original": 99.95,
+  "desconto": 57,
+  "imagem": "https://cf.shopee.com.br/file/sg-11134201-82608-mmfzk1001czo45",
+  "link": "https://s.shopee.com.br/4qGVn0XVCS",
+  "link_produto": "https://shopee.com.br/product/1259086167/54508095749",
+  "vendas": 6345,
+  "nota": 4.8,
+  "loja": "Cherrygo1.br",
+  "palavra": "fone bluetooth",
+  "categoria": "Outros",
+  "pontos": 153.1246203636897,
+  "numero": 90,
+  "legenda": "🔥 Tá barato demais pra deixar passar!\n\n🛍️ Fone de Ouvido Sem Fio PODSPRO 6 Estereo Com Cancelamento De Ruído Bluetooth Pop-Up para…\n\n💸 De R$ 99,95 por R$ 42,98 (57% OFF)\n⭐ 4.8 • +6345 vendidos\n\n🔗 Link na bio → procure o achado nº 90\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 90,
+   "id": "54508095749",
+   "nome": "Fone de Ouvido Sem Fio PODSPRO 6 Estereo Com Cancelamento De Ruído Bluetooth Pop-Up para iOS E Android",
+   "preco": 42.98,
+   "preco_original": 99.95,
+   "desconto": 57,
+   "imagem": "https://cf.shopee.com.br/file/sg-11134201-82608-mmfzk1001czo45",
+   "link": "https://s.shopee.com.br/4qGVn0XVCS",
+   "categoria": "Outros"
+  },
   {
    "numero": 89,
    "id": "22794149442",
