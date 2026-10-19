@@ -1,5 +1,5 @@
 {
- "contador": 93,
+ "contador": 94,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -372,6 +372,10 @@
   "23893335036": {
    "data": "2026-10-18T21:55:05.480319-03:00",
    "numero": 93
+  },
+  "58266394932": {
+   "data": "2026-10-19T09:54:08.135252-03:00",
+   "numero": 94
   }
  },
  "precos": {
@@ -932,10 +936,45 @@
     "data": "2026-10-18T21:55:05.480308-03:00",
     "preco": 79.48
    }
+  ],
+  "58266394932": [
+   {
+    "data": "2026-10-19T09:54:08.135243-03:00",
+    "preco": 44.98
+   }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "58266394932",
+  "nome": "ROMANTIC CROWN Garrafa Térmica 800ml Aço Inox 304 com 2 Formas de Beber para Viagem e Esporte",
+  "preco": 44.98,
+  "preco_original": 99.96,
+  "desconto": 55,
+  "imagem": "https://cf.shopee.com.br/file/br-11134207-820m3-msxvdbpqj9c4e4",
+  "link": "https://s.shopee.com.br/9pfD9muEAF",
+  "link_produto": "https://shopee.com.br/product/1240652277/58266394932",
+  "vendas": 3542,
+  "nota": 5.0,
+  "loja": "Romantic Crown",
+  "palavra": "garrafa termica",
+  "categoria": "Cozinha",
+  "pontos": 151.62563173069037,
+  "numero": 94,
+  "legenda": "📡 O radar apitou!\n\n🛍️ ROMANTIC CROWN Garrafa Térmica 800ml Aço Inox 304 com 2 Formas de Beber para Viagem e…\n\n💸 De R$ 99,96 por R$ 44,98 (55% OFF)\n⭐ 5.0 • +3542 vendidos\n\n🔗 Link na bio → procure o achado nº 94\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 94,
+   "id": "58266394932",
+   "nome": "ROMANTIC CROWN Garrafa Térmica 800ml Aço Inox 304 com 2 Formas de Beber para Viagem e Esporte",
+   "preco": 44.98,
+   "preco_original": 99.96,
+   "desconto": 55,
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-820m3-msxvdbpqj9c4e4",
+   "link": "https://s.shopee.com.br/9pfD9muEAF",
+   "categoria": "Cozinha"
+  },
   {
    "numero": 93,
    "id": "23893335036",
