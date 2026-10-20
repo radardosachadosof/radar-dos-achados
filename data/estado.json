@@ -399,7 +399,11 @@
   },
   "22394329408": {
    "data": "2026-10-19T22:28:43.873372-03:00",
-   "numero": 100
+   "numero": 100,
+   "redes": {
+    "instagram": "17911321425310364",
+    "facebook": "1285421497997084_122112634707496709"
+   }
   }
  },
  "precos": {
@@ -1004,28 +1008,7 @@
    }
   ]
  },
- "pendente": {
-  "id": "22394329408",
-  "nome": "kit Tapete para Banheiro de Secagem Rápida e Super Absorvente Ideal para Chuveiro Cozinha e Varanda",
-  "preco": 12.99,
-  "preco_original": 30.21,
-  "desconto": 57,
-  "imagem": "https://cf.shopee.com.br/file/br-11134207-81z1k-mea7b2ise1oiab",
-  "link": "https://s.shopee.com.br/7AeSohmsl6",
-  "link_produto": "https://shopee.com.br/product/1357069533/22394329408",
-  "vendas": 4289,
-  "nota": 4.8,
-  "loja": "VIVALAR SHOP",
-  "palavra": "tapete banheiro",
-  "categoria": "Cozinha",
-  "pontos": 140.11872330108235,
-  "numero": 100,
-  "legenda": "🚨 Achado detectado no radar!\n\n🛍️ kit Tapete para Banheiro de Secagem Rápida e Super Absorvente Ideal para Chuveiro…\n\n💸 De R$ 30,21 por R$ 12,99 (57% OFF)\n⭐ 4.8 • +4289 vendidos\n\n🔗 Link na bio → procure o achado nº 100\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
-  "tentativas": 1,
-  "publicado": {
-   "instagram": "17911321425310364"
-  }
- },
+ "pendente": null,
  "ofertas": [
   {
    "numero": 100,
