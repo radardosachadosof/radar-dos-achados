@@ -1,5 +1,5 @@
 {
- "contador": 101,
+ "contador": 102,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -412,6 +412,10 @@
     "instagram": "18035294576902540",
     "facebook": "1285421497997084_122112859317496709"
    }
+  },
+  "58251614409": {
+   "data": "2026-10-20T12:43:38.758498-03:00",
+   "numero": 102
   }
  },
  "precos": {
@@ -1020,10 +1024,45 @@
     "data": "2026-10-20T09:54:28.238595-03:00",
     "preco": 55.71
    }
+  ],
+  "58251614409": [
+   {
+    "data": "2026-10-20T12:43:38.758487-03:00",
+    "preco": 34.98
+   }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "58251614409",
+  "nome": "ROMANTIC CROWN Copo Térmico Portátil 1200ml/600ml com Tampa e Canudo Garrafa Térmica Inoxidável À prova de vazamentos",
+  "preco": 34.98,
+  "preco_original": 69.96,
+  "desconto": 50,
+  "imagem": "https://cf.shopee.com.br/file/br-11134207-820l7-msdnnzmmtpfp25",
+  "link": "https://s.shopee.com.br/8AX0xFzfok",
+  "link_produto": "https://shopee.com.br/product/1240652277/58251614409",
+  "vendas": 4878,
+  "nota": 5.0,
+  "loja": "Romantic Crown",
+  "palavra": "garrafa termica",
+  "categoria": "Cozinha",
+  "pontos": 146.12435372983566,
+  "numero": 102,
+  "legenda": "💥 Oferta fresquinha!\n\n🛍️ ROMANTIC CROWN Copo Térmico Portátil 1200ml/600ml com Tampa e Canudo Garrafa Térmica…\n\n💸 De R$ 69,96 por R$ 34,98 (50% OFF)\n⭐ 5.0 • +4878 vendidos\n\n🔗 Link na bio → procure o achado nº 102\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 102,
+   "id": "58251614409",
+   "nome": "ROMANTIC CROWN Copo Térmico Portátil 1200ml/600ml com Tampa e Canudo Garrafa Térmica Inoxidável À prova de vazamentos",
+   "preco": 34.98,
+   "preco_original": 69.96,
+   "desconto": 50,
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-820l7-msdnnzmmtpfp25",
+   "link": "https://s.shopee.com.br/8AX0xFzfok",
+   "categoria": "Cozinha"
+  },
   {
    "numero": 101,
    "id": "23698853317",
