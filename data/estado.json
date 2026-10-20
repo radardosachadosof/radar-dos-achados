@@ -431,7 +431,11 @@
   },
   "58264684239": {
    "data": "2026-10-20T18:43:08.681526-03:00",
-   "numero": 104
+   "numero": 104,
+   "redes": {
+    "instagram": "18400209514202554",
+    "facebook": "1285421497997084_122113006407496709"
+   }
   }
  },
  "precos": {
@@ -1060,25 +1064,7 @@
    }
   ]
  },
- "pendente": {
-  "id": "58264684239",
-  "nome": "Kit Hidrabene Clareador Skincare Clareador Facial: Sabonete, Protetor 70 FPS e Sérum Multicorretivo",
-  "preco": 79.9,
-  "preco_original": 159.8,
-  "desconto": 50,
-  "imagem": "https://cf.shopee.com.br/file/br-11134207-820lx-mt45q21kcvt09d",
-  "link": "https://s.shopee.com.br/5VWGB2gweq",
-  "link_produto": "https://shopee.com.br/product/1860098702/58264684239",
-  "vendas": 21235,
-  "nota": 4.9,
-  "loja": "Hidrabene ",
-  "palavra": "skincare",
-  "categoria": "Beleza",
-  "pontos": 150.34821419345138,
-  "numero": 104,
-  "legenda": "✨ Achadinho do dia!\n\n🛍️ Kit Hidrabene Clareador Skincare Clareador Facial: Sabonete, Protetor 70 FPS e Sérum…\n\n💸 De R$ 159,80 por R$ 79,90 (50% OFF)\n⭐ 4.9 • +21235 vendidos\n\n🔗 Link na bio → procure o achado nº 104\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
-  "tentativas": 0
- },
+ "pendente": null,
  "ofertas": [
   {
    "numero": 104,
