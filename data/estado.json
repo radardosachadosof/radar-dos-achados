@@ -1,5 +1,5 @@
 {
- "contador": 98,
+ "contador": 99,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -392,6 +392,10 @@
   "23498554140": {
    "data": "2026-10-19T21:55:45.404745-03:00",
    "numero": 98
+  },
+  "58256962652": {
+   "data": "2026-10-19T22:14:55.639375-03:00",
+   "numero": 99
   }
  },
  "precos": {
@@ -982,10 +986,45 @@
     "data": "2026-10-19T21:55:45.404721-03:00",
     "preco": 14.0
    }
+  ],
+  "58256962652": [
+   {
+    "data": "2026-10-19T22:14:55.639364-03:00",
+    "preco": 94.48
+   }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "58256962652",
+  "nome": "Guarda Roupa Arara Roupeiro Grande Portatil Cabideiro Para Roupa Sapateira Organizador Multiuso Armário bom",
+  "preco": 94.48,
+  "preco_original": 304.77,
+  "desconto": 69,
+  "imagem": "https://cf.shopee.com.br/file/sg-11134201-7rasp-mad2osvuua9i28",
+  "link": "https://s.shopee.com.br/2BFmqZTgII",
+  "link_produto": "https://shopee.com.br/product/1397076460/58256962652",
+  "vendas": 1000,
+  "nota": 4.7,
+  "loja": "TOP&CASA",
+  "palavra": "organizador closet",
+  "categoria": "Outros",
+  "pontos": 159.80834657784246,
+  "numero": 99,
+  "legenda": "✨ Achadinho do dia!\n\n🛍️ Guarda Roupa Arara Roupeiro Grande Portatil Cabideiro Para Roupa Sapateira Organizador…\n\n💸 De R$ 304,77 por R$ 94,48 (69% OFF)\n⭐ 4.7 • +1000 vendidos\n\n🔗 Link na bio → procure o achado nº 99\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 99,
+   "id": "58256962652",
+   "nome": "Guarda Roupa Arara Roupeiro Grande Portatil Cabideiro Para Roupa Sapateira Organizador Multiuso Armário bom",
+   "preco": 94.48,
+   "preco_original": 304.77,
+   "desconto": 69,
+   "imagem": "https://cf.shopee.com.br/file/sg-11134201-7rasp-mad2osvuua9i28",
+   "link": "https://s.shopee.com.br/2BFmqZTgII",
+   "categoria": "Outros"
+  },
   {
    "numero": 98,
    "id": "23498554140",
