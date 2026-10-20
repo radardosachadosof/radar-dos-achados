@@ -1,5 +1,5 @@
 {
- "contador": 102,
+ "contador": 103,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -420,6 +420,10 @@
     "instagram": "18134581060578117",
     "facebook": "1285421497997084_122112910317496709"
    }
+  },
+  "47305656878": {
+   "data": "2026-10-20T15:49:30.916929-03:00",
+   "numero": 103
   }
  },
  "precos": {
@@ -1034,10 +1038,45 @@
     "data": "2026-10-20T12:43:38.758487-03:00",
     "preco": 34.98
    }
+  ],
+  "47305656878": [
+   {
+    "data": "2026-10-20T15:49:30.916919-03:00",
+    "preco": 22.89
+   }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "47305656878",
+  "nome": "Espelho Redondo Decorativo Adnet Alça Couro Suporte 60cm Sala Quarto Banheiro",
+  "preco": 22.89,
+  "preco_original": 53.23,
+  "desconto": 57,
+  "imagem": "https://cf.shopee.com.br/file/br-11134201-820lq-mqyg6ce1lb0k87",
+  "link": "https://s.shopee.com.br/3g4bPMi8aP",
+  "link_produto": "https://shopee.com.br/product/729422210/47305656878",
+  "vendas": 4257,
+  "nota": 4.8,
+  "loja": "Eddias Home",
+  "palavra": "decoracao quarto",
+  "categoria": "Outros",
+  "pontos": 149.44828435218164,
+  "numero": 103,
+  "legenda": "🔥 Tá barato demais pra deixar passar!\n\n🛍️ Espelho Redondo Decorativo Adnet Alça Couro Suporte 60cm Sala Quarto Banheiro\n\n💸 De R$ 53,23 por R$ 22,89 (57% OFF)\n⭐ 4.8 • +4257 vendidos\n\n🔗 Link na bio → procure o achado nº 103\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 103,
+   "id": "47305656878",
+   "nome": "Espelho Redondo Decorativo Adnet Alça Couro Suporte 60cm Sala Quarto Banheiro",
+   "preco": 22.89,
+   "preco_original": 53.23,
+   "desconto": 57,
+   "imagem": "https://cf.shopee.com.br/file/br-11134201-820lq-mqyg6ce1lb0k87",
+   "link": "https://s.shopee.com.br/3g4bPMi8aP",
+   "categoria": "Outros"
+  },
   {
    "numero": 102,
    "id": "58251614409",
