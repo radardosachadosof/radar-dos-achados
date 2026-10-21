@@ -1,5 +1,5 @@
 {
- "contador": 108,
+ "contador": 109,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -468,6 +468,10 @@
     "instagram": "18111543458178001",
     "facebook": "1285421497997084_122113343829496709"
    }
+  },
+  "58208866676": {
+   "data": "2026-10-21T18:44:50.960652-03:00",
+   "numero": 109
   }
  },
  "precos": {
@@ -1118,10 +1122,45 @@
     "data": "2026-10-21T15:50:36.115739-03:00",
     "preco": 31.99
    }
+  ],
+  "58208866676": [
+   {
+    "data": "2026-10-21T18:44:50.960637-03:00",
+    "preco": 24.98
+   }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "58208866676",
+  "nome": "Kit 2 Bolsa Necessaire Feminino Cosmético De Couro PU De Grande Capacidade Em Alto Qualidade",
+  "preco": 24.98,
+  "preco_original": 59.48,
+  "desconto": 58,
+  "imagem": "https://cf.shopee.com.br/file/sg-11134201-81zwu-mn2909rquneq8a",
+  "link": "https://s.shopee.com.br/qkSDTZqlg",
+  "link_produto": "https://shopee.com.br/product/1439190466/58208866676",
+  "vendas": 1187,
+  "nota": 4.8,
+  "loja": "WISH BOLSAS",
+  "palavra": "necessaire",
+  "categoria": "Beleza",
+  "pontos": 147.81417888805592,
+  "numero": 109,
+  "legenda": "🔥 Tá barato demais pra deixar passar!\n\n🛍️ Kit 2 Bolsa Necessaire Feminino Cosmético De Couro PU De Grande Capacidade Em Alto…\n\n💸 De R$ 59,48 por R$ 24,98 (58% OFF)\n⭐ 4.8 • +1187 vendidos\n\n🔗 Link na bio → procure o achado nº 109\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 109,
+   "id": "58208866676",
+   "nome": "Kit 2 Bolsa Necessaire Feminino Cosmético De Couro PU De Grande Capacidade Em Alto Qualidade",
+   "preco": 24.98,
+   "preco_original": 59.48,
+   "desconto": 58,
+   "imagem": "https://cf.shopee.com.br/file/sg-11134201-81zwu-mn2909rquneq8a",
+   "link": "https://s.shopee.com.br/qkSDTZqlg",
+   "categoria": "Beleza"
+  },
   {
    "numero": 108,
    "id": "58201876118",
