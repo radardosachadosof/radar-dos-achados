@@ -463,7 +463,11 @@
   },
   "58201876118": {
    "data": "2026-10-21T15:50:36.115752-03:00",
-   "numero": 108
+   "numero": 108,
+   "redes": {
+    "instagram": "18111543458178001",
+    "facebook": "1285421497997084_122113343829496709"
+   }
   }
  },
  "precos": {
@@ -1116,25 +1120,7 @@
    }
   ]
  },
- "pendente": {
-  "id": "58201876118",
-  "nome": "Kit 4 Capas Almofada 40x40 Suede Luxo Zíper Invisível Decoração Sala Sofá Quarto Enxoval",
-  "preco": 31.99,
-  "preco_original": 71.09,
-  "desconto": 55,
-  "imagem": "https://cf.shopee.com.br/file/br-11134207-820lj-mruhornqtu6d89",
-  "link": "https://s.shopee.com.br/qkS1VaOkT",
-  "link_produto": "https://shopee.com.br/product/1398321074/58201876118",
-  "vendas": 3337,
-  "nota": 4.9,
-  "loja": "Bassi Casa & Decoração",
-  "palavra": "decoracao quarto",
-  "categoria": "Outros",
-  "pontos": 143.59216387606676,
-  "numero": 108,
-  "legenda": "📡 O radar apitou!\n\n🛍️ Kit 4 Capas Almofada 40x40 Suede Luxo Zíper Invisível Decoração Sala Sofá Quarto Enxoval\n\n💸 De R$ 71,09 por R$ 31,99 (55% OFF)\n⭐ 4.9 • +3337 vendidos\n\n🔗 Link na bio → procure o achado nº 108\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
-  "tentativas": 0
- },
+ "pendente": null,
  "ofertas": [
   {
    "numero": 108,
