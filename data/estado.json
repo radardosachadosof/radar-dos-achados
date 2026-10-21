@@ -439,7 +439,11 @@
   },
   "23398001932": {
    "data": "2026-10-20T21:55:09.111255-03:00",
-   "numero": 105
+   "numero": 105,
+   "redes": {
+    "instagram": "18017371295745334",
+    "facebook": "1285421497997084_122113047663496709"
+   }
   }
  },
  "precos": {
@@ -1074,25 +1078,7 @@
    }
   ]
  },
- "pendente": {
-  "id": "23398001932",
-  "nome": "Smart Luminária Inteligente Ultra LED com sensor de movimento sem fio e Recarregável USB fino barra 10/20/30/50c",
-  "preco": 13.9,
-  "preco_original": 46.33,
-  "desconto": 70,
-  "imagem": "https://cf.shopee.com.br/file/sg-11134201-7repr-m24r47jru31z5c",
-  "link": "https://s.shopee.com.br/7VHKlu4DfL",
-  "link_produto": "https://shopee.com.br/product/1137412789/23398001932",
-  "vendas": 1943,
-  "nota": 4.8,
-  "loja": "Abelume Store",
-  "palavra": "luminaria led",
-  "categoria": "Outros",
-  "pontos": 165.73761390655264,
-  "numero": 105,
-  "legenda": "👀 Olha o que o radar encontrou:\n\n🛍️ Smart Luminária Inteligente Ultra LED com sensor de movimento sem fio e Recarregável USB…\n\n💸 De R$ 46,33 por R$ 13,90 (70% OFF)\n⭐ 4.8 • +1943 vendidos\n\n🔗 Link na bio → procure o achado nº 105\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
-  "tentativas": 0
- },
+ "pendente": null,
  "ofertas": [
   {
    "numero": 105,
