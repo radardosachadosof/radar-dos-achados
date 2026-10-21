@@ -1,5 +1,5 @@
 {
- "contador": 107,
+ "contador": 108,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -460,6 +460,10 @@
     "instagram": "18118712872965331",
     "facebook": "1285421497997084_122113289007496709"
    }
+  },
+  "58201876118": {
+   "data": "2026-10-21T15:50:36.115752-03:00",
+   "numero": 108
   }
  },
  "precos": {
@@ -1104,10 +1108,45 @@
     "data": "2026-10-21T12:46:48.851629-03:00",
     "preco": 13.01
    }
+  ],
+  "58201876118": [
+   {
+    "data": "2026-10-21T15:50:36.115739-03:00",
+    "preco": 31.99
+   }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "58201876118",
+  "nome": "Kit 4 Capas Almofada 40x40 Suede Luxo Zíper Invisível Decoração Sala Sofá Quarto Enxoval",
+  "preco": 31.99,
+  "preco_original": 71.09,
+  "desconto": 55,
+  "imagem": "https://cf.shopee.com.br/file/br-11134207-820lj-mruhornqtu6d89",
+  "link": "https://s.shopee.com.br/qkS1VaOkT",
+  "link_produto": "https://shopee.com.br/product/1398321074/58201876118",
+  "vendas": 3337,
+  "nota": 4.9,
+  "loja": "Bassi Casa & Decoração",
+  "palavra": "decoracao quarto",
+  "categoria": "Outros",
+  "pontos": 143.59216387606676,
+  "numero": 108,
+  "legenda": "📡 O radar apitou!\n\n🛍️ Kit 4 Capas Almofada 40x40 Suede Luxo Zíper Invisível Decoração Sala Sofá Quarto Enxoval\n\n💸 De R$ 71,09 por R$ 31,99 (55% OFF)\n⭐ 4.9 • +3337 vendidos\n\n🔗 Link na bio → procure o achado nº 108\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 108,
+   "id": "58201876118",
+   "nome": "Kit 4 Capas Almofada 40x40 Suede Luxo Zíper Invisível Decoração Sala Sofá Quarto Enxoval",
+   "preco": 31.99,
+   "preco_original": 71.09,
+   "desconto": 55,
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-820lj-mruhornqtu6d89",
+   "link": "https://s.shopee.com.br/qkS1VaOkT",
+   "categoria": "Outros"
+  },
   {
    "numero": 107,
    "id": "23592798319",
