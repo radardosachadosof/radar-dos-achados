@@ -1,5 +1,5 @@
 {
- "contador": 110,
+ "contador": 111,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -484,6 +484,10 @@
     "instagram": "18192409432395285",
     "facebook": "1285421497997084_122113436001496709"
    }
+  },
+  "58208889792": {
+   "data": "2026-10-22T09:53:28.300184-03:00",
+   "numero": 111
   }
  },
  "precos": {
@@ -1146,10 +1150,45 @@
     "data": "2026-10-21T21:54:43.086829-03:00",
     "preco": 24.98
    }
+  ],
+  "58208889792": [
+   {
+    "data": "2026-10-22T09:53:28.300172-03:00",
+    "preco": 40.99
+   }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "58208889792",
+  "nome": "Fone de Ouvido Bluetooth 5.0 Sem Fio Headset Bateria de Longa Duração Fone Corrida Academia",
+  "preco": 40.99,
+  "preco_original": 80.37,
+  "desconto": 49,
+  "imagem": "https://cf.shopee.com.br/file/br-11134207-820lw-mozd89yz0xdx96",
+  "link": "https://s.shopee.com.br/3LRoCSuhPO",
+  "link_produto": "https://shopee.com.br/product/1541280136/58208889792",
+  "vendas": 11077,
+  "nota": 4.9,
+  "loja": "Escolha Simples",
+  "palavra": "fone bluetooth",
+  "categoria": "Outros",
+  "pontos": 143.35825582623966,
+  "numero": 111,
+  "legenda": "👀 Olha o que o radar encontrou:\n\n🛍️ Fone de Ouvido Bluetooth 5.0 Sem Fio Headset Bateria de Longa Duração Fone Corrida…\n\n💸 De R$ 80,37 por R$ 40,99 (49% OFF)\n⭐ 4.9 • +11077 vendidos\n\n🔗 Link na bio → procure o achado nº 111\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 111,
+   "id": "58208889792",
+   "nome": "Fone de Ouvido Bluetooth 5.0 Sem Fio Headset Bateria de Longa Duração Fone Corrida Academia",
+   "preco": 40.99,
+   "preco_original": 80.37,
+   "desconto": 49,
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-820lw-mozd89yz0xdx96",
+   "link": "https://s.shopee.com.br/3LRoCSuhPO",
+   "categoria": "Outros"
+  },
   {
    "numero": 110,
    "id": "23993565028",
