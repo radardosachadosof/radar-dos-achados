@@ -479,7 +479,11 @@
   },
   "23993565028": {
    "data": "2026-10-21T21:54:43.086841-03:00",
-   "numero": 110
+   "numero": 110,
+   "redes": {
+    "instagram": "18192409432395285",
+    "facebook": "1285421497997084_122113436001496709"
+   }
   }
  },
  "precos": {
@@ -1144,25 +1148,7 @@
    }
   ]
  },
- "pendente": {
-  "id": "23993565028",
-  "nome": "Suporte Celular Carro Veicular Trava Automática anti queda",
-  "preco": 24.98,
-  "preco_original": 49.96,
-  "desconto": 50,
-  "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-m3m7hftjtxp779",
-  "link": "https://s.shopee.com.br/6L5OycedYJ",
-  "link_produto": "https://shopee.com.br/product/1384055377/23993565028",
-  "vendas": 4150,
-  "nota": 4.9,
-  "loja": "vida vida lenta",
-  "palavra": "suporte celular",
-  "categoria": "Outros",
-  "pontos": 141.9386557802184,
-  "numero": 110,
-  "legenda": "💥 Oferta fresquinha!\n\n🛍️ Suporte Celular Carro Veicular Trava Automática anti queda\n\n💸 De R$ 49,96 por R$ 24,98 (50% OFF)\n⭐ 4.9 • +4150 vendidos\n\n🔗 Link na bio → procure o achado nº 110\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
-  "tentativas": 0
- },
+ "pendente": null,
  "ofertas": [
   {
    "numero": 110,
