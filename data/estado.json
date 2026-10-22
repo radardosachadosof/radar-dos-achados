@@ -503,7 +503,11 @@
   },
   "20699665137": {
    "data": "2026-10-22T15:50:26.669563-03:00",
-   "numero": 113
+   "numero": 113,
+   "redes": {
+    "instagram": "18232440688325627",
+    "facebook": "1285421497997084_122113734771496709"
+   }
   }
  },
  "precos": {
@@ -1186,25 +1190,7 @@
    }
   ]
  },
- "pendente": {
-  "id": "20699665137",
-  "nome": "Fogão Elétrico Portátil 2 Bocas Ou 1 Boca Cooktop Mesa Inox com Controle de Temperatura 1000W/2000W",
-  "preco": 54.2,
-  "preco_original": 112.92,
-  "desconto": 52,
-  "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-m7kuebzlo68k1f",
-  "link": "https://s.shopee.com.br/5VWJAxk54k",
-  "link_produto": "https://shopee.com.br/product/561955327/20699665137",
-  "vendas": 4805,
-  "nota": 4.9,
-  "loja": "Mamoeiro_SP",
-  "palavra": "utensilios cozinha",
-  "categoria": "Cozinha",
-  "pontos": 145.28727087076993,
-  "numero": 113,
-  "legenda": "✨ Achadinho do dia!\n\n🛍️ Fogão Elétrico Portátil 2 Bocas Ou 1 Boca Cooktop Mesa Inox com Controle de Temperatura…\n\n💸 De R$ 112,92 por R$ 54,20 (52% OFF)\n⭐ 4.9 • +4805 vendidos\n\n🔗 Link na bio → procure o achado nº 113\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
-  "tentativas": 0
- },
+ "pendente": null,
  "ofertas": [
   {
    "numero": 113,
