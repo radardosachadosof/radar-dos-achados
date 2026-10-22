@@ -495,7 +495,11 @@
   },
   "22193589524": {
    "data": "2026-10-22T12:44:57.811585-03:00",
-   "numero": 112
+   "numero": 112,
+   "redes": {
+    "instagram": "17912065464514769",
+    "facebook": "1285421497997084_122113687125496709"
+   }
   }
  },
  "precos": {
@@ -1172,25 +1176,7 @@
    }
   ]
  },
- "pendente": {
-  "id": "22193589524",
-  "nome": "Papel de Parede Adesivo Mármore Branco com Detalhes Dourados 5m x 45cm Lavável para Sala, Quarto e Cozinha",
-  "preco": 17.99,
-  "preco_original": 58.03,
-  "desconto": 69,
-  "imagem": "https://cf.shopee.com.br/file/br-11134207-820ll-mows9pfly96u98",
-  "link": "https://s.shopee.com.br/3VlEaYFpD5",
-  "link_produto": "https://shopee.com.br/product/1416421976/22193589524",
-  "vendas": 2744,
-  "nota": 4.8,
-  "loja": "Papel de Parede - Shop",
-  "palavra": "decoracao quarto",
-  "categoria": "Cozinha",
-  "pontos": 163.60222478649615,
-  "numero": 112,
-  "legenda": "📡 O radar apitou!\n\n🛍️ Papel de Parede Adesivo Mármore Branco com Detalhes Dourados 5m x 45cm Lavável para…\n\n💸 De R$ 58,03 por R$ 17,99 (69% OFF)\n⭐ 4.8 • +2744 vendidos\n\n🔗 Link na bio → procure o achado nº 112\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
-  "tentativas": 0
- },
+ "pendente": null,
  "ofertas": [
   {
    "numero": 112,
