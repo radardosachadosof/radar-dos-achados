@@ -1,5 +1,5 @@
 {
- "contador": 113,
+ "contador": 114,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -508,6 +508,10 @@
     "instagram": "18232440688325627",
     "facebook": "1285421497997084_122113734771496709"
    }
+  },
+  "22397353238": {
+   "data": "2026-10-22T18:41:41.282849-03:00",
+   "numero": 114
   }
  },
  "precos": {
@@ -1188,10 +1192,45 @@
     "data": "2026-10-22T15:50:26.669552-03:00",
     "preco": 54.2
    }
+  ],
+  "22397353238": [
+   {
+    "data": "2026-10-22T18:41:41.282836-03:00",
+    "preco": 13.98
+   }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "22397353238",
+  "nome": "Kit 5 Suporte Organizador de Vassoura Rodo Mop Utensílios de Parede Gancho Multiuso Adesivo Cozinha",
+  "preco": 13.98,
+  "preco_original": 39.94,
+  "desconto": 65,
+  "imagem": "https://cf.shopee.com.br/file/sg-11134201-825ao-mtvyz2337if8c6",
+  "link": "https://s.shopee.com.br/7VHNLtwKqg",
+  "link_produto": "https://shopee.com.br/product/1007375842/22397353238",
+  "vendas": 2722,
+  "nota": 4.7,
+  "loja": "1000 Coisas Variedades",
+  "palavra": "organizador cozinha",
+  "categoria": "Cozinha",
+  "pontos": 157.19230119796768,
+  "numero": 114,
+  "legenda": "💥 Oferta fresquinha!\n\n🛍️ Kit 5 Suporte Organizador de Vassoura Rodo Mop Utensílios de Parede Gancho Multiuso…\n\n💸 De R$ 39,94 por R$ 13,98 (65% OFF)\n⭐ 4.7 • +2722 vendidos\n\n🔗 Link na bio → procure o achado nº 114\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 114,
+   "id": "22397353238",
+   "nome": "Kit 5 Suporte Organizador de Vassoura Rodo Mop Utensílios de Parede Gancho Multiuso Adesivo Cozinha",
+   "preco": 13.98,
+   "preco_original": 39.94,
+   "desconto": 65,
+   "imagem": "https://cf.shopee.com.br/file/sg-11134201-825ao-mtvyz2337if8c6",
+   "link": "https://s.shopee.com.br/7VHNLtwKqg",
+   "categoria": "Cozinha"
+  },
   {
    "numero": 113,
    "id": "20699665137",
