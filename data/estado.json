@@ -1,5 +1,5 @@
 {
- "contador": 118,
+ "contador": 119,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -548,6 +548,10 @@
     "instagram": "17942073687388577",
     "facebook": "1285421497997084_122114139759496709"
    }
+  },
+  "18799902700": {
+   "data": "2026-10-23T18:42:09.136869-03:00",
+   "numero": 119
   }
  },
  "precos": {
@@ -1258,10 +1262,45 @@
     "data": "2026-10-23T15:50:57.339647-03:00",
     "preco": 17.9
    }
+  ],
+  "18799902700": [
+   {
+    "data": "2026-10-23T18:42:09.136857-03:00",
+    "preco": 18.99
+   }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "18799902700",
+  "nome": "Fone P47 Headphone Sem Fio Estéreo Redução de Ruídos Bluetooth 5.0 Universal mais",
+  "preco": 18.99,
+  "preco_original": 51.32,
+  "desconto": 63,
+  "imagem": "https://cf.shopee.com.br/file/sg-11134201-825ai-mfy5gw591n2k52",
+  "link": "https://s.shopee.com.br/6VOs9U6TCz",
+  "link_produto": "https://shopee.com.br/product/1607577276/18799902700",
+  "vendas": 3164,
+  "nota": 4.8,
+  "loja": "MaisClickStore",
+  "palavra": "fone bluetooth",
+  "categoria": "Outros",
+  "pontos": 158.24421358180035,
+  "numero": 119,
+  "legenda": "🚨 Achado detectado no radar!\n\n🛍️ Fone P47 Headphone Sem Fio Estéreo Redução de Ruídos Bluetooth 5.0 Universal mais\n\n💸 De R$ 51,32 por R$ 18,99 (63% OFF)\n⭐ 4.8 • +3164 vendidos\n\n🔗 Link na bio → procure o achado nº 119\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 119,
+   "id": "18799902700",
+   "nome": "Fone P47 Headphone Sem Fio Estéreo Redução de Ruídos Bluetooth 5.0 Universal mais",
+   "preco": 18.99,
+   "preco_original": 51.32,
+   "desconto": 63,
+   "imagem": "https://cf.shopee.com.br/file/sg-11134201-825ai-mfy5gw591n2k52",
+   "link": "https://s.shopee.com.br/6VOs9U6TCz",
+   "categoria": "Outros"
+  },
   {
    "numero": 118,
    "id": "22198862853",
