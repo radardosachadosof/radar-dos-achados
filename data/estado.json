@@ -1,5 +1,5 @@
 {
- "contador": 117,
+ "contador": 118,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -540,6 +540,10 @@
     "instagram": "18340654123257961",
     "facebook": "1285421497997084_122114078277496709"
    }
+  },
+  "22198862853": {
+   "data": "2026-10-23T15:50:57.339671-03:00",
+   "numero": 118
   }
  },
  "precos": {
@@ -1244,10 +1248,45 @@
     "data": "2026-10-23T12:48:02.499586-03:00",
     "preco": 10.99
    }
+  ],
+  "22198862853": [
+   {
+    "data": "2026-10-23T15:50:57.339647-03:00",
+    "preco": 17.9
+   }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "22198862853",
+  "nome": "Kit 2 Suportes Organizador Cozinha Banheiro Plástico Com Adesivo FACE(Enviar imediatamente)",
+  "preco": 17.9,
+  "preco_original": 49.72,
+  "desconto": 64,
+  "imagem": "https://cf.shopee.com.br/file/sg-11134201-7rdw7-mdrrchgcmqjo12",
+  "link": "https://s.shopee.com.br/50a4AyKoQY",
+  "link_produto": "https://shopee.com.br/product/1208992205/22198862853",
+  "vendas": 3005,
+  "nota": 4.7,
+  "loja": "lavvi shop",
+  "palavra": "organizador cozinha",
+  "categoria": "Cozinha",
+  "pontos": 156.99668848018396,
+  "numero": 118,
+  "legenda": "🔥 Tá barato demais pra deixar passar!\n\n🛍️ Kit 2 Suportes Organizador Cozinha Banheiro Plástico Com Adesivo FACE(Enviar…\n\n💸 De R$ 49,72 por R$ 17,90 (64% OFF)\n⭐ 4.7 • +3005 vendidos\n\n🔗 Link na bio → procure o achado nº 118\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 118,
+   "id": "22198862853",
+   "nome": "Kit 2 Suportes Organizador Cozinha Banheiro Plástico Com Adesivo FACE(Enviar imediatamente)",
+   "preco": 17.9,
+   "preco_original": 49.72,
+   "desconto": 64,
+   "imagem": "https://cf.shopee.com.br/file/sg-11134201-7rdw7-mdrrchgcmqjo12",
+   "link": "https://s.shopee.com.br/50a4AyKoQY",
+   "categoria": "Cozinha"
+  },
   {
    "numero": 117,
    "id": "58267169995",
