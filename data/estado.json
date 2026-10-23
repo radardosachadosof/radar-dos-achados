@@ -535,7 +535,11 @@
   },
   "58267169995": {
    "data": "2026-10-23T12:48:02.499596-03:00",
-   "numero": 117
+   "numero": 117,
+   "redes": {
+    "instagram": "18340654123257961",
+    "facebook": "1285421497997084_122114078277496709"
+   }
   }
  },
  "precos": {
@@ -1242,25 +1246,7 @@
    }
   ]
  },
- "pendente": {
-  "id": "58267169995",
-  "nome": "Melu by Ruby Rose HB-8104 Fashion Light Coverage Liquid Concealer Corretivo Líquido de Cobertura Leve",
-  "preco": 10.99,
-  "preco_original": 33.3,
-  "desconto": 67,
-  "imagem": "https://cf.shopee.com.br/file/br-11134207-820ld-msfwomi31ptx00",
-  "link": "https://s.shopee.com.br/6L5RYrHxmQ",
-  "link_produto": "https://shopee.com.br/product/1788155528/58267169995",
-  "vendas": 2987,
-  "nota": 4.9,
-  "loja": "Glow Charme Shop",
-  "palavra": "maquiagem",
-  "categoria": "Beleza",
-  "pontos": 166.71470796171968,
-  "numero": 117,
-  "legenda": "✨ Achadinho do dia!\n\n🛍️ Melu by Ruby Rose HB-8104 Fashion Light Coverage Liquid Concealer Corretivo Líquido de…\n\n💸 De R$ 33,30 por R$ 10,99 (67% OFF)\n⭐ 4.9 • +2987 vendidos\n\n🔗 Link na bio → procure o achado nº 117\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
-  "tentativas": 0
- },
+ "pendente": null,
  "ofertas": [
   {
    "numero": 117,
