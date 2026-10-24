@@ -591,7 +591,11 @@
   },
   "23594449816": {
    "data": "2026-10-24T18:40:30.525232-03:00",
-   "numero": 124
+   "numero": 124,
+   "redes": {
+    "instagram": "18348184699287395",
+    "facebook": "1285421497997084_122114604447496709"
+   }
   }
  },
  "precos": {
@@ -1340,25 +1344,7 @@
    }
   ]
  },
- "pendente": {
-  "id": "23594449816",
-  "nome": "Garrafa térmica 550ML/650ML de aço inoxidável de alta qualidade com alça canudo",
-  "preco": 33.33,
-  "preco_original": 101.0,
-  "desconto": 67,
-  "imagem": "https://cf.shopee.com.br/file/br-11134207-81z1k-mfaf9z0uatxi29",
-  "link": "https://s.shopee.com.br/AKbcJJ3wRl",
-  "link_produto": "https://shopee.com.br/product/1543643896/23594449816",
-  "vendas": 1608,
-  "nota": 4.9,
-  "loja": "REFÚGIO  shop",
-  "palavra": "garrafa termica",
-  "categoria": "Cozinha",
-  "pontos": 162.98286649063058,
-  "numero": 124,
-  "legenda": "👀 Olha o que o radar encontrou:\n\n🛍️ Garrafa térmica 550ML/650ML de aço inoxidável de alta qualidade com alça canudo\n\n💸 De R$ 101,00 por R$ 33,33 (67% OFF)\n⭐ 4.9 • +1608 vendidos\n\n🔗 Link na bio → procure o achado nº 124\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
-  "tentativas": 0
- },
+ "pendente": null,
  "ofertas": [
   {
    "numero": 124,
