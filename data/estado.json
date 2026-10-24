@@ -1,5 +1,5 @@
 {
- "contador": 122,
+ "contador": 123,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -580,6 +580,10 @@
     "instagram": "18045833561829471",
     "facebook": "1285421497997084_122114497137496709"
    }
+  },
+  "58216648204": {
+   "data": "2026-10-24T15:43:35.467372-03:00",
+   "numero": 123
   }
  },
  "precos": {
@@ -1314,10 +1318,45 @@
     "data": "2026-10-24T12:41:42.839563-03:00",
     "preco": 41.59
    }
+  ],
+  "58216648204": [
+   {
+    "data": "2026-10-24T15:43:35.467360-03:00",
+    "preco": 72.9
+   }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "58216648204",
+  "nome": "Estante Com Rodinhas Prateleira Organizadora Carrinho Multiuso Quarto Cozinha",
+  "preco": 72.9,
+  "preco_original": 197.03,
+  "desconto": 63,
+  "imagem": "https://cf.shopee.com.br/file/br-11134207-820mc-ms50cvatu32d4f",
+  "link": "https://s.shopee.com.br/5q9CksznzC",
+  "link_produto": "https://shopee.com.br/product/1794533612/58216648204",
+  "vendas": 2145,
+  "nota": 4.6,
+  "loja": "Famefran Comercio LTDA",
+  "palavra": "organizador cozinha",
+  "categoria": "Cozinha",
+  "pontos": 147.16215943670142,
+  "numero": 123,
+  "legenda": "💥 Oferta fresquinha!\n\n🛍️ Estante Com Rodinhas Prateleira Organizadora Carrinho Multiuso Quarto Cozinha\n\n💸 De R$ 197,03 por R$ 72,90 (63% OFF)\n⭐ 4.6 • +2145 vendidos\n\n🔗 Link na bio → procure o achado nº 123\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 123,
+   "id": "58216648204",
+   "nome": "Estante Com Rodinhas Prateleira Organizadora Carrinho Multiuso Quarto Cozinha",
+   "preco": 72.9,
+   "preco_original": 197.03,
+   "desconto": 63,
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-820mc-ms50cvatu32d4f",
+   "link": "https://s.shopee.com.br/5q9CksznzC",
+   "categoria": "Cozinha"
+  },
   {
    "numero": 122,
    "id": "58262904901",
