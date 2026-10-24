@@ -567,7 +567,11 @@
   },
   "58256512525": {
    "data": "2026-10-24T09:49:35.809840-03:00",
-   "numero": 121
+   "numero": 121,
+   "redes": {
+    "instagram": "18105015914632477",
+    "facebook": "1285421497997084_122114413713496709"
+   }
   }
  },
  "precos": {
@@ -1298,25 +1302,7 @@
    }
   ]
  },
- "pendente": {
-  "id": "58256512525",
-  "nome": "Mochila Masculina Preta Reforçada Impermeável Grande Capacidade para Trabalho Viagem Escola e Uso Diário",
-  "preco": 39.99,
-  "preco_original": 90.89,
-  "desconto": 56,
-  "imagem": "https://cf.shopee.com.br/file/br-11134207-820ls-mljxwss4qfbb8d",
-  "link": "https://s.shopee.com.br/6Am1ksCCvS",
-  "link_produto": "https://shopee.com.br/product/1658947107/58256512525",
-  "vendas": 3450,
-  "nota": 4.8,
-  "loja": "RON CHANG",
-  "palavra": "mochila",
-  "categoria": "Outros",
-  "pontos": 146.36796171181942,
-  "numero": 121,
-  "legenda": "🚨 Achado detectado no radar!\n\n🛍️ Mochila Masculina Preta Reforçada Impermeável Grande Capacidade para Trabalho Viagem…\n\n💸 De R$ 90,89 por R$ 39,99 (56% OFF)\n⭐ 4.8 • +3450 vendidos\n\n🔗 Link na bio → procure o achado nº 121\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
-  "tentativas": 0
- },
+ "pendente": null,
  "ofertas": [
   {
    "numero": 121,
