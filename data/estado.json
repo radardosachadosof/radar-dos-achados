@@ -559,7 +559,11 @@
   },
   "58254601572": {
    "data": "2026-10-23T21:59:56.058175-03:00",
-   "numero": 120
+   "numero": 120,
+   "redes": {
+    "instagram": "18080692298378298",
+    "facebook": "1285421497997084_122114220771496709"
+   }
   }
  },
  "precos": {
@@ -1284,25 +1288,7 @@
    }
   ]
  },
- "pendente": {
-  "id": "58254601572",
-  "nome": "Garrafa Modus Térmica 1000ml Aço Inoxidável Com Alça Paracord Garrafa Térmica Café",
-  "preco": 70.19,
-  "preco_original": 212.7,
-  "desconto": 67,
-  "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-m6ryvmadhah3fb",
-  "link": "https://s.shopee.com.br/6Am1ySArQz",
-  "link_produto": "https://shopee.com.br/product/1557539807/58254601572",
-  "vendas": 1962,
-  "nota": 5.0,
-  "loja": "NUVANTA MULTIVENDAS LTDA",
-  "palavra": "garrafa termica",
-  "categoria": "Cozinha",
-  "pontos": 158.14817399356005,
-  "numero": 120,
-  "legenda": "👀 Olha o que o radar encontrou:\n\n🛍️ Garrafa Modus Térmica 1000ml Aço Inoxidável Com Alça Paracord Garrafa Térmica Café\n\n💸 De R$ 212,70 por R$ 70,19 (67% OFF)\n⭐ 5.0 • +1962 vendidos\n\n🔗 Link na bio → procure o achado nº 120\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
-  "tentativas": 0
- },
+ "pendente": null,
  "ofertas": [
   {
    "numero": 120,
