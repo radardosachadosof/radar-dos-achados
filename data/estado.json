@@ -575,7 +575,11 @@
   },
   "58262904901": {
    "data": "2026-10-24T12:41:42.839574-03:00",
-   "numero": 122
+   "numero": 122,
+   "redes": {
+    "instagram": "18045833561829471",
+    "facebook": "1285421497997084_122114497137496709"
+   }
   }
  },
  "precos": {
@@ -1312,25 +1316,7 @@
    }
   ]
  },
- "pendente": {
-  "id": "58262904901",
-  "nome": "Ring Light 10 Polegadas 26cm com Tripé 2,10m Suporte para Celular 3 Tons de Luz USB para Lives Fotos e Vídeos",
-  "preco": 41.59,
-  "preco_original": 126.03,
-  "desconto": 67,
-  "imagem": "https://cf.shopee.com.br/file/br-11134207-820m5-mpsu08f1wp3471",
-  "link": "https://s.shopee.com.br/6L5T9JbyFx",
-  "link_produto": "https://shopee.com.br/product/656691713/58262904901",
-  "vendas": 2046,
-  "nota": 4.9,
-  "loja": "Hai.Store",
-  "palavra": "suporte celular",
-  "categoria": "Outros",
-  "pontos": 163.22414974045427,
-  "numero": 122,
-  "legenda": "🚨 Achado detectado no radar!\n\n🛍️ Ring Light 10 Polegadas 26cm com Tripé 2,10m Suporte para Celular 3 Tons de Luz USB para…\n\n💸 De R$ 126,03 por R$ 41,59 (67% OFF)\n⭐ 4.9 • +2046 vendidos\n\n🔗 Link na bio → procure o achado nº 122\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
-  "tentativas": 0
- },
+ "pendente": null,
  "ofertas": [
   {
    "numero": 122,
