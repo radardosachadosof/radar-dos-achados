@@ -623,7 +623,11 @@
   },
   "22194291430": {
    "data": "2026-10-25T15:44:25.323730-03:00",
-   "numero": 128
+   "numero": 128,
+   "redes": {
+    "instagram": "18495683668098278",
+    "facebook": "1285421497997084_122115032667496709"
+   }
   }
  },
  "precos": {
@@ -1396,25 +1400,7 @@
    }
   ]
  },
- "pendente": {
-  "id": "22194291430",
-  "nome": "Kit 50 Adesivos para Potes de Temperos e Mantimentos | Organização de Cozinha",
-  "preco": 11.9,
-  "preco_original": 24.79,
-  "desconto": 52,
-  "imagem": "https://cf.shopee.com.br/file/br-11134207-81zu6-ml55bhhz1ts446",
-  "link": "https://s.shopee.com.br/3VlJZXyZaH",
-  "link_produto": "https://shopee.com.br/product/1508492961/22194291430",
-  "vendas": 3066,
-  "nota": 4.9,
-  "loja": "JD Adesivos & Etiquetas",
-  "palavra": "organizador cozinha",
-  "categoria": "Cozinha",
-  "pontos": 144.35582399020083,
-  "numero": 128,
-  "legenda": "🚨 Achado detectado no radar!\n\n🛍️ Kit 50 Adesivos para Potes de Temperos e Mantimentos | Organização de Cozinha\n\n💸 De R$ 24,79 por R$ 11,90 (52% OFF)\n⭐ 4.9 • +3066 vendidos\n\n🔗 Link na bio → procure o achado nº 128\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
-  "tentativas": 0
- },
+ "pendente": null,
  "ofertas": [
   {
    "numero": 128,
