@@ -1,5 +1,5 @@
 {
- "contador": 128,
+ "contador": 129,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -628,6 +628,10 @@
     "instagram": "18495683668098278",
     "facebook": "1285421497997084_122115032667496709"
    }
+  },
+  "20199761671": {
+   "data": "2026-10-25T18:40:20.640717-03:00",
+   "numero": 129
   }
  },
  "precos": {
@@ -1398,10 +1402,45 @@
     "data": "2026-10-25T15:44:25.323721-03:00",
     "preco": 11.9
    }
+  ],
+  "20199761671": [
+   {
+    "data": "2026-10-25T18:40:20.640703-03:00",
+    "preco": 11.99
+   }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "20199761671",
+  "nome": "Saco Organizador para Cobertor Caixa Organizadora Casaco Guarda Roupa Grande Caixa de Roupas Anti-Poeira Umidade Armário",
+  "preco": 11.99,
+  "preco_original": 27.88,
+  "desconto": 57,
+  "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-manz5rg65pjj9c",
+  "link": "https://s.shopee.com.br/8AX9KChy79",
+  "link_produto": "https://shopee.com.br/product/1534910933/20199761671",
+  "vendas": 1248,
+  "nota": 4.9,
+  "loja": "NEXLYSHOPPING",
+  "palavra": "organizador closet",
+  "categoria": "Outros",
+  "pontos": 149.13282254603922,
+  "numero": 129,
+  "legenda": "🔥 Tá barato demais pra deixar passar!\n\n🛍️ Saco Organizador para Cobertor Caixa Organizadora Casaco Guarda Roupa Grande Caixa de…\n\n💸 De R$ 27,88 por R$ 11,99 (57% OFF)\n⭐ 4.9 • +1248 vendidos\n\n🔗 Link na bio → procure o achado nº 129\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 129,
+   "id": "20199761671",
+   "nome": "Saco Organizador para Cobertor Caixa Organizadora Casaco Guarda Roupa Grande Caixa de Roupas Anti-Poeira Umidade Armário",
+   "preco": 11.99,
+   "preco_original": 27.88,
+   "desconto": 57,
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-manz5rg65pjj9c",
+   "link": "https://s.shopee.com.br/8AX9KChy79",
+   "categoria": "Outros"
+  },
   {
    "numero": 128,
    "id": "22194291430",
