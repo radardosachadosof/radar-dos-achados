@@ -1,5 +1,5 @@
 {
- "contador": 124,
+ "contador": 125,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -596,6 +596,10 @@
     "instagram": "18348184699287395",
     "facebook": "1285421497997084_122114604447496709"
    }
+  },
+  "23994336380": {
+   "data": "2026-10-24T21:51:03.473093-03:00",
+   "numero": 125
   }
  },
  "precos": {
@@ -1342,10 +1346,45 @@
     "data": "2026-10-24T18:40:30.525219-03:00",
     "preco": 33.33
    }
+  ],
+  "23994336380": [
+   {
+    "data": "2026-10-24T21:51:03.473082-03:00",
+    "preco": 13.48
+   }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "23994336380",
+  "nome": "Suporte Organizador De Metal Rack De Parede Banheiro Cozinha Prateleiras Porta Shampoo",
+  "preco": 13.48,
+  "preco_original": 27.51,
+  "desconto": 51,
+  "imagem": "https://cf.shopee.com.br/file/sg-11134201-7rdwu-md3owfmt11dsa0",
+  "link": "https://s.shopee.com.br/9APf8FWgrI",
+  "link_produto": "https://shopee.com.br/product/1535794969/23994336380",
+  "vendas": 9489,
+  "nota": 4.8,
+  "loja": "Forte DMS Brasil",
+  "palavra": "organizador cozinha",
+  "categoria": "Cozinha",
+  "pontos": 145.57127804246386,
+  "numero": 125,
+  "legenda": "📡 O radar apitou!\n\n🛍️ Suporte Organizador De Metal Rack De Parede Banheiro Cozinha Prateleiras Porta Shampoo\n\n💸 De R$ 27,51 por R$ 13,48 (51% OFF)\n⭐ 4.8 • +9489 vendidos\n\n🔗 Link na bio → procure o achado nº 125\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 125,
+   "id": "23994336380",
+   "nome": "Suporte Organizador De Metal Rack De Parede Banheiro Cozinha Prateleiras Porta Shampoo",
+   "preco": 13.48,
+   "preco_original": 27.51,
+   "desconto": 51,
+   "imagem": "https://cf.shopee.com.br/file/sg-11134201-7rdwu-md3owfmt11dsa0",
+   "link": "https://s.shopee.com.br/9APf8FWgrI",
+   "categoria": "Cozinha"
+  },
   {
    "numero": 124,
    "id": "23594449816",
