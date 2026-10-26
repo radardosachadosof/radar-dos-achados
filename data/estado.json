@@ -1,5 +1,5 @@
 {
- "contador": 133,
+ "contador": 134,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -668,6 +668,10 @@
     "instagram": "18118392815050508",
     "facebook": "1285421497997084_122115409671496709"
    }
+  },
+  "21799492435": {
+   "data": "2026-10-26T18:43:01.538676-03:00",
+   "numero": 134
   }
  },
  "precos": {
@@ -1468,10 +1472,45 @@
     "data": "2026-10-26T15:57:29.152595-03:00",
     "preco": 19.94
    }
+  ],
+  "21799492435": [
+   {
+    "data": "2026-10-26T18:43:01.538664-03:00",
+    "preco": 14.0
+   }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "21799492435",
+  "nome": "Luminária Painel Plafon Led 12W 18W 24W Sobrepor Quadrado Redondo Branco Frio Quente Neutro",
+  "preco": 14.0,
+  "preco_original": 30.43,
+  "desconto": 54,
+  "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-m0t0j7cpbtsw0a",
+  "link": "https://s.shopee.com.br/1BTCGvFGH",
+  "link_produto": "https://shopee.com.br/product/751381461/21799492435",
+  "vendas": 3817,
+  "nota": 4.9,
+  "loja": "TEX COMERCIO VIRTUAL",
+  "palavra": "luminaria led",
+  "categoria": "Outros",
+  "pontos": 145.83931225484076,
+  "numero": 134,
+  "legenda": "✨ Achadinho do dia!\n\n🛍️ Luminária Painel Plafon Led 12W 18W 24W Sobrepor Quadrado Redondo Branco Frio Quente…\n\n💸 De R$ 30,43 por R$ 14,00 (54% OFF)\n⭐ 4.9 • +3817 vendidos\n\n🔗 Link na bio → procure o achado nº 134\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 134,
+   "id": "21799492435",
+   "nome": "Luminária Painel Plafon Led 12W 18W 24W Sobrepor Quadrado Redondo Branco Frio Quente Neutro",
+   "preco": 14.0,
+   "preco_original": 30.43,
+   "desconto": 54,
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-m0t0j7cpbtsw0a",
+   "link": "https://s.shopee.com.br/1BTCGvFGH",
+   "categoria": "Outros"
+  },
   {
    "numero": 133,
    "id": "22894378689",
