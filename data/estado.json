@@ -639,7 +639,11 @@
   },
   "58251395638": {
    "data": "2026-10-25T22:05:37.098792-03:00",
-   "numero": 130
+   "numero": 130,
+   "redes": {
+    "instagram": "17971480019960763",
+    "facebook": "1285421497997084_122115120021496709"
+   }
   }
  },
  "precos": {
@@ -1424,25 +1428,7 @@
    }
   ]
  },
- "pendente": {
-  "id": "58251395638",
-  "nome": "Bomba De Oxigênio/Ar Compressor Filtro USB Portátil Para Aquario De Peixes 12v Silencioso",
-  "preco": 16.87,
-  "preco_original": 49.62,
-  "desconto": 66,
-  "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-mdm0evm0kclt18",
-  "link": "https://s.shopee.com.br/9Kj6wRcFTc",
-  "link_produto": "https://shopee.com.br/product/1442187656/58251395638",
-  "vendas": 1511,
-  "nota": 4.9,
-  "loja": "Viva Lar_",
-  "palavra": "acessorios pet",
-  "categoria": "Pets",
-  "pontos": 158.92462375073154,
-  "numero": 130,
-  "legenda": "📡 O radar apitou!\n\n🛍️ Bomba De Oxigênio/Ar Compressor Filtro USB Portátil Para Aquario De Peixes 12v Silencioso\n\n💸 De R$ 49,62 por R$ 16,87 (66% OFF)\n⭐ 4.9 • +1511 vendidos\n\n🔗 Link na bio → procure o achado nº 130\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
-  "tentativas": 0
- },
+ "pendente": null,
  "ofertas": [
   {
    "numero": 130,
