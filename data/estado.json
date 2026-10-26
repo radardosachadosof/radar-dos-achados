@@ -647,7 +647,11 @@
   },
   "58217472320": {
    "data": "2026-10-26T11:53:55.977876-03:00",
-   "numero": 131
+   "numero": 131,
+   "redes": {
+    "instagram": "18092593523233071",
+    "facebook": "1285421497997084_122115339669496709"
+   }
   }
  },
  "precos": {
@@ -1438,25 +1442,7 @@
    }
   ]
  },
- "pendente": {
-  "id": "58217472320",
-  "nome": "Celular Infantil Telefone de Brinquedo Educativo Recarregável Interativo Musical para Bebês",
-  "preco": 45.0,
-  "preco_original": 100.0,
-  "desconto": 55,
-  "imagem": "https://cf.shopee.com.br/file/br-11134207-820li-msp8wh8q7oxy17",
-  "link": "https://s.shopee.com.br/2qVe7NfuzD",
-  "link_produto": "https://shopee.com.br/product/1784000566/58217472320",
-  "vendas": 2565,
-  "nota": 4.9,
-  "loja": "olavootoys",
-  "palavra": "brinquedo educativo",
-  "categoria": "Outros",
-  "pontos": 148.33840469101708,
-  "numero": 131,
-  "legenda": "📡 O radar apitou!\n\n🛍️ Celular Infantil Telefone de Brinquedo Educativo Recarregável Interativo Musical para…\n\n💸 De R$ 100,00 por R$ 45,00 (55% OFF)\n⭐ 4.9 • +2565 vendidos\n\n🔗 Link na bio → procure o achado nº 131\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
-  "tentativas": 0
- },
+ "pendente": null,
  "ofertas": [
   {
    "numero": 131,
