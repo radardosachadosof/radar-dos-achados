@@ -1,5 +1,5 @@
 {
- "contador": 130,
+ "contador": 131,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -644,6 +644,10 @@
     "instagram": "17971480019960763",
     "facebook": "1285421497997084_122115120021496709"
    }
+  },
+  "58217472320": {
+   "data": "2026-10-26T11:53:55.977876-03:00",
+   "numero": 131
   }
  },
  "precos": {
@@ -1426,10 +1430,45 @@
     "data": "2026-10-25T22:05:37.098781-03:00",
     "preco": 16.87
    }
+  ],
+  "58217472320": [
+   {
+    "data": "2026-10-26T11:53:55.977865-03:00",
+    "preco": 45.0
+   }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "58217472320",
+  "nome": "Celular Infantil Telefone de Brinquedo Educativo Recarregável Interativo Musical para Bebês",
+  "preco": 45.0,
+  "preco_original": 100.0,
+  "desconto": 55,
+  "imagem": "https://cf.shopee.com.br/file/br-11134207-820li-msp8wh8q7oxy17",
+  "link": "https://s.shopee.com.br/2qVe7NfuzD",
+  "link_produto": "https://shopee.com.br/product/1784000566/58217472320",
+  "vendas": 2565,
+  "nota": 4.9,
+  "loja": "olavootoys",
+  "palavra": "brinquedo educativo",
+  "categoria": "Outros",
+  "pontos": 148.33840469101708,
+  "numero": 131,
+  "legenda": "📡 O radar apitou!\n\n🛍️ Celular Infantil Telefone de Brinquedo Educativo Recarregável Interativo Musical para…\n\n💸 De R$ 100,00 por R$ 45,00 (55% OFF)\n⭐ 4.9 • +2565 vendidos\n\n🔗 Link na bio → procure o achado nº 131\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 131,
+   "id": "58217472320",
+   "nome": "Celular Infantil Telefone de Brinquedo Educativo Recarregável Interativo Musical para Bebês",
+   "preco": 45.0,
+   "preco_original": 100.0,
+   "desconto": 55,
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-820li-msp8wh8q7oxy17",
+   "link": "https://s.shopee.com.br/2qVe7NfuzD",
+   "categoria": "Outros"
+  },
   {
    "numero": 130,
    "id": "58251395638",
