@@ -1,5 +1,5 @@
 {
- "contador": 136,
+ "contador": 137,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -692,6 +692,10 @@
     "instagram": "17993362158065802",
     "facebook": "1285421497997084_122115658281496709"
    }
+  },
+  "22696241891": {
+   "data": "2026-10-27T12:54:39.663061-03:00",
+   "numero": 137
   }
  },
  "precos": {
@@ -1510,10 +1514,45 @@
     "data": "2026-10-27T09:55:57.641264-03:00",
     "preco": 50.9
    }
+  ],
+  "22696241891": [
+   {
+    "data": "2026-10-27T12:54:39.663046-03:00",
+    "preco": 11.07
+   }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "22696241891",
+  "nome": "ANA1108 Conjunto com 13 unidades Pincéis De Maquiagem Contorno Kabuki Profissional",
+  "preco": 11.07,
+  "preco_original": 27.68,
+  "desconto": 60,
+  "imagem": "https://cf.shopee.com.br/file/br-11134207-820lk-mmvxxzgnjh1g4c",
+  "link": "https://s.shopee.com.br/AUv6uXE8rc",
+  "link_produto": "https://shopee.com.br/product/418205294/22696241891",
+  "vendas": 3565,
+  "nota": 4.7,
+  "loja": "ANA 1108  Loja Oficial",
+  "palavra": "maquiagem",
+  "categoria": "Beleza",
+  "pontos": 151.49813859301537,
+  "numero": 137,
+  "legenda": "👀 Olha o que o radar encontrou:\n\n🛍️ ANA1108 Conjunto com 13 unidades Pincéis De Maquiagem Contorno Kabuki Profissional\n\n💸 De R$ 27,68 por R$ 11,07 (60% OFF)\n⭐ 4.7 • +3565 vendidos\n\n🔗 Link na bio → procure o achado nº 137\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 137,
+   "id": "22696241891",
+   "nome": "ANA1108 Conjunto com 13 unidades Pincéis De Maquiagem Contorno Kabuki Profissional",
+   "preco": 11.07,
+   "preco_original": 27.68,
+   "desconto": 60,
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-820lk-mmvxxzgnjh1g4c",
+   "link": "https://s.shopee.com.br/AUv6uXE8rc",
+   "categoria": "Beleza"
+  },
   {
    "numero": 136,
    "id": "58204613889",
