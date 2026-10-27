@@ -687,7 +687,11 @@
   },
   "58204613889": {
    "data": "2026-10-27T09:55:57.641276-03:00",
-   "numero": 136
+   "numero": 136,
+   "redes": {
+    "instagram": "17993362158065802",
+    "facebook": "1285421497997084_122115658281496709"
+   }
   }
  },
  "precos": {
@@ -1508,25 +1512,7 @@
    }
   ]
  },
- "pendente": {
-  "id": "58204613889",
-  "nome": "Ventilador de Teto LED 60W 80W 100W Lâmpada E27 Controle Remoto Bivolt Luminária ECO Bivolt",
-  "preco": 50.9,
-  "preco_original": 113.11,
-  "desconto": 55,
-  "imagem": "https://cf.shopee.com.br/file/br-11134207-81ztc-mkb2fclqknwj45",
-  "link": "https://s.shopee.com.br/2gCFNrliYn",
-  "link_produto": "https://shopee.com.br/product/1137412789/58204613889",
-  "vendas": 2021,
-  "nota": 4.9,
-  "loja": "Abelume Store",
-  "palavra": "luminaria led",
-  "categoria": "Outros",
-  "pontos": 147.2535807469082,
-  "numero": 136,
-  "legenda": "📡 O radar apitou!\n\n🛍️ Ventilador de Teto LED 60W 80W 100W Lâmpada E27 Controle Remoto Bivolt Luminária ECO…\n\n💸 De R$ 113,11 por R$ 50,90 (55% OFF)\n⭐ 4.9 • +2021 vendidos\n\n🔗 Link na bio → procure o achado nº 136\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
-  "tentativas": 0
- },
+ "pendente": null,
  "ofertas": [
   {
    "numero": 136,
