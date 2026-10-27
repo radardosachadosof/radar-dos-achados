@@ -679,7 +679,11 @@
   },
   "22092880647": {
    "data": "2026-10-26T21:58:12.045466-03:00",
-   "numero": 135
+   "numero": 135,
+   "redes": {
+    "instagram": "18072336263498816",
+    "facebook": "1285421497997084_122115481875496709"
+   }
   }
  },
  "precos": {
@@ -1494,25 +1498,7 @@
    }
   ]
  },
- "pendente": {
-  "id": "22092880647",
-  "nome": "Organizador De Cosmético Maquiagem Acrílico Giratório 360º",
-  "preco": 36.9,
-  "preco_original": 80.22,
-  "desconto": 54,
-  "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-lxerkni4ltxb84",
-  "link": "https://s.shopee.com.br/50a9MrS6qw",
-  "link_produto": "https://shopee.com.br/product/1083951020/22092880647",
-  "vendas": 4454,
-  "nota": 4.8,
-  "loja": "Fullshop.br",
-  "palavra": "maquiagem",
-  "categoria": "Beleza",
-  "pontos": 145.7418746280992,
-  "numero": 135,
-  "legenda": "👀 Olha o que o radar encontrou:\n\n🛍️ Organizador De Cosmético Maquiagem Acrílico Giratório 360º\n\n💸 De R$ 80,22 por R$ 36,90 (54% OFF)\n⭐ 4.8 • +4454 vendidos\n\n🔗 Link na bio → procure o achado nº 135\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
-  "tentativas": 0
- },
+ "pendente": null,
  "ofertas": [
   {
    "numero": 135,
