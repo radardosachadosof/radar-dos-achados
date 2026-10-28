@@ -130,3 +130,16 @@ Tudo que você pode ajustar está no `config.json`:
 | `Instagram (container)` com `OAuthException` | O token venceu ou está errado: gere de novo (Passo 4) |
 | `Instagram recusou a imagem` | Rode de novo. Às vezes a imagem ainda não estava pública; o sistema tenta até 3 vezes |
 | O workflow não aparece em *Actions* | A pasta `.github/workflows` não subiu (veja o Passo 1) |
+
+## Fila curada (planilha no Google Drive)
+
+Postagens extras escolhidas a dedo, além das automáticas. Tudo em `fila.py` e `.github/workflows/fila.yml`.
+
+- **Planilha:** "Fila curada - Radar dos Achados" (ID em `config.json` → `fila.planilha_id`). Uma linha por publicação (P001, P002...).
+- **Status:** aguardando textos → aguardando flow → pronto para editar → aguardando aprovação → **aprovado** → postado. Só "aprovado" é publicado; erros vão para a coluna `log_robo`.
+- **Horários:** 10h40 e 19h40 (Brasília). Se não houver item aprovado, não faz nada.
+- **Reel:** o vídeo do link em `peca_final` vai como Reel no Instagram e na Página do Facebook; uma imagem com "capa" no nome, na pasta do produto, vira a capa.
+- **Carrossel:** `peca_final` aponta para uma pasta com as imagens numeradas (1.jpg, 2.jpg...), de 2 a 10.
+- **Entregas do Claude:** arquivos colocados em `entregas/<ID>/` sobem sozinhos para a pasta do produto no Drive, e a linha vira "aguardando aprovação".
+- **Testar:** Actions → Fila curada → Run workflow → `verificar` (só lê a planilha e mostra o que faria).
+- **Secrets:** `GOOGLE_CLIENT_ID`, `GOOGLE_CLIENT_SECRET`, `GOOGLE_REFRESH_TOKEN` (app "Radar Robo" no Google Cloud, em produção), além dos do Facebook/Instagram.
