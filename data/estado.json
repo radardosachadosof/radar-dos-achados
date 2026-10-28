@@ -1,5 +1,5 @@
 {
- "contador": 140,
+ "contador": 141,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -724,6 +724,10 @@
     "instagram": "17878749963633382",
     "facebook": "1285421497997084_122115856647496709"
    }
+  },
+  "22399469469": {
+   "data": "2026-10-28T10:05:21.389158-03:00",
+   "numero": 141
   }
  },
  "precos": {
@@ -1566,10 +1570,45 @@
     "data": "2026-10-27T22:08:41.015726-03:00",
     "preco": 16.99
    }
+  ],
+  "22399469469": [
+   {
+    "data": "2026-10-28T10:05:21.389146-03:00",
+    "preco": 34.71
+   }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "22399469469",
+  "nome": "New Show Caixa De 800Cilios Tufos Sem Nó Tufinho 12P/20P/30P/40P/50P/0.07D9-14Mix Extensão de Cilios",
+  "preco": 34.71,
+  "preco_original": 59.84,
+  "desconto": 42,
+  "imagem": "https://cf.shopee.com.br/file/br-11134207-820l7-mnvonaclghz4df",
+  "link": "https://s.shopee.com.br/30p7O151nC",
+  "link_produto": "https://shopee.com.br/product/1430626556/22399469469",
+  "vendas": 6459,
+  "nota": 5.0,
+  "loja": "New Show Oficial",
+  "palavra": "maquiagem",
+  "categoria": "Beleza",
+  "pontos": 133.3306261066728,
+  "numero": 141,
+  "legenda": "💥 Oferta fresquinha!\n\n🛍️ New Show Caixa De 800Cilios Tufos Sem Nó Tufinho 12P/20P/30P/40P/50P/0.07D9-14Mix…\n\n💸 De R$ 59,84 por R$ 34,71 (42% OFF)\n⭐ 5.0 • +6459 vendidos\n\n🔗 Link na bio → procure o achado nº 141\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 141,
+   "id": "22399469469",
+   "nome": "New Show Caixa De 800Cilios Tufos Sem Nó Tufinho 12P/20P/30P/40P/50P/0.07D9-14Mix Extensão de Cilios",
+   "preco": 34.71,
+   "preco_original": 59.84,
+   "desconto": 42,
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-820l7-mnvonaclghz4df",
+   "link": "https://s.shopee.com.br/30p7O151nC",
+   "categoria": "Outros"
+  },
   {
    "numero": 140,
    "id": "23794353497",
