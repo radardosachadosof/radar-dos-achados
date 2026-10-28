@@ -137,7 +137,7 @@ Postagens extras escolhidas a dedo, além das automáticas. Tudo em `fila.py` e 
 
 - **Planilha:** "Fila curada - Radar dos Achados" (ID em `config.json` → `fila.planilha_id`). Uma linha por publicação (P001, P002...).
 - **Status:** aguardando textos → aguardando flow → pronto para editar → aguardando aprovação → **aprovado** → postado. Só "aprovado" é publicado; erros vão para a coluna `log_robo`.
-- **Horários:** 10h40 e 19h40 (Brasília). Se não houver item aprovado, não faz nada.
+- **Horário:** 19h40 (Brasília), uma vez por dia. Se não houver item aprovado, não faz nada.
 - **Reel:** o vídeo do link em `peca_final` vai como Reel no Instagram e na Página do Facebook; uma imagem com "capa" no nome, na pasta do produto, vira a capa.
 - **Carrossel:** `peca_final` aponta para uma pasta com as imagens numeradas (1.jpg, 2.jpg...), de 2 a 10.
 - **Entregas do Claude:** arquivos colocados em `entregas/<ID>/` sobem sozinhos para a pasta do produto no Drive, e a linha vira "aguardando aprovação".
