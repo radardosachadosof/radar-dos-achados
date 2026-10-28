@@ -1,5 +1,5 @@
 {
- "contador": 141,
+ "contador": 142,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -732,6 +732,10 @@
     "instagram": "18114950036130763",
     "facebook": "1285421497997084_122116025685496709"
    }
+  },
+  "23099236697": {
+   "data": "2026-10-28T12:59:38.431200-03:00",
+   "numero": 142
   }
  },
  "precos": {
@@ -1580,10 +1584,45 @@
     "data": "2026-10-28T10:05:21.389146-03:00",
     "preco": 34.71
    }
+  ],
+  "23099236697": [
+   {
+    "data": "2026-10-28T12:59:38.431191-03:00",
+    "preco": 17.98
+   }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "23099236697",
+  "nome": "A6S Fone Sem Fio Bluetooth Intra Auricular com Microfone e Estojo Portátil",
+  "preco": 17.98,
+  "preco_original": 59.93,
+  "desconto": 70,
+  "imagem": "https://cf.shopee.com.br/file/sg-11134201-82582-mutpkgbqnd3a13",
+  "link": "https://s.shopee.com.br/4VdvMjuMuw",
+  "link_produto": "https://shopee.com.br/product/1615578976/23099236697",
+  "vendas": 5818,
+  "nota": 4.8,
+  "loja": "AcheiBarato.com",
+  "palavra": "fone bluetooth",
+  "categoria": "Outros",
+  "pontos": 166.59642142792455,
+  "numero": 142,
+  "legenda": "🔥 Tá barato demais pra deixar passar!\n\n🛍️ A6S Fone Sem Fio Bluetooth Intra Auricular com Microfone e Estojo Portátil\n\n💸 De R$ 59,93 por R$ 17,98 (70% OFF)\n⭐ 4.8 • +5818 vendidos\n\n🔗 Link na bio → procure o achado nº 142\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 142,
+   "id": "23099236697",
+   "nome": "A6S Fone Sem Fio Bluetooth Intra Auricular com Microfone e Estojo Portátil",
+   "preco": 17.98,
+   "preco_original": 59.93,
+   "desconto": 70,
+   "imagem": "https://cf.shopee.com.br/file/sg-11134201-82582-mutpkgbqnd3a13",
+   "link": "https://s.shopee.com.br/4VdvMjuMuw",
+   "categoria": "Outros"
+  },
   {
    "numero": 141,
    "id": "22399469469",
