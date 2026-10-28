@@ -743,7 +743,11 @@
   },
   "58260364524": {
    "data": "2026-10-28T15:58:45.390623-03:00",
-   "numero": 143
+   "numero": 143,
+   "redes": {
+    "instagram": "18026589401922081",
+    "facebook": "1285421497997084_122116117647496709"
+   }
   }
  },
  "precos": {
@@ -1606,25 +1610,7 @@
    }
   ]
  },
- "pendente": {
-  "id": "58260364524",
-  "nome": "Kit com 2 Tapete Antiderrapante Absorvente Banheiro Quarto Macio Soft Secagem Rapida 60x40",
-  "preco": 13.45,
-  "preco_original": 39.56,
-  "desconto": 66,
-  "imagem": "https://cf.shopee.com.br/file/br-11134207-820lp-mo05fes4kzcyad",
-  "link": "https://s.shopee.com.br/8AXDXVgxhj",
-  "link_produto": "https://shopee.com.br/product/979724994/58260364524",
-  "vendas": 7278,
-  "nota": 4.7,
-  "loja": "BOMM FAMILIA",
-  "palavra": "tapete banheiro",
-  "categoria": "Outros",
-  "pontos": 157.3889100776148,
-  "numero": 143,
-  "legenda": "👀 Olha o que o radar encontrou:\n\n🛍️ Kit com 2 Tapete Antiderrapante Absorvente Banheiro Quarto Macio Soft Secagem Rapida 60x40\n\n💸 De R$ 39,56 por R$ 13,45 (66% OFF)\n⭐ 4.7 • +7278 vendidos\n\n🔗 Link na bio → procure o achado nº 143\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
-  "tentativas": 0
- },
+ "pendente": null,
  "ofertas": [
   {
    "numero": 143,
