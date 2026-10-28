@@ -719,7 +719,11 @@
   },
   "23794353497": {
    "data": "2026-10-27T22:08:41.015738-03:00",
-   "numero": 140
+   "numero": 140,
+   "redes": {
+    "instagram": "17878749963633382",
+    "facebook": "1285421497997084_122115856647496709"
+   }
   }
  },
  "precos": {
@@ -1564,25 +1568,7 @@
    }
   ]
  },
- "pendente": {
-  "id": "23794353497",
-  "nome": "Batedor Misturador Mixer Elétrico portátil Recarregável Para Bebi Leite Café Ovo 2 em 1",
-  "preco": 16.99,
-  "preco_original": 40.45,
-  "desconto": 58,
-  "imagem": "https://cf.shopee.com.br/file/br-11134207-81z1k-me30svo2yc5c2b",
-  "link": "https://s.shopee.com.br/1BNRnNj8Ur",
-  "link_produto": "https://shopee.com.br/product/465623800/23794353497",
-  "vendas": 4692,
-  "nota": 4.8,
-  "loja": "M&D Brasil Atacadista",
-  "palavra": "utensilios cozinha",
-  "categoria": "Cozinha",
-  "pontos": 140.8580988314992,
-  "numero": 140,
-  "legenda": "🚨 Achado detectado no radar!\n\n🛍️ Batedor Misturador Mixer Elétrico portátil Recarregável Para Bebi Leite Café Ovo 2 em 1\n\n💸 De R$ 40,45 por R$ 16,99 (58% OFF)\n⭐ 4.8 • +4692 vendidos\n\n🔗 Link na bio → procure o achado nº 140\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
-  "tentativas": 0
- },
+ "pendente": null,
  "ofertas": [
   {
    "numero": 140,
