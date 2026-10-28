@@ -1,5 +1,5 @@
 {
- "contador": 143,
+ "contador": 144,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -748,6 +748,10 @@
     "instagram": "18026589401922081",
     "facebook": "1285421497997084_122116117647496709"
    }
+  },
+  "19699843252": {
+   "data": "2026-10-28T18:50:32.098040-03:00",
+   "numero": 144
   }
  },
  "precos": {
@@ -1608,10 +1612,45 @@
     "data": "2026-10-28T15:58:45.390611-03:00",
     "preco": 13.45
    }
+  ],
+  "19699843252": [
+   {
+    "data": "2026-10-28T18:50:32.098027-03:00",
+    "preco": 18.19
+   }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "19699843252",
+  "nome": "Kit 3 Necessaire Maquiagem Transparente WashBag A Prova De Água 332",
+  "preco": 18.19,
+  "preco_original": 41.34,
+  "desconto": 56,
+  "imagem": "https://cf.shopee.com.br/file/sg-11134201-7rdy4-mcc4llc8xbix14",
+  "link": "https://s.shopee.com.br/3LRxmd3l7A",
+  "link_produto": "https://shopee.com.br/product/1502069336/19699843252",
+  "vendas": 8119,
+  "nota": 4.9,
+  "loja": "WUDI SHOP",
+  "palavra": "maquiagem",
+  "categoria": "Beleza",
+  "pontos": 152.25725807794782,
+  "numero": 144,
+  "legenda": "👀 Olha o que o radar encontrou:\n\n🛍️ Kit 3 Necessaire Maquiagem Transparente WashBag A Prova De Água 332\n\n💸 De R$ 41,34 por R$ 18,19 (56% OFF)\n⭐ 4.9 • +8119 vendidos\n\n🔗 Link na bio → procure o achado nº 144\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 144,
+   "id": "19699843252",
+   "nome": "Kit 3 Necessaire Maquiagem Transparente WashBag A Prova De Água 332",
+   "preco": 18.19,
+   "preco_original": 41.34,
+   "desconto": 56,
+   "imagem": "https://cf.shopee.com.br/file/sg-11134201-7rdy4-mcc4llc8xbix14",
+   "link": "https://s.shopee.com.br/3LRxmd3l7A",
+   "categoria": "Beleza"
+  },
   {
    "numero": 143,
    "id": "58260364524",
