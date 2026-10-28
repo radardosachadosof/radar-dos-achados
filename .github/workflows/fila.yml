@@ -1,0 +1,88 @@
+name: Fila curada
+
+on:
+  schedule:
+    # Horários em UTC: 13:40 e 22:40 UTC = 10h40 e 19h40 em Brasília.
+    # Só posta se houver item "aprovado" na planilha.
+    - cron: "40 13,22 * * *"
+  push:
+    branches: [main]
+    paths: ["entregas/**"]   # peças entregues pelo Claude vão para o Drive
+  workflow_dispatch:
+    inputs:
+      comando:
+        description: "O que fazer"
+        type: choice
+        options: [verificar, postar, entregar]
+        default: verificar
+
+permissions:
+  contents: write
+
+concurrency:
+  group: postar          # mesmo grupo do "Postar achado": nunca rodam juntos
+  cancel-in-progress: false
+
+jobs:
+  fila:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
+      GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
+      GOOGLE_REFRESH_TOKEN: ${{ secrets.GOOGLE_REFRESH_TOKEN }}
+      FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+      FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+      IG_USER_ID: ${{ secrets.IG_USER_ID }}
+      DRY_RUN: ${{ vars.DRY_RUN }}
+      COMANDO: ${{ github.event_name == 'push' && 'entregar' || github.event_name == 'schedule' && 'postar' || inputs.comando }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Instalar dependências
+        run: pip install -r requirements.txt
+
+      - name: Verificar a planilha
+        if: env.COMANDO == 'verificar'
+        run: python fila.py verificar
+
+      - name: Entregar peças no Drive
+        if: env.COMANDO == 'entregar'
+        run: |
+          python fila.py entregar
+          git config user.name "radar-bot"
+          git config user.email "radar-bot@users.noreply.github.com"
+          git add -A entregas data
+          git diff --cached --quiet || (git commit -m "Peças entregues no Drive" && git pull --rebase -q && git push)
+
+      - name: Preparar item aprovado
+        if: env.COMANDO == 'postar'
+        run: python fila.py preparar
+
+      - name: Salvar capa/slides no site
+        if: env.COMANDO == 'postar'
+        run: |
+          git config user.name "radar-bot"
+          git config user.email "radar-bot@users.noreply.github.com"
+          git add docs data
+          if ! git diff --cached --quiet; then
+            git commit -m "Fila: peça preparada" && git pull --rebase -q && git push
+            sleep 25
+          fi
+
+      - name: Publicar no Instagram e no Facebook
+        if: env.COMANDO == 'postar'
+        run: python fila.py publicar
+
+      - name: Salvar resultado
+        if: always() && env.COMANDO == 'postar'
+        run: |
+          git add docs data
+          git diff --cached --quiet || (git commit -m "Fila: resultado da publicação" && git pull --rebase -q && git push)

@@ -56,6 +56,11 @@
     "board_id": "COLE_AQUI_O_ID_DA_PASTA"
   },
 
+  "fila": {
+    "ativo": true,
+    "planilha_id": "1ldoOVt9vSpgLiF7-Uc_dQ2SG_hjTRQfPczMxvfGI5Ak"
+  },
+
   "vitrine": {
     "quantidade_na_pagina": 60
   }
