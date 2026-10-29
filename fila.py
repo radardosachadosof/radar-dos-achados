@@ -6,6 +6,7 @@ Comandos:
   python fila.py verificar   -> lê a planilha e mostra o que encontrou (não muda nada)
   python fila.py preparar    -> pega o 1º item "aprovado", baixa a peça do Drive e deixa pronto
   python fila.py publicar    -> publica o item preparado no Instagram e no Facebook
+  python fila.py colecoes    -> recria as páginas de coleção/story da vitrine
   python fila.py entregar    -> sobe para o Drive as peças da pasta entregas/<ID>/ e marca
                                 "aguardando aprovação"
 
@@ -309,13 +310,154 @@ def fb_carrossel(urls, legenda):
 
 
 def legenda_fb(item):
-    """No Facebook o link é clicável: acrescenta o link da oferta."""
+    """No Facebook o link é clicável: acrescenta o link da página da coleção (ou do produto)."""
     leg = item.get("legenda_instagram", "")
-    link = item.get("link_shopee", "")
+    _, site = urls_publicas()
+    link = f"{site}/c/{item['id']}.html" if CFG.get("colecoes", True) else item.get("link_shopee", "")
     if link and link not in leg:
         leg = leg.replace("pelo link da bio", "pelo link abaixo").replace("link na bio", "link abaixo")
-        leg += f"\n\n👉 Ver o produto: {link}"
+        rotulo = "Ver os produtos" if simples(item.get("formato")).startswith("carross") else "Ver o produto"
+        leg += f"\n\n👉 {rotulo}: {link}"
     return leg
+
+
+# ------------------------------------------------------------ coleções (vitrine)
+PASTA_COLECOES = RAIZ / "docs" / "c"
+ARQ_COLECOES = RAIZ / "data" / "colecoes.json"
+ESTILO_COLECAO = """
+:root{--laranja:#D9620B;--navy:#012143;--creme:#F6E7D8;--fundo:#F4F1EC;--texto:#1b1b1b;--suave:#6b6b6b;--card:#fff}
+@media (prefers-color-scheme:dark){:root{--fundo:#0d1726;--texto:#f2f2f2;--suave:#a9b1bd;--card:#14223a}}
+*{box-sizing:border-box}body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:var(--fundo);color:var(--texto)}
+a{color:inherit}
+header{background:var(--navy);color:#fff;padding:18px 16px;display:flex;align-items:center;justify-content:space-between;gap:12px}
+header a{text-decoration:none;font-weight:800;letter-spacing:.06em;text-transform:uppercase;font-size:.85rem}
+header .voltar{opacity:.85;font-weight:600;text-transform:none;letter-spacing:0}
+main{max-width:720px;margin:0 auto;padding:20px 16px 40px}
+h1{text-transform:uppercase;line-height:1;font-size:clamp(1.9rem,7vw,2.8rem);letter-spacing:-.02em;margin:8px 0 6px}
+h1 .l{font-weight:300}h1 .b{font-weight:800}
+.sub{color:var(--suave);margin:0 0 18px}
+.capa{width:100%;border-radius:18px;display:block;box-shadow:0 10px 30px rgba(1,33,67,.18)}
+.lista{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:14px;margin-top:22px}
+.item{background:var(--card);border-radius:16px;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 2px 10px rgba(0,0,0,.08)}
+.item img{width:100%;aspect-ratio:4/5;object-fit:cover;display:block}
+.item .info{padding:12px;display:flex;flex-direction:column;gap:8px;flex:1}
+.item .n{font-size:.75rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--laranja)}
+.item .nome{font-weight:700;line-height:1.25}
+.btn{margin-top:auto;display:block;text-align:center;text-decoration:none;background:var(--laranja);color:#fff;font-weight:800;padding:12px;border-radius:12px}
+.story{display:flex;justify-content:center;margin:10px 0 18px}
+.story blockquote{margin:0 auto!important;max-width:420px!important;min-width:280px!important;width:100%}
+.aviso{color:var(--suave);font-size:.8rem;text-align:center;margin-top:28px;line-height:1.5}
+.grade-colecoes{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px}
+.grade-colecoes a{text-decoration:none;background:var(--card);border-radius:14px;overflow:hidden;box-shadow:0 2px 10px rgba(0,0,0,.08)}
+.grade-colecoes img{width:100%;aspect-ratio:4/5;object-fit:cover;display:block}
+.grade-colecoes span{display:block;padding:10px;font-weight:700;font-size:.9rem;line-height:1.25}
+"""
+AVISO_COLECAO = "Publicidade • Links de afiliada: podemos receber comissão pelas compras, sem custo extra pra você. Preços e estoque podem mudar; confira no anúncio antes de comprar."
+
+
+def ig_permalink(media_id):
+    if not media_id or not os.getenv("FB_PAGE_TOKEN"):
+        return None
+    try:
+        r = requests.get(f"{GRAPH}/{media_id}", params={"fields": "permalink", "access_token": os.environ["FB_PAGE_TOKEN"]}, timeout=30)
+        return r.json().get("permalink")
+    except Exception:
+        return None
+
+
+def titulo_html(texto):
+    """Primeiras palavras em negrito, resto fino (como no template)."""
+    import html as H
+    palavras = texto.split()
+    corte = max(1, min(3, len(palavras) // 2))
+    return f'<span class="b">{H.escape(" ".join(palavras[:corte]))}</span> <span class="l">{H.escape(" ".join(palavras[corte:]))}</span>'
+
+
+def pagina(titulo, corpo, descricao="", imagem=""):
+    import html as H
+    nome = CONFIG["nome_perfil"]
+    return f"""<!doctype html><html lang="pt-BR"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>{H.escape(titulo)} • {H.escape(nome)}</title>
+<meta name="description" content="{H.escape(descricao)}">
+<meta property="og:title" content="{H.escape(titulo)}"><meta property="og:description" content="{H.escape(descricao)}">
+{f'<meta property="og:image" content="{H.escape(imagem)}">' if imagem else ''}
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;800&display=swap" rel="stylesheet">
+<style>{ESTILO_COLECAO}</style></head><body>
+<header><a href="../index.html">@{H.escape(CONFIG['arroba_instagram'].lstrip('@'))}</a><a class="voltar" href="../colecoes.html">Todas as coleções →</a></header>
+<main>{corpo}<p class="aviso">{AVISO_COLECAO}</p></main></body></html>"""
+
+
+def gerar_colecao(planilha, item, permalink=None):
+    """Cria docs/c/<ID>.html: coleção (carrossel) ou story (reel) com os produtos e botões."""
+    import html as H
+    raw, site = urls_publicas()
+    ident = item["id"]
+    formato = simples(item.get("formato"))
+    titulo = item.get("titulo_colecao") or item.get("nome_curto") or ident
+    membros = [l for l in planilha.linhas if simples(l.get("colecao")) == simples(ident)] or [item]
+    if item not in membros:
+        membros.insert(0, item)
+
+    def ordem(l):
+        m = re.search(r"slide\s*(\d+)", l.get("textos_carrossel", ""), re.I)
+        return int(m.group(1)) if m else 999
+    membros.sort(key=ordem)
+
+    pasta_pub = f"fila/{ident}"
+    cards = []
+    for n, l in enumerate(membros, start=1):
+        slide = ordem(l)
+        img = f"../{pasta_pub}/{slide}.jpg" if slide != 999 and (RAIZ / "docs" / pasta_pub / f"{slide}.jpg").exists() \
+            else (f"../{pasta_pub}/capa.jpg" if (RAIZ / "docs" / pasta_pub / "capa.jpg").exists() else "")
+        link = l.get("link_shopee", "")
+        if not link:
+            continue
+        rotulo = "Bônus" if "bonus" in simples(l.get("textos_carrossel")) else f"Achado {n}"
+        cards.append(f'<div class="item">{f"<img loading=lazy src={H.escape(img)!r} alt={H.escape(l.get("nome_curto",""))!r}>" if img else ""}'
+                     f'<div class="info"><span class="n">{rotulo}</span><span class="nome">{H.escape(l.get("nome_curto",""))}</span>'
+                     f'<a class="btn" href="{H.escape(link)}" target="_blank" rel="nofollow sponsored noopener">Ver na Shopee</a></div></div>')
+
+    capa_rel = f"../{pasta_pub}/1.jpg" if formato.startswith("carross") else f"../{pasta_pub}/capa.jpg"
+    capa_abs = f"{site}/{pasta_pub}/{'1.jpg' if formato.startswith('carross') else 'capa.jpg'}"
+    if formato.startswith("carross"):
+        topo = f'<img class="capa" src="{capa_rel}" alt="">'
+        bonus = sum('Bônus</span>' in c for c in cards)
+        qtd = f"{len(cards) - bonus} achados" + (f" + {bonus} bônus" if bonus else "")
+        sub = f"{qtd} escolhidos a dedo. Toque no botão para ver cada um na Shopee."
+    else:
+        if permalink:
+            topo = (f'<div class="story"><blockquote class="instagram-media" data-instgrm-permalink="{H.escape(permalink)}" '
+                    f'data-instgrm-version="14"></blockquote></div><script async src="https://www.instagram.com/embed.js"></script>')
+        else:
+            topo = f'<img class="capa" src="{capa_rel}" alt="">' if (RAIZ / "docs" / pasta_pub / "capa.jpg").exists() else ""
+        sub = "Assista e toque no botão para ver o produto na Shopee."
+    corpo = f'<h1>{titulo_html(titulo)}</h1><p class="sub">{sub}</p>{topo}<div class="lista">{"".join(cards)}</div>'
+    PASTA_COLECOES.mkdir(parents=True, exist_ok=True)
+    (PASTA_COLECOES / f"{ident}.html").write_text(pagina(titulo, corpo, sub, capa_abs), encoding="utf-8")
+
+    lista = json.loads(ARQ_COLECOES.read_text(encoding="utf-8")) if ARQ_COLECOES.exists() else []
+    lista = [c for c in lista if c["id"] != ident]
+    lista.insert(0, {"id": ident, "titulo": titulo, "capa": f"{pasta_pub}/{'1.jpg' if formato.startswith('carross') else 'capa.jpg'}",
+                     "formato": "carrossel" if formato.startswith("carross") else "reel", "data": f"{agora():%Y-%m-%d}"})
+    ARQ_COLECOES.write_text(json.dumps(lista, ensure_ascii=False, indent=1), encoding="utf-8")
+    gerar_indice_colecoes(lista)
+    log(f"Página da vitrine: {site}/c/{ident}.html")
+
+
+def gerar_indice_colecoes(lista):
+    import html as H
+    cards = "".join(f'<a href="c/{c["id"]}.html"><img loading="lazy" src="{c["capa"]}" alt=""><span>{H.escape(c["titulo"])}</span></a>' for c in lista)
+    corpo = f'<h1><span class="b">Coleções</span> <span class="l">do Radar</span></h1><p class="sub">Seleções temáticas e Reels com os produtos de cada post.</p><div class="grade-colecoes">{cards}</div>'
+    html = pagina("Coleções", corpo, "Seleções de achadinhos do Radar dos Achados").replace('href="../', 'href="').replace('src="../', 'src="')
+    (RAIZ / "docs" / "colecoes.html").write_text(html, encoding="utf-8")
+
+
+def colecoes():
+    """Recria as páginas de todos os itens já postados (útil para itens antigos)."""
+    planilha = Planilha()
+    for item in planilha.linhas:
+        if simples(item.get("status")) == "postado" and (RAIZ / "docs" / "fila" / item["id"]).exists():
+            gerar_colecao(planilha, item)
 
 
 # -------------------------------------------------------------------- comandos
@@ -397,6 +539,8 @@ def preparar():
                 pendente["slides"].append(f"docs/fila/{ident}/{n}.jpg")
         estado["pendente"] = pendente
         salvar_estado(estado)
+        if pecas["formato"] == "carrossel" and CFG.get("colecoes", True):
+            gerar_colecao(planilha, item)
         log(f"{ident} pronto para publicar.")
     except Exception as e:
         log(f"ERRO preparando {ident}: {e}")
@@ -450,6 +594,11 @@ def publicar():
     planilha = Planilha()
     item = planilha.por_id(ident)
     if not erros:
+        if item and p["formato"] == "reel" and CFG.get("colecoes", True):
+            try:
+                gerar_colecao(planilha, item, permalink=ig_permalink(publicado.get("instagram")))
+            except Exception as e:
+                log(f"Aviso: post saiu, mas a página da vitrine falhou: {e}")
         if item:
             planilha.atualizar(item, status="postado", postado_em=f"{agora():%d/%m/%Y %H:%M}",
                                log_robo=" | ".join(f"{k}: {v}" for k, v in publicado.items()))
@@ -523,4 +672,4 @@ def verificar():
 
 if __name__ == "__main__":
     comando = sys.argv[1] if len(sys.argv) > 1 else "verificar"
-    {"verificar": verificar, "preparar": preparar, "publicar": publicar, "entregar": entregar}[comando]()
+    {"verificar": verificar, "preparar": preparar, "publicar": publicar, "entregar": entregar, "colecoes": colecoes}[comando]()
