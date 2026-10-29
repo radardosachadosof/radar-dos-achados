@@ -362,6 +362,8 @@ header h1{margin:0;font-size:1.6rem;letter-spacing:.04em}
 .abas{display:flex;gap:8px;overflow-x:auto;padding:12px 16px;position:sticky;top:0;z-index:5;background:var(--fundo);box-shadow:0 2px 6px rgba(0,0,0,.06);max-width:980px;margin:0 auto}
 .aba{flex:0 0 auto;border:2px solid var(--marca);background:var(--card);color:var(--texto);border-radius:999px;padding:8px 16px;font-weight:700;font-size:.9rem;cursor:pointer}
 .aba.ativa{background:#012143;border-color:#012143;color:#fff}header p{margin:6px 0 0;opacity:.9}
+.atalhos{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:14px}
+.atalhos a{background:#012143;color:#fff;text-decoration:none;font-weight:800;padding:11px 18px;border-radius:999px;box-shadow:0 2px 8px rgba(0,0,0,.2)}
 main{max-width:980px;margin:0 auto;padding:16px}
 input{width:100%;padding:14px;border-radius:12px;border:2px solid var(--marca);font-size:1rem;margin-bottom:16px;background:var(--card);color:var(--texto)}
 .grade{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:12px}
@@ -403,9 +405,9 @@ def gerar_vitrine(estado):
         f'<button class="aba{" ativa" if i == 0 else ""}" data-aba="{html.escape(a)}">{html.escape(a)}</button>'
         for i, a in enumerate(nomes_abas)
     )
-    colecoes_link = ('<a href="colecoes.html" style="display:inline-block;margin-top:12px;background:#012143;color:#fff;'
-                     'padding:10px 18px;border-radius:999px;font-weight:800;text-decoration:none">✨ Coleções e Reels</a>'
-                     if (PASTA_SITE / "colecoes.html").exists() else "")
+    colecoes_link = (
+        '<div class="atalhos"><a href="colecoes.html#colecoes">✨ Coleções</a><a href="colecoes.html#reels">🎬 Reels e Stories</a></div>'
+        if (PASTA_SITE / "colecoes.html").exists() else "")
     pagina = f"""<!doctype html><html lang="pt-BR"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1"><title>{nome}</title>
 <meta name="description" content="Os melhores achadinhos da Shopee, atualizados todo dia.">
