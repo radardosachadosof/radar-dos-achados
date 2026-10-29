@@ -13,7 +13,7 @@ on:
       comando:
         description: "O que fazer"
         type: choice
-        options: [verificar, postar, entregar]
+        options: [verificar, postar, entregar, colecoes]
         default: verificar
 
 permissions:
@@ -61,6 +61,15 @@ jobs:
           git config user.email "radar-bot@users.noreply.github.com"
           git add -A entregas data
           git diff --cached --quiet || (git commit -m "Peças entregues no Drive" && git pull --rebase -q && git push)
+
+      - name: Recriar páginas de coleção
+        if: env.COMANDO == 'colecoes'
+        run: |
+          python fila.py colecoes
+          git config user.name "radar-bot"
+          git config user.email "radar-bot@users.noreply.github.com"
+          git add docs data
+          git diff --cached --quiet || (git commit -m "Coleções atualizadas" && git pull --rebase -q && git push)
 
       - name: Preparar item aprovado
         if: env.COMANDO == 'postar'

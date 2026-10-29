@@ -403,11 +403,14 @@ def gerar_vitrine(estado):
         f'<button class="aba{" ativa" if i == 0 else ""}" data-aba="{html.escape(a)}">{html.escape(a)}</button>'
         for i, a in enumerate(nomes_abas)
     )
+    colecoes_link = ('<a href="colecoes.html" style="display:inline-block;margin-top:12px;background:#012143;color:#fff;'
+                     'padding:10px 18px;border-radius:999px;font-weight:800;text-decoration:none">✨ Coleções e Reels</a>'
+                     if (PASTA_SITE / "colecoes.html").exists() else "")
     pagina = f"""<!doctype html><html lang="pt-BR"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1"><title>{nome}</title>
 <meta name="description" content="Os melhores achadinhos da Shopee, atualizados todo dia.">
 <style>{ESTILO}</style></head><body>
-<header>{marca}<p>Digite o número do achado que você viu no post</p></header>
+<header>{marca}<p>Digite o número do achado que você viu no post</p>{colecoes_link}</header>
 <nav class="abas" id="abas">{abas}</nav>
 <main><input id="busca" type="search" inputmode="numeric" placeholder="Ex.: 123 ou fone">
 <div class="grade" id="grade">{cards}</div></main>
