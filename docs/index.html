@@ -11,6 +11,8 @@ header h1{margin:0;font-size:1.6rem;letter-spacing:.04em}
 .abas{display:flex;gap:8px;overflow-x:auto;padding:12px 16px;position:sticky;top:0;z-index:5;background:var(--fundo);box-shadow:0 2px 6px rgba(0,0,0,.06);max-width:980px;margin:0 auto}
 .aba{flex:0 0 auto;border:2px solid var(--marca);background:var(--card);color:var(--texto);border-radius:999px;padding:8px 16px;font-weight:700;font-size:.9rem;cursor:pointer}
 .aba.ativa{background:#012143;border-color:#012143;color:#fff}header p{margin:6px 0 0;opacity:.9}
+.atalhos{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:14px}
+.atalhos a{background:#012143;color:#fff;text-decoration:none;font-weight:800;padding:11px 18px;border-radius:999px;box-shadow:0 2px 8px rgba(0,0,0,.2)}
 main{max-width:980px;margin:0 auto;padding:16px}
 input{width:100%;padding:14px;border-radius:12px;border:2px solid var(--marca);font-size:1rem;margin-bottom:16px;background:var(--card);color:var(--texto)}
 .grade{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:12px}
@@ -24,7 +26,7 @@ footer{text-align:center;color:var(--suave);font-size:.8rem;padding:24px 16px}
 .unico{max-width:480px;margin:0 auto;padding:16px;text-align:center}.unico img{width:100%;border-radius:16px;background:#fff}
 .unico .btn{display:block;padding:16px;font-size:1.1rem;text-decoration:none;margin-top:16px}
 </style></head><body>
-<header><h1><img class="logo" src="logo.png" alt="Radar dos Achados"></h1><p>Digite o número do achado que você viu no post</p></header>
+<header><h1><img class="logo" src="logo.png" alt="Radar dos Achados"></h1><p>Digite o número do achado que você viu no post</p><div class="atalhos"><a href="colecoes.html#colecoes">✨ Coleções</a><a href="colecoes.html#reels">🎬 Reels e Stories</a></div></header>
 <nav class="abas" id="abas"><button class="aba ativa" data-aba="Todos">Todos</button><button class="aba" data-aba="Beleza">Beleza</button><button class="aba" data-aba="Pets">Pets</button><button class="aba" data-aba="Cozinha">Cozinha</button><button class="aba" data-aba="Outros">Outros</button></nav>
 <main><input id="busca" type="search" inputmode="numeric" placeholder="Ex.: 123 ou fone">
 <div class="grade" id="grade"><a class="card" href="https://s.shopee.com.br/LoOABQzuf" target="_blank" rel="nofollow sponsored noopener" data-n="146" data-cat="Cozinha"><img loading="lazy" src="https://cf.shopee.com.br/file/br-11134207-7r98o-mabeeeswsx4mc1" alt=""><div class="info"><span class="num">nº 146</span><span class="nome">Cesto De Roupa 40x70 30x50Cm Caixa Dobrável Brinquedos Cesto Diversa Organizador Cozinha Quarto Casa</span><span class="de">R$ 21,37</span><span class="por">R$ 10,90</span><span class="btn">Ver na Shopee</span></div></a>
@@ -87,7 +89,7 @@ footer{text-align:center;color:var(--suave);font-size:.8rem;padding:24px 16px}
 <a class="card" href="https://s.shopee.com.br/9zybkfBHwH" target="_blank" rel="nofollow sponsored noopener" data-n="89" data-cat="Outros"><img loading="lazy" src="https://cf.shopee.com.br/file/br-11134207-81ztc-mitmoii6c26bd2" alt=""><div class="info"><span class="num">nº 89</span><span class="nome">Suporte Tablet e Celular Metálico Rotativo de Liga de Alumínio Resistente Elegante e Totalmente Ajustável</span><span class="de">R$ 49,77</span><span class="por">R$ 21,90</span><span class="btn">Ver na Shopee</span></div></a>
 <a class="card" href="https://s.shopee.com.br/AKbRMN2w2m" target="_blank" rel="nofollow sponsored noopener" data-n="88" data-cat="Beleza"><img loading="lazy" src="https://cf.shopee.com.br/file/br-11134207-820lh-mtza8ww705q921" alt=""><div class="info"><span class="num">nº 88</span><span class="nome">Kit Linha Coreana Hidrabene K-Sérum Harmonizador Facial + Sérum GHK-Cu + Sérum PDRN Skincare</span><span class="de">R$ 242,12</span><span class="por">R$ 79,90</span><span class="btn">Ver na Shopee</span></div></a>
 <a class="card" href="https://s.shopee.com.br/30oqPU19O6" target="_blank" rel="nofollow sponsored noopener" data-n="87" data-cat="Pets"><img loading="lazy" src="https://cf.shopee.com.br/file/br-11134207-81z1k-mhut3bthr4ee26" alt=""><div class="info"><span class="num">nº 87</span><span class="nome">Jornal tapete Higiênico Grande 300 folhas Biodegradável para Pet Descartável Ótimo Custo X Benefício</span><span class="de">R$ 45,00</span><span class="por">R$ 18,90</span><span class="btn">Ver na Shopee</span></div></a></div></main>
-<footer>Links de afiliado: posso receber comissão pelas compras, sem custo extra pra você. Preços podem mudar.<br>Atualizado em 29/10/2026 15:28 • <a href="privacidade.html">Privacidade</a></footer>
+<footer>Links de afiliado: posso receber comissão pelas compras, sem custo extra pra você. Preços podem mudar.<br>Atualizado em 29/10/2026 20:58 • <a href="privacidade.html">Privacidade</a></footer>
 <script>
 const b=document.getElementById('busca');let aba='Todos';
 function filtrar(){const t=b.value.trim().toLowerCase();

@@ -1,7 +1,7 @@
 <!doctype html><html lang="pt-BR"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1"><title>Coleções • Radar dos Achados</title>
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>Coleções e Reels • Radar dos Achados</title>
 <meta name="description" content="Seleções de achadinhos do Radar dos Achados">
-<meta property="og:title" content="Coleções"><meta property="og:description" content="Seleções de achadinhos do Radar dos Achados">
+<meta property="og:title" content="Coleções e Reels"><meta property="og:description" content="Seleções de achadinhos do Radar dos Achados">
 
 <link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;800&display=swap" rel="stylesheet">
 <style>
@@ -9,9 +9,18 @@
 @media (prefers-color-scheme:dark){:root{--fundo:#0d1726;--texto:#f2f2f2;--suave:#a9b1bd;--card:#14223a}}
 *{box-sizing:border-box}body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:var(--fundo);color:var(--texto)}
 a{color:inherit}
-header{background:var(--navy);color:#fff;padding:18px 16px;display:flex;align-items:center;justify-content:space-between;gap:12px}
-header a{text-decoration:none;font-weight:800;letter-spacing:.06em;text-transform:uppercase;font-size:.85rem}
-header .voltar{opacity:.85;font-weight:600;text-transform:none;letter-spacing:0}
+header{background:var(--navy);color:#fff;padding:14px 16px;display:flex;align-items:center;justify-content:space-between;gap:12px}
+header .marca{display:flex;align-items:center;gap:10px;text-decoration:none;color:#fff;font-weight:800;letter-spacing:.04em;font-size:.95rem}
+header .marca img{width:52px;height:52px;display:block;filter:drop-shadow(0 2px 6px rgba(0,0,0,.3))}
+.voltar{display:inline-flex;align-items:center;gap:8px;text-decoration:none;background:#fff;color:var(--navy);font-weight:800;font-size:.9rem;padding:10px 16px;border-radius:999px;box-shadow:0 2px 8px rgba(0,0,0,.15);white-space:nowrap}
+.voltar:hover{background:var(--creme)}
+.rodape-nav{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:28px}
+.rodape-nav a{text-decoration:none;font-weight:800;padding:14px 20px;border-radius:14px;background:var(--navy);color:#fff}
+.rodape-nav a.sec{background:transparent;color:var(--navy);border:2px solid var(--navy)}
+@media (prefers-color-scheme:dark){.rodape-nav a.sec{color:#fff;border-color:#fff}}
+h2.secao{font-size:1.1rem;text-transform:uppercase;letter-spacing:.08em;margin:28px 0 12px;display:flex;align-items:center;gap:10px}
+h2.secao::before{content:"";width:12px;height:12px;border-radius:50%;background:var(--laranja)}
+.vazio{color:var(--suave);background:var(--card);border-radius:14px;padding:18px;text-align:center}
 main{max-width:720px;margin:0 auto;padding:20px 16px 40px}
 h1{text-transform:uppercase;line-height:1;font-size:clamp(1.9rem,7vw,2.8rem);letter-spacing:-.02em;margin:8px 0 6px}
 h1 .l{font-weight:300}h1 .b{font-weight:800}
@@ -32,5 +41,8 @@ h1 .l{font-weight:300}h1 .b{font-weight:800}
 .grade-colecoes img{width:100%;aspect-ratio:4/5;object-fit:cover;display:block}
 .grade-colecoes span{display:block;padding:10px;font-weight:700;font-size:.9rem;line-height:1.25}
 </style></head><body>
-<header><a href="index.html">@radardosachadosof</a><a class="voltar" href="colecoes.html">Todas as coleções →</a></header>
-<main><h1><span class="b">Coleções</span> <span class="l">do Radar</span></h1><p class="sub">Seleções temáticas e Reels com os produtos de cada post.</p><div class="grade-colecoes"><a href="c/P002.html"><img loading="lazy" src="fila/P002/1.jpg" alt=""><span>7 achadinhos para a cozinha que parecem caros</span></a></div><p class="aviso">Publicidade • Links de afiliada: podemos receber comissão pelas compras, sem custo extra pra você. Preços e estoque podem mudar; confira no anúncio antes de comprar.</p></main></body></html>
+<header><a class="marca" href="index.html"><img src="logo.png" alt="Radar dos Achados">Radar dos Achados</a>
+<a class="voltar" href="index.html">← Voltar à vitrine</a></header>
+<main><h1><span class="b">Coleções</span> <span class="l">e Reels</span></h1><p class="sub">Seleções temáticas e Reels do Radar, com o link de cada produto.</p><h2 class="secao" id="colecoes">Coleções</h2><div class="grade-colecoes"><a href="c/P002.html"><img loading="lazy" src="fila/P002/1.jpg" alt=""><span>7 achadinhos para a cozinha que parecem caros</span></a></div><h2 class="secao" id="reels">Reels e Stories</h2><p class="vazio">Os Reels com os produtos aparecem aqui em breve.</p>
+<nav class="rodape-nav"><a href="index.html">🛍️ Ver todos os achados</a><a class="sec" href="colecoes.html">✨ Coleções e Reels</a></nav>
+<p class="aviso">Publicidade • Links de afiliada: podemos receber comissão pelas compras, sem custo extra pra você. Preços e estoque podem mudar; confira no anúncio antes de comprar.</p></main></body></html>
