@@ -329,9 +329,18 @@ ESTILO_COLECAO = """
 @media (prefers-color-scheme:dark){:root{--fundo:#0d1726;--texto:#f2f2f2;--suave:#a9b1bd;--card:#14223a}}
 *{box-sizing:border-box}body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:var(--fundo);color:var(--texto)}
 a{color:inherit}
-header{background:var(--navy);color:#fff;padding:18px 16px;display:flex;align-items:center;justify-content:space-between;gap:12px}
-header a{text-decoration:none;font-weight:800;letter-spacing:.06em;text-transform:uppercase;font-size:.85rem}
-header .voltar{opacity:.85;font-weight:600;text-transform:none;letter-spacing:0}
+header{background:var(--navy);color:#fff;padding:14px 16px;display:flex;align-items:center;justify-content:space-between;gap:12px}
+header .marca{display:flex;align-items:center;gap:10px;text-decoration:none;color:#fff;font-weight:800;letter-spacing:.04em;font-size:.95rem}
+header .marca img{width:52px;height:52px;display:block;filter:drop-shadow(0 2px 6px rgba(0,0,0,.3))}
+.voltar{display:inline-flex;align-items:center;gap:8px;text-decoration:none;background:#fff;color:var(--navy);font-weight:800;font-size:.9rem;padding:10px 16px;border-radius:999px;box-shadow:0 2px 8px rgba(0,0,0,.15);white-space:nowrap}
+.voltar:hover{background:var(--creme)}
+.rodape-nav{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:28px}
+.rodape-nav a{text-decoration:none;font-weight:800;padding:14px 20px;border-radius:14px;background:var(--navy);color:#fff}
+.rodape-nav a.sec{background:transparent;color:var(--navy);border:2px solid var(--navy)}
+@media (prefers-color-scheme:dark){.rodape-nav a.sec{color:#fff;border-color:#fff}}
+h2.secao{font-size:1.1rem;text-transform:uppercase;letter-spacing:.08em;margin:28px 0 12px;display:flex;align-items:center;gap:10px}
+h2.secao::before{content:"";width:12px;height:12px;border-radius:50%;background:var(--laranja)}
+.vazio{color:var(--suave);background:var(--card);border-radius:14px;padding:18px;text-align:center}
 main{max-width:720px;margin:0 auto;padding:20px 16px 40px}
 h1{text-transform:uppercase;line-height:1;font-size:clamp(1.9rem,7vw,2.8rem);letter-spacing:-.02em;margin:8px 0 6px}
 h1 .l{font-weight:300}h1 .b{font-weight:800}
@@ -383,8 +392,11 @@ def pagina(titulo, corpo, descricao="", imagem=""):
 {f'<meta property="og:image" content="{H.escape(imagem)}">' if imagem else ''}
 <link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;800&display=swap" rel="stylesheet">
 <style>{ESTILO_COLECAO}</style></head><body>
-<header><a href="../index.html">@{H.escape(CONFIG['arroba_instagram'].lstrip('@'))}</a><a class="voltar" href="../colecoes.html">Todas as coleções →</a></header>
-<main>{corpo}<p class="aviso">{AVISO_COLECAO}</p></main></body></html>"""
+<header><a class="marca" href="../index.html"><img src="../logo.png" alt="{H.escape(nome)}">{H.escape(nome)}</a>
+<a class="voltar" href="../index.html">← Voltar à vitrine</a></header>
+<main>{corpo}
+<nav class="rodape-nav"><a href="../index.html">🛍️ Ver todos os achados</a><a class="sec" href="../colecoes.html">✨ Coleções e Reels</a></nav>
+<p class="aviso">{AVISO_COLECAO}</p></main></body></html>"""
 
 
 def gerar_colecao(planilha, item, permalink=None):
@@ -446,9 +458,19 @@ def gerar_colecao(planilha, item, permalink=None):
 
 def gerar_indice_colecoes(lista):
     import html as H
-    cards = "".join(f'<a href="c/{c["id"]}.html"><img loading="lazy" src="{c["capa"]}" alt=""><span>{H.escape(c["titulo"])}</span></a>' for c in lista)
-    corpo = f'<h1><span class="b">Coleções</span> <span class="l">do Radar</span></h1><p class="sub">Seleções temáticas e Reels com os produtos de cada post.</p><div class="grade-colecoes">{cards}</div>'
-    html = pagina("Coleções", corpo, "Seleções de achadinhos do Radar dos Achados").replace('href="../', 'href="').replace('src="../', 'src="')
+
+    def grade(itens, vazio):
+        if not itens:
+            return f'<p class="vazio">{vazio}</p>'
+        return '<div class="grade-colecoes">' + "".join(
+            f'<a href="c/{c["id"]}.html"><img loading="lazy" src="{c["capa"]}" alt=""><span>{H.escape(c["titulo"])}</span></a>' for c in itens) + "</div>"
+    carrosseis = [c for c in lista if c.get("formato") == "carrossel"]
+    reels = [c for c in lista if c.get("formato") == "reel"]
+    corpo = ('<h1><span class="b">Coleções</span> <span class="l">e Reels</span></h1>'
+             '<p class="sub">Seleções temáticas e Reels do Radar, com o link de cada produto.</p>'
+             f'<h2 class="secao" id="colecoes">Coleções</h2>{grade(carrosseis, "As primeiras coleções aparecem aqui em breve.")}'
+             f'<h2 class="secao" id="reels">Reels e Stories</h2>{grade(reels, "Os Reels com os produtos aparecem aqui em breve.")}')
+    html = pagina("Coleções e Reels", corpo, "Seleções de achadinhos do Radar dos Achados").replace('href="../', 'href="').replace('src="../', 'src="')
     (RAIZ / "docs" / "colecoes.html").write_text(html, encoding="utf-8")
 
 
@@ -458,6 +480,9 @@ def colecoes():
     for item in planilha.linhas:
         if simples(item.get("status")) == "postado" and (RAIZ / "docs" / "fila" / item["id"]).exists():
             gerar_colecao(planilha, item)
+    import radar
+    radar.gerar_vitrine(radar.carregar_estado())
+    log("Vitrine principal atualizada.")
 
 
 # -------------------------------------------------------------------- comandos
