@@ -1,5 +1,5 @@
 {
- "contador": 144,
+ "contador": 145,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -756,6 +756,10 @@
     "instagram": "17953039944050908",
     "facebook": "1285421497997084_122116151691496709"
    }
+  },
+  "23199200478": {
+   "data": "2026-10-28T22:06:44.714973-03:00",
+   "numero": 145
   }
  },
  "precos": {
@@ -1622,10 +1626,45 @@
     "data": "2026-10-28T18:50:32.098027-03:00",
     "preco": 18.19
    }
+  ],
+  "23199200478": [
+   {
+    "data": "2026-10-28T22:06:44.714961-03:00",
+    "preco": 56.52
+   }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "23199200478",
+  "nome": "Quebra-Cabeça Magnético de Feições Humanas Brinquedo Montessori Educativo para Crianças de 3 a 6 Anos",
+  "preco": 56.52,
+  "preco_original": 131.44,
+  "desconto": 57,
+  "imagem": "https://cf.shopee.com.br/file/br-11134207-820mh-msb1m01umgp171",
+  "link": "https://s.shopee.com.br/AAIIij8jyV",
+  "link_produto": "https://shopee.com.br/product/1484279813/23199200478",
+  "vendas": 3394,
+  "nota": 4.9,
+  "loja": "Capitãozinho",
+  "palavra": "brinquedo educativo",
+  "categoria": "Outros",
+  "pontos": 145.23741089788393,
+  "numero": 145,
+  "legenda": "🚨 Achado detectado no radar!\n\n🛍️ Quebra-Cabeça Magnético de Feições Humanas Brinquedo Montessori Educativo para Crianças…\n\n💸 De R$ 131,44 por R$ 56,52 (57% OFF)\n⭐ 4.9 • +3394 vendidos\n\n🔗 Link na bio → procure o achado nº 145\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 145,
+   "id": "23199200478",
+   "nome": "Quebra-Cabeça Magnético de Feições Humanas Brinquedo Montessori Educativo para Crianças de 3 a 6 Anos",
+   "preco": 56.52,
+   "preco_original": 131.44,
+   "desconto": 57,
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-820mh-msb1m01umgp171",
+   "link": "https://s.shopee.com.br/AAIIij8jyV",
+   "categoria": "Outros"
+  },
   {
    "numero": 144,
    "id": "19699843252",
