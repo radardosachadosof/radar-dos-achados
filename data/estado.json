@@ -1,5 +1,5 @@
 {
- "contador": 145,
+ "contador": 146,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -764,6 +764,10 @@
     "instagram": "18116540294157673",
     "facebook": "1285421497997084_122116190385496709"
    }
+  },
+  "23397600706": {
+   "data": "2026-10-29T15:28:19.053652-03:00",
+   "numero": 146
   }
  },
  "precos": {
@@ -1636,10 +1640,45 @@
     "data": "2026-10-28T22:06:44.714961-03:00",
     "preco": 56.52
    }
+  ],
+  "23397600706": [
+   {
+    "data": "2026-10-29T15:28:19.053635-03:00",
+    "preco": 10.9
+   }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "23397600706",
+  "nome": "Cesto De Roupa 40x70 30x50Cm Caixa Dobrável Brinquedos Cesto Diversa Organizador Cozinha Quarto Casa",
+  "preco": 10.9,
+  "preco_original": 21.37,
+  "desconto": 49,
+  "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-mabeeeswsx4mc1",
+  "link": "https://s.shopee.com.br/LoOABQzuf",
+  "link_produto": "https://shopee.com.br/product/988030305/23397600706",
+  "vendas": 8749,
+  "nota": 4.9,
+  "loja": "ES Official Shop",
+  "palavra": "decoracao quarto",
+  "categoria": "Cozinha",
+  "pontos": 143.97945492894593,
+  "numero": 146,
+  "legenda": "🔥 Tá barato demais pra deixar passar!\n\n🛍️ Cesto De Roupa 40x70 30x50Cm Caixa Dobrável Brinquedos Cesto Diversa Organizador Cozinha…\n\n💸 De R$ 21,37 por R$ 10,90 (49% OFF)\n⭐ 4.9 • +8749 vendidos\n\n🔗 Link na bio → procure o achado nº 146\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 146,
+   "id": "23397600706",
+   "nome": "Cesto De Roupa 40x70 30x50Cm Caixa Dobrável Brinquedos Cesto Diversa Organizador Cozinha Quarto Casa",
+   "preco": 10.9,
+   "preco_original": 21.37,
+   "desconto": 49,
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-mabeeeswsx4mc1",
+   "link": "https://s.shopee.com.br/LoOABQzuf",
+   "categoria": "Cozinha"
+  },
   {
    "numero": 145,
    "id": "23199200478",
