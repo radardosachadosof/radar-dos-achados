@@ -1,5 +1,5 @@
 {
- "contador": 147,
+ "contador": 148,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -780,6 +780,10 @@
     "instagram": "17942095098393357",
     "facebook": "1285421497997084_122116557879496709"
    }
+  },
+  "18797740426": {
+   "data": "2026-10-30T15:00:10.480429-03:00",
+   "numero": 148
   }
  },
  "precos": {
@@ -1664,10 +1668,45 @@
     "data": "2026-10-29T21:58:59.311357-03:00",
     "preco": 32.89
    }
+  ],
+  "18797740426": [
+   {
+    "data": "2026-10-30T15:00:10.480419-03:00",
+    "preco": 24.49
+   }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "18797740426",
+  "nome": "KIT 3 Necessaire Bolsa Portátil Transparente Para Viagem Cosméticos Produtos De Higiene Pessoal",
+  "preco": 24.49,
+  "preco_original": 59.73,
+  "desconto": 59,
+  "imagem": "https://cf.shopee.com.br/file/br-11134207-820lg-mu4lz0bcc6ir7a",
+  "link": "https://s.shopee.com.br/BUzWpsLF4",
+  "link_produto": "https://shopee.com.br/product/1241281618/18797740426",
+  "vendas": 4362,
+  "nota": 4.8,
+  "loja": "JONALISSA SHOP",
+  "palavra": "maquiagem",
+  "categoria": "Beleza",
+  "pontos": 151.66875675174782,
+  "numero": 148,
+  "legenda": "🚨 Achado detectado no radar!\n\n🛍️ KIT 3 Necessaire Bolsa Portátil Transparente Para Viagem Cosméticos Produtos De Higiene…\n\n💸 De R$ 59,73 por R$ 24,49 (59% OFF)\n⭐ 4.8 • +4362 vendidos\n\n🔗 Link na bio → procure o achado nº 148\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 148,
+   "id": "18797740426",
+   "nome": "KIT 3 Necessaire Bolsa Portátil Transparente Para Viagem Cosméticos Produtos De Higiene Pessoal",
+   "preco": 24.49,
+   "preco_original": 59.73,
+   "desconto": 59,
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-820lg-mu4lz0bcc6ir7a",
+   "link": "https://s.shopee.com.br/BUzWpsLF4",
+   "categoria": "Beleza"
+  },
   {
    "numero": 147,
    "id": "22998326555",
