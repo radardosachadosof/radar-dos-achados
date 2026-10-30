@@ -775,7 +775,11 @@
   },
   "22998326555": {
    "data": "2026-10-29T21:58:59.311384-03:00",
-   "numero": 147
+   "numero": 147,
+   "redes": {
+    "instagram": "17942095098393357",
+    "facebook": "1285421497997084_122116557879496709"
+   }
   }
  },
  "precos": {
@@ -1662,25 +1666,7 @@
    }
   ]
  },
- "pendente": {
-  "id": "22998326555",
-  "nome": "Organizador de Cintos Gravata Relógios Perfumes 34 x10 x 8 Com 6 Divisórias em Acrílico Para Gavetas e Armário",
-  "preco": 32.89,
-  "preco_original": 73.09,
-  "desconto": 55,
-  "imagem": "https://cf.shopee.com.br/file/br-11134207-820m3-ms5mxz8lcyrp5d",
-  "link": "https://s.shopee.com.br/7fazKUMGVM",
-  "link_produto": "https://shopee.com.br/product/316557325/22998326555",
-  "vendas": 2112,
-  "nota": 4.9,
-  "loja": "Âncora Shopp",
-  "palavra": "organizador closet",
-  "categoria": "Outros",
-  "pontos": 143.55718465886537,
-  "numero": 147,
-  "legenda": "🚨 Achado detectado no radar!\n\n🛍️ Organizador de Cintos Gravata Relógios Perfumes 34 x10 x 8 Com 6 Divisórias em Acrílico…\n\n💸 De R$ 73,09 por R$ 32,89 (55% OFF)\n⭐ 4.9 • +2112 vendidos\n\n🔗 Link na bio → procure o achado nº 147\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
-  "tentativas": 0
- },
+ "pendente": null,
  "ofertas": [
   {
    "numero": 147,
