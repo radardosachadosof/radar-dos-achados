@@ -1,5 +1,5 @@
 {
- "contador": 151,
+ "contador": 152,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -812,6 +812,10 @@
     "instagram": "18149453191563031",
     "facebook": "1285421497997084_122117177919496709"
    }
+  },
+  "22497773735": {
+   "data": "2026-10-31T18:33:42.524304-03:00",
+   "numero": 152
   }
  },
  "precos": {
@@ -1720,10 +1724,45 @@
     "data": "2026-10-31T14:14:59.562547-03:00",
     "preco": 30.9
    }
+  ],
+  "22497773735": [
+   {
+    "data": "2026-10-31T18:33:42.524293-03:00",
+    "preco": 109.99
+   }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "22497773735",
+  "nome": "ROMANTIC CROWN Mochila Viagem Feminina Masculina Multifuncional Reforçada Impermeável Expansível, Notebook Antifurto USB",
+  "preco": 109.99,
+  "preco_original": 297.27,
+  "desconto": 63,
+  "imagem": "https://cf.shopee.com.br/file/br-11134207-820lv-mt38wyvxh81x6a",
+  "link": "https://s.shopee.com.br/1LgykXI5S9",
+  "link_produto": "https://shopee.com.br/product/1345043704/22497773735",
+  "vendas": 5032,
+  "nota": 5.0,
+  "loja": "Romantic Crown 02",
+  "palavra": "mochila",
+  "categoria": "Outros",
+  "pontos": 164.07214584208802,
+  "numero": 152,
+  "legenda": "🚨 Achado detectado no radar!\n\n🛍️ ROMANTIC CROWN Mochila Viagem Feminina Masculina Multifuncional Reforçada Impermeável…\n\n💸 De R$ 297,27 por R$ 109,99 (63% OFF)\n⭐ 5.0 • +5032 vendidos\n\n🔗 Link na bio → procure o achado nº 152\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 152,
+   "id": "22497773735",
+   "nome": "ROMANTIC CROWN Mochila Viagem Feminina Masculina Multifuncional Reforçada Impermeável Expansível, Notebook Antifurto USB",
+   "preco": 109.99,
+   "preco_original": 297.27,
+   "desconto": 63,
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-820lv-mt38wyvxh81x6a",
+   "link": "https://s.shopee.com.br/1LgykXI5S9",
+   "categoria": "Outros"
+  },
   {
    "numero": 151,
    "id": "21678240017",
