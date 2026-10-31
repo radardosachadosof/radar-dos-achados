@@ -807,7 +807,11 @@
   },
   "21678240017": {
    "data": "2026-10-31T14:14:59.562560-03:00",
-   "numero": 151
+   "numero": 151,
+   "redes": {
+    "instagram": "18149453191563031",
+    "facebook": "1285421497997084_122117177919496709"
+   }
   }
  },
  "precos": {
@@ -1718,25 +1722,7 @@
    }
   ]
  },
- "pendente": {
-  "id": "21678240017",
-  "nome": "Creme Gel Regenerador Facial Gota de Colágeno Kokeshi 45g",
-  "preco": 30.9,
-  "preco_original": 64.38,
-  "desconto": 52,
-  "imagem": "https://cf.shopee.com.br/file/br-11134207-820lp-mrvgs50iy8zr1f",
-  "link": "https://s.shopee.com.br/60SnFdy5qp",
-  "link_produto": "https://shopee.com.br/product/395166866/21678240017",
-  "vendas": 6750,
-  "nota": 4.9,
-  "loja": "KOKESHI OFICIAL",
-  "palavra": "skincare",
-  "categoria": "Beleza",
-  "pontos": 146.4710419862424,
-  "numero": 151,
-  "legenda": "📡 O radar apitou!\n\n🛍️ Creme Gel Regenerador Facial Gota de Colágeno Kokeshi 45g\n\n💸 De R$ 64,38 por R$ 30,90 (52% OFF)\n⭐ 4.9 • +6750 vendidos\n\n🔗 Link na bio → procure o achado nº 151\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
-  "tentativas": 0
- },
+ "pendente": null,
  "ofertas": [
   {
    "numero": 151,
