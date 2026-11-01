@@ -7,7 +7,11 @@
   },
   "58251518035": {
    "data": "2026-11-01T14:56:01.495196-03:00",
-   "numero": 154
+   "numero": 154,
+   "redes": {
+    "instagram": "18636272881062245",
+    "facebook": "1285421497997084_122117495289496709"
+   }
   },
   "58208872077": {
    "data": "2026-09-30T09:38:56.005423-03:00",
@@ -1754,25 +1758,7 @@
    }
   ]
  },
- "pendente": {
-  "id": "58251518035",
-  "nome": "Livro Infantil Falante Bilíngue Português/Inglês Educativo Interativo com Som",
-  "preco": 38.9,
-  "preco_original": 121.56,
-  "desconto": 68,
-  "imagem": "https://cf.shopee.com.br/file/br-11134207-820lc-mscge5xo2rk7e9",
-  "link": "https://s.shopee.com.br/BV2iKih0B",
-  "link_produto": "https://shopee.com.br/product/1223506816/58251518035",
-  "vendas": 5610,
-  "nota": 4.9,
-  "loja": "AUMOX",
-  "palavra": "brinquedo educativo",
-  "categoria": "Outros",
-  "pontos": 160.57257003764292,
-  "numero": 154,
-  "legenda": "🔥 Tá barato demais pra deixar passar!\n\n🛍️ Livro Infantil Falante Bilíngue Português/Inglês Educativo Interativo com Som\n\n💸 De R$ 121,56 por R$ 38,90 (68% OFF)\n⭐ 4.9 • +5610 vendidos\n\n🔗 Link na bio → procure o achado nº 154\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
-  "tentativas": 0
- },
+ "pendente": null,
  "ofertas": [
   {
    "numero": 154,
