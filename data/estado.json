@@ -31,7 +31,11 @@
   },
   "58200448338": {
    "data": "2026-11-01T19:01:09.667262-03:00",
-   "numero": 155
+   "numero": 155,
+   "redes": {
+    "instagram": "18079643684743902",
+    "facebook": "1285421497997084_122117542881496709"
+   }
   },
   "22094282340": {
    "data": "2026-10-01T09:36:45.913320-03:00",
@@ -1762,25 +1766,7 @@
    }
   ]
  },
- "pendente": {
-  "id": "58200448338",
-  "nome": "Fone de ouvido estéreo sem fio à prova d'água com Bluetooth caixa de carregamento longa duração T70",
-  "preco": 35.99,
-  "preco_original": 105.85,
-  "desconto": 66,
-  "imagem": "https://cf.shopee.com.br/file/br-11134207-820lc-ms04vb3imy2vc7",
-  "link": "https://s.shopee.com.br/gRJa5U2G3",
-  "link_produto": "https://shopee.com.br/product/1457230584/58200448338",
-  "vendas": 13641,
-  "nota": 4.7,
-  "loja": "Cuco Variedades",
-  "palavra": "fone bluetooth",
-  "categoria": "Outros",
-  "pontos": 161.19611876294042,
-  "numero": 155,
-  "legenda": "✨ Achadinho do dia!\n\n🛍️ Fone de ouvido estéreo sem fio à prova d'água com Bluetooth caixa de carregamento longa…\n\n💸 De R$ 105,85 por R$ 35,99 (66% OFF)\n⭐ 4.7 • +13641 vendidos\n\n🔗 Link na bio → procure o achado nº 155\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
-  "tentativas": 0
- },
+ "pendente": null,
  "ofertas": [
   {
    "numero": 155,
