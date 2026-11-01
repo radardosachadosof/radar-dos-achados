@@ -823,7 +823,11 @@
   },
   "58205941305": {
    "data": "2026-11-01T03:03:59.897000-03:00",
-   "numero": 153
+   "numero": 153,
+   "redes": {
+    "instagram": "18447978853135219",
+    "facebook": "1285421497997084_122117321475496709"
+   }
   }
  },
  "precos": {
@@ -1746,25 +1750,7 @@
    }
   ]
  },
- "pendente": {
-  "id": "58205941305",
-  "nome": "Kit Marmita Pote 350ml 500ml com Tampa Freezer Microondas Fitness Marmitex Organizador",
-  "preco": 21.99,
-  "preco_original": 42.29,
-  "desconto": 48,
-  "imagem": "https://cf.shopee.com.br/file/br-11134224-820lu-ml76otqfif46a9",
-  "link": "https://s.shopee.com.br/AKbo27KpqU",
-  "link_produto": "https://shopee.com.br/product/761647073/58205941305",
-  "vendas": 3807,
-  "nota": 4.9,
-  "loja": "Papel fotografico e Papelaria",
-  "palavra": "organizador cozinha",
-  "categoria": "Cozinha",
-  "pontos": 139.91053540638327,
-  "numero": 153,
-  "legenda": "👀 Olha o que o radar encontrou:\n\n🛍️ Kit Marmita Pote 350ml 500ml com Tampa Freezer Microondas Fitness Marmitex Organizador\n\n💸 De R$ 42,29 por R$ 21,99 (48% OFF)\n⭐ 4.9 • +3807 vendidos\n\n🔗 Link na bio → procure o achado nº 153\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
-  "tentativas": 0
- },
+ "pendente": null,
  "ofertas": [
   {
    "numero": 153,
