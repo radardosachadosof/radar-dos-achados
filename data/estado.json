@@ -847,7 +847,11 @@
   },
   "23798178107": {
    "data": "2026-11-02T18:42:25.573322-03:00",
-   "numero": 157
+   "numero": 157,
+   "redes": {
+    "instagram": "18102899867390372",
+    "facebook": "1285421497997084_122117873853496709"
+   }
   }
  },
  "precos": {
@@ -1790,25 +1794,7 @@
    }
   ]
  },
- "pendente": {
-  "id": "23798178107",
-  "nome": "Kit Colmeia Organizadora de gavetas/Guarda Roupa P, M, G e GG - Maison Plus",
-  "preco": 19.9,
-  "preco_original": 39.8,
-  "desconto": 50,
-  "imagem": "https://cf.shopee.com.br/file/br-11134207-81z1k-mfvhv2o7wtfk77",
-  "link": "https://s.shopee.com.br/2qVpjfoYSK",
-  "link_produto": "https://shopee.com.br/product/1464118632/23798178107",
-  "vendas": 3759,
-  "nota": 4.9,
-  "loja": "Maison Plus",
-  "palavra": "organizador closet",
-  "categoria": "Outros",
-  "pontos": 140.93956285748047,
-  "numero": 157,
-  "legenda": "👀 Olha o que o radar encontrou:\n\n🛍️ Kit Colmeia Organizadora de gavetas/Guarda Roupa P, M, G e GG - Maison Plus\n\n💸 De R$ 39,80 por R$ 19,90 (50% OFF)\n⭐ 4.9 • +3759 vendidos\n\n🔗 Link na bio → procure o achado nº 157\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
-  "tentativas": 0
- },
+ "pendente": null,
  "ofertas": [
   {
    "numero": 157,
