@@ -839,7 +839,11 @@
   },
   "58216433905": {
    "data": "2026-11-02T03:01:52.307832-03:00",
-   "numero": 156
+   "numero": 156,
+   "redes": {
+    "instagram": "18162287845501957",
+    "facebook": "1285421497997084_122117632059496709"
+   }
   }
  },
  "precos": {
@@ -1776,25 +1780,7 @@
    }
   ]
  },
- "pendente": {
-  "id": "58216433905",
-  "nome": "Fone De Ouvido Sem Fio Bluetooth 5.0 E6s e A6s Pronta Entrega no Brasil - CAROLSTORE",
-  "preco": 17.99,
-  "preco_original": 43.88,
-  "desconto": 59,
-  "imagem": "https://cf.shopee.com.br/file/sg-11134201-8257t-ms1imvza172869",
-  "link": "https://s.shopee.com.br/3VlUxIJFVq",
-  "link_produto": "https://shopee.com.br/product/1515198370/58216433905",
-  "vendas": 5178,
-  "nota": 4.8,
-  "loja": "CAROL STORE BR",
-  "palavra": "fone bluetooth",
-  "categoria": "Outros",
-  "pontos": 155.0461270148625,
-  "numero": 156,
-  "legenda": "📡 O radar apitou!\n\n🛍️ Fone De Ouvido Sem Fio Bluetooth 5.0 E6s e A6s Pronta Entrega no Brasil - CAROLSTORE\n\n💸 De R$ 43,88 por R$ 17,99 (59% OFF)\n⭐ 4.8 • +5178 vendidos\n\n🔗 Link na bio → procure o achado nº 156\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
-  "tentativas": 0
- },
+ "pendente": null,
  "ofertas": [
   {
    "numero": 156,
