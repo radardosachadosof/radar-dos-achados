@@ -1,5 +1,5 @@
 {
- "contador": 157,
+ "contador": 158,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -852,6 +852,10 @@
     "instagram": "18102899867390372",
     "facebook": "1285421497997084_122117873853496709"
    }
+  },
+  "58214668571": {
+   "data": "2026-11-03T03:46:28.436906-03:00",
+   "numero": 158
   }
  },
  "precos": {
@@ -1792,10 +1796,45 @@
     "data": "2026-11-02T18:42:25.573315-03:00",
     "preco": 19.9
    }
+  ],
+  "58214668571": [
+   {
+    "data": "2026-11-03T03:46:28.436895-03:00",
+    "preco": 32.9
+   }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "58214668571",
+  "nome": "Hidrabene Protetor Solar Clareador Facial 70 FPS",
+  "preco": 32.9,
+  "preco_original": 59.82,
+  "desconto": 45,
+  "imagem": "https://cf.shopee.com.br/file/br-11134207-820ld-mswt16eywd1h35",
+  "link": "https://s.shopee.com.br/qklxMB2Ae",
+  "link_produto": "https://shopee.com.br/product/1860098702/58214668571",
+  "vendas": 43200,
+  "nota": 4.9,
+  "loja": "Hidrabene ",
+  "palavra": "skincare",
+  "categoria": "Beleza",
+  "pontos": 146.26095808854288,
+  "numero": 158,
+  "legenda": "✨ Achadinho do dia!\n\n🛍️ Hidrabene Protetor Solar Clareador Facial 70 FPS\n\n💸 De R$ 59,82 por R$ 32,90 (45% OFF)\n⭐ 4.9 • +43200 vendidos\n\n🔗 Link na bio → procure o achado nº 158\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 158,
+   "id": "58214668571",
+   "nome": "Hidrabene Protetor Solar Clareador Facial 70 FPS",
+   "preco": 32.9,
+   "preco_original": 59.82,
+   "desconto": 45,
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-820ld-mswt16eywd1h35",
+   "link": "https://s.shopee.com.br/qklxMB2Ae",
+   "categoria": "Beleza"
+  },
   {
    "numero": 157,
    "id": "23798178107",
