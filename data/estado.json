@@ -1,5 +1,5 @@
 {
- "contador": 159,
+ "contador": 160,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -864,6 +864,10 @@
     "instagram": "17926988064204717",
     "facebook": "1285421497997084_122117977125496709"
    }
+  },
+  "58209209623": {
+   "data": "2026-11-03T22:20:29.465990-03:00",
+   "numero": 160
   }
  },
  "precos": {
@@ -1814,10 +1818,45 @@
     "data": "2026-11-03T03:46:28.436895-03:00",
     "preco": 32.9
    }
+  ],
+  "58209209623": [
+   {
+    "data": "2026-11-03T22:20:29.465979-03:00",
+    "preco": 42.99
+   }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "58209209623",
+  "nome": "Livro Sonoro Interativo para Crianças Português e Inglês Livro Ilustrado Bilíngue Brinquedo Educativo Sensível ao Toque",
+  "preco": 42.99,
+  "preco_original": 138.68,
+  "desconto": 69,
+  "imagem": "https://cf.shopee.com.br/file/br-11134207-820m1-mthkxjssl43lf2",
+  "link": "https://s.shopee.com.br/1qdKNhMmTn",
+  "link_produto": "https://shopee.com.br/product/1006855513/58209209623",
+  "vendas": 2724,
+  "nota": 4.9,
+  "loja": "Clearbaby",
+  "palavra": "brinquedo educativo",
+  "categoria": "Outros",
+  "pontos": 168.66085629488128,
+  "numero": 160,
+  "legenda": "👀 Olha o que o radar encontrou:\n\n🛍️ Livro Sonoro Interativo para Crianças Português e Inglês Livro Ilustrado Bilíngue…\n\n💸 De R$ 138,68 por R$ 42,99 (69% OFF)\n⭐ 4.9 • +2724 vendidos\n\n🔗 Link na bio → procure o achado nº 160\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 160,
+   "id": "58209209623",
+   "nome": "Livro Sonoro Interativo para Crianças Português e Inglês Livro Ilustrado Bilíngue Brinquedo Educativo Sensível ao Toque",
+   "preco": 42.99,
+   "preco_original": 138.68,
+   "desconto": 69,
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-820m1-mthkxjssl43lf2",
+   "link": "https://s.shopee.com.br/1qdKNhMmTn",
+   "categoria": "Outros"
+  },
   {
    "numero": 159,
    "id": "21899851088",
