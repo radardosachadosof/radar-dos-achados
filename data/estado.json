@@ -1,5 +1,5 @@
 {
- "contador": 160,
+ "contador": 161,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -106,8 +106,8 @@
    "numero": 23
   },
   "15295040993": {
-   "data": "2026-10-05T09:37:32.546188-03:00",
-   "numero": 24
+   "data": "2026-11-04T16:44:56.845687-03:00",
+   "numero": 161
   },
   "22694204664": {
    "data": "2026-10-05T12:33:26.501458-03:00",
@@ -1029,6 +1029,10 @@
    {
     "data": "2026-10-05T09:37:32.546175-03:00",
     "preco": 14.99
+   },
+   {
+    "data": "2026-11-04T16:44:56.845669-03:00",
+    "preco": 10.99
    }
   ],
   "22694204664": [
@@ -1830,8 +1834,38 @@
    }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "15295040993",
+  "nome": "FADVAN Cílios Volume Formato YY 0,05 0,07 C D L M 6-15MM Olhos de Raposa Cílios Brasileiras",
+  "preco": 10.99,
+  "preco_original": 34.34,
+  "desconto": 68,
+  "imagem": "https://cf.shopee.com.br/file/cn-11134207-820l4-mv13jho3xlvrf9",
+  "link": "https://s.shopee.com.br/20wlnqrqgg",
+  "link_produto": "https://shopee.com.br/product/711418084/15295040993",
+  "vendas": 9254,
+  "nota": 4.8,
+  "loja": "fadvan.br",
+  "palavra": "maquiagem",
+  "categoria": "Beleza",
+  "pontos": 162.93790508984392,
+  "baixou_de": 14.99,
+  "numero": 161,
+  "legenda": "🚨 Achado detectado no radar!\n\n🛍️ FADVAN Cílios Volume Formato YY 0,05 0,07 C D L M 6-15MM Olhos de Raposa Cílios…\n\n📉 BAIXOU! Estava R$ 14,99\n💸 De R$ 34,34 por R$ 10,99 (68% OFF)\n⭐ 4.8 • +9254 vendidos\n\n🔗 Link na bio → procure o achado nº 161\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 161,
+   "id": "15295040993",
+   "nome": "FADVAN Cílios Volume Formato YY 0,05 0,07 C D L M 6-15MM Olhos de Raposa Cílios Brasileiras",
+   "preco": 10.99,
+   "preco_original": 34.34,
+   "desconto": 68,
+   "imagem": "https://cf.shopee.com.br/file/cn-11134207-820l4-mv13jho3xlvrf9",
+   "link": "https://s.shopee.com.br/20wlnqrqgg",
+   "categoria": "Outros"
+  },
   {
    "numero": 160,
    "id": "58209209623",
