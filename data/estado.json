@@ -131,7 +131,11 @@
   },
   "23993270251": {
    "data": "2026-11-05T16:57:27.402305-03:00",
-   "numero": 163
+   "numero": 163,
+   "redes": {
+    "instagram": "18103146770428003",
+    "facebook": "1285421497997084_122118747513496709"
+   }
   },
   "22397985542": {
    "data": "2026-10-06T09:35:57.936527-03:00",
@@ -1850,25 +1854,7 @@
    }
   ]
  },
- "pendente": {
-  "id": "23993270251",
-  "nome": "[75L] Caixa Saco Organizador Cobertor Casaco Guarda Roupa Ecológico Anti-Poeira Umidade Insetos Multiuso. OG-121-BC",
-  "preco": 14.99,
-  "preco_original": 40.51,
-  "desconto": 63,
-  "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-m0am5wk2gg2v23",
-  "link": "https://s.shopee.com.br/8pn7YA6wSt",
-  "link_produto": "https://shopee.com.br/product/1195620126/23993270251",
-  "vendas": 1934,
-  "nota": 4.8,
-  "loja": "New Daily _Brasil",
-  "palavra": "organizador closet",
-  "categoria": "Outros",
-  "pontos": 147.81681917810732,
-  "numero": 163,
-  "legenda": "🚨 Achado detectado no radar!\n\n🛍️ [75L] Caixa Saco Organizador Cobertor Casaco Guarda Roupa Ecológico Anti-Poeira Umidade…\n\n💸 De R$ 40,51 por R$ 14,99 (63% OFF)\n⭐ 4.8 • +1934 vendidos\n\n🔗 Link na bio → procure o achado nº 163\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
-  "tentativas": 0
- },
+ "pendente": null,
  "ofertas": [
   {
    "numero": 163,
