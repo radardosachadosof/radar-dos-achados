@@ -1,5 +1,5 @@
 {
- "contador": 161,
+ "contador": 162,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -74,8 +74,8 @@
    "numero": 15
   },
   "22993693932": {
-   "data": "2026-10-02T18:28:35.430190-03:00",
-   "numero": 16
+   "data": "2026-11-04T22:27:39.643885-03:00",
+   "numero": 162
   },
   "23093422080": {
    "data": "2026-10-02T21:34:54.792502-03:00",
@@ -985,6 +985,10 @@
    {
     "data": "2026-10-02T18:28:35.430179-03:00",
     "preco": 19.99
+   },
+   {
+    "data": "2026-11-04T22:27:39.643873-03:00",
+    "preco": 21.99
    }
   ],
   "23093422080": [
@@ -1838,8 +1842,37 @@
    }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "22993693932",
+  "nome": "H'Maston CJ-02 Suporte Celular GPS Veicular Carro Universal 360° Trava Automática Ajustável",
+  "preco": 21.99,
+  "preco_original": 73.3,
+  "desconto": 70,
+  "imagem": "https://cf.shopee.com.br/file/sg-11134201-7rblf-m5z7dbop1eji56",
+  "link": "https://s.shopee.com.br/8fTfk6Wrzr",
+  "link_produto": "https://shopee.com.br/product/1366045948/22993693932",
+  "vendas": 4969,
+  "nota": 4.8,
+  "loja": "-LUCKY STAR-",
+  "palavra": "suporte celular",
+  "categoria": "Outros",
+  "pontos": 167.35773238062606,
+  "numero": 162,
+  "legenda": "💥 Oferta fresquinha!\n\n🛍️ H'Maston CJ-02 Suporte Celular GPS Veicular Carro Universal 360° Trava Automática…\n\n💸 De R$ 73,30 por R$ 21,99 (70% OFF)\n⭐ 4.8 • +4969 vendidos\n\n🔗 Link na bio → procure o achado nº 162\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 162,
+   "id": "22993693932",
+   "nome": "H'Maston CJ-02 Suporte Celular GPS Veicular Carro Universal 360° Trava Automática Ajustável",
+   "preco": 21.99,
+   "preco_original": 73.3,
+   "desconto": 70,
+   "imagem": "https://cf.shopee.com.br/file/sg-11134201-7rblf-m5z7dbop1eji56",
+   "link": "https://s.shopee.com.br/8fTfk6Wrzr",
+   "categoria": "Outros"
+  },
   {
    "numero": 161,
    "id": "15295040993",
