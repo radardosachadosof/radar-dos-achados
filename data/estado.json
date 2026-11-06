@@ -119,7 +119,11 @@
   },
   "22694204664": {
    "data": "2026-11-06T16:24:25.789557-03:00",
-   "numero": 165
+   "numero": 165,
+   "redes": {
+    "instagram": "18105485351365147",
+    "facebook": "1285421497997084_122119041405496709"
+   }
   },
   "52658057285": {
    "data": "2026-10-05T15:35:37.386755-03:00",
@@ -1866,25 +1870,7 @@
    }
   ]
  },
- "pendente": {
-  "id": "22694204664",
-  "nome": "Cozedor De Ovos Portátil Elétrico Cozinha A Vapor 110v/220v",
-  "preco": 29.98,
-  "preco_original": 99.93,
-  "desconto": 70,
-  "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-mbxi2wd1amvtfc",
-  "link": "https://s.shopee.com.br/1BkaY0hQE",
-  "link_produto": "https://shopee.com.br/product/1531826276/22694204664",
-  "vendas": 8088,
-  "nota": 4.9,
-  "loja": "PENGFA TECH LTDA",
-  "palavra": "utensilios cozinha",
-  "categoria": "Cozinha",
-  "pontos": 174.38805809330782,
-  "numero": 165,
-  "legenda": "📡 O radar apitou!\n\n🛍️ Cozedor De Ovos Portátil Elétrico Cozinha A Vapor 110v/220v\n\n💸 De R$ 99,93 por R$ 29,98 (70% OFF)\n⭐ 4.9 • +8088 vendidos\n\n🔗 Link na bio → procure o achado nº 165\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
-  "tentativas": 0
- },
+ "pendente": null,
  "ofertas": [
   {
    "numero": 165,
