@@ -1,5 +1,5 @@
 {
- "contador": 165,
+ "contador": 166,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -98,8 +98,8 @@
    "numero": 20
   },
   "23199020709": {
-   "data": "2026-10-04T15:18:28.811897-03:00",
-   "numero": 21
+   "data": "2026-11-06T21:56:29.318999-03:00",
+   "numero": 166
   },
   "57653356201": {
    "data": "2026-10-04T18:39:03.755323-03:00",
@@ -1035,6 +1035,10 @@
    {
     "data": "2026-10-04T15:18:28.811886-03:00",
     "preco": 29.98
+   },
+   {
+    "data": "2026-11-06T21:56:29.318989-03:00",
+    "preco": 29.98
    }
   ],
   "57653356201": [
@@ -1870,8 +1874,37 @@
    }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "23199020709",
+  "nome": "Cozedor de Ovos Elétrico Portátil Cozinha à Vapor 110V/220V Cores disponíveis （Branco Azul Rosa Amarelo）",
+  "preco": 29.98,
+  "preco_original": 99.93,
+  "desconto": 70,
+  "imagem": "https://cf.shopee.com.br/file/br-11134207-81z1k-mfytb2po8gzk07",
+  "link": "https://s.shopee.com.br/qkra4xWjL",
+  "link_produto": "https://shopee.com.br/product/1531826276/23199020709",
+  "vendas": 10358,
+  "nota": 4.9,
+  "loja": "PENGFA TECH LTDA",
+  "palavra": "utensilios cozinha",
+  "categoria": "Cozinha",
+  "pontos": 165.39068820762304,
+  "numero": 166,
+  "legenda": "👀 Olha o que o radar encontrou:\n\n🛍️ Cozedor de Ovos Elétrico Portátil Cozinha à Vapor 110V/220V Cores disponíveis （Branco…\n\n💸 De R$ 99,93 por R$ 29,98 (70% OFF)\n⭐ 4.9 • +10358 vendidos\n\n🔗 Link na bio → procure o achado nº 166\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 166,
+   "id": "23199020709",
+   "nome": "Cozedor de Ovos Elétrico Portátil Cozinha à Vapor 110V/220V Cores disponíveis （Branco Azul Rosa Amarelo）",
+   "preco": 29.98,
+   "preco_original": 99.93,
+   "desconto": 70,
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-81z1k-mfytb2po8gzk07",
+   "link": "https://s.shopee.com.br/qkra4xWjL",
+   "categoria": "Cozinha"
+  },
   {
    "numero": 165,
    "id": "22694204664",
