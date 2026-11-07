@@ -1,5 +1,5 @@
 {
- "contador": 167,
+ "contador": 168,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -150,8 +150,8 @@
    }
   },
   "22397985542": {
-   "data": "2026-10-06T09:35:57.936527-03:00",
-   "numero": 29
+   "data": "2026-11-07T18:50:38.703960-03:00",
+   "numero": 168
   },
   "58200459415": {
    "data": "2026-10-06T12:30:08.748561-03:00",
@@ -1111,6 +1111,10 @@
    {
     "data": "2026-10-06T09:35:57.936516-03:00",
     "preco": 21.23
+   },
+   {
+    "data": "2026-11-07T18:50:38.703947-03:00",
+    "preco": 17.52
    }
   ],
   "58200459415": [
@@ -1886,8 +1890,38 @@
    }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "22397985542",
+  "nome": "Kit 3 Necessaire Maquiagem Transparente WashBag A Prova De Água",
+  "preco": 17.52,
+  "preco_original": 58.4,
+  "desconto": 70,
+  "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-m1oj54hqshjlc0",
+  "link": "https://s.shopee.com.br/6VPG5QbRto",
+  "link_produto": "https://shopee.com.br/product/462426918/22397985542",
+  "vendas": 2654,
+  "nota": 4.9,
+  "loja": "3 PAO",
+  "palavra": "necessaire",
+  "categoria": "Beleza",
+  "pontos": 160.83625314961358,
+  "baixou_de": 21.23,
+  "numero": 168,
+  "legenda": "👀 Olha o que o radar encontrou:\n\n🛍️ Kit 3 Necessaire Maquiagem Transparente WashBag A Prova De Água\n\n📉 BAIXOU! Estava R$ 21,23\n💸 De R$ 58,40 por R$ 17,52 (70% OFF)\n⭐ 4.9 • +2654 vendidos\n\n🔗 Link na bio → procure o achado nº 168\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 168,
+   "id": "22397985542",
+   "nome": "Kit 3 Necessaire Maquiagem Transparente WashBag A Prova De Água",
+   "preco": 17.52,
+   "preco_original": 58.4,
+   "desconto": 70,
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-m1oj54hqshjlc0",
+   "link": "https://s.shopee.com.br/6VPG5QbRto",
+   "categoria": "Beleza"
+  },
   {
    "numero": 167,
    "id": "20997654582",
