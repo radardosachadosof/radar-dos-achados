@@ -19,7 +19,11 @@
   },
   "20997654582": {
    "data": "2026-11-07T14:44:52.387116-03:00",
-   "numero": 167
+   "numero": 167,
+   "redes": {
+    "instagram": "18057284105588064",
+    "facebook": "1285421497997084_122119356339496709"
+   }
   },
   "21899851088": {
    "data": "2026-11-03T16:29:54.411780-03:00",
@@ -1882,25 +1886,7 @@
    }
   ]
  },
- "pendente": {
-  "id": "20997654582",
-  "nome": "Hidratante Labial Carmed Crystal Pink Rose Gold Dentadura Beijo Banana Beijinho Rosa Glitter",
-  "preco": 10.99,
-  "preco_original": 36.63,
-  "desconto": 70,
-  "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-m0ejjwwjyv1c68",
-  "link": "https://s.shopee.com.br/8VAKCDUX6h",
-  "link_produto": "https://shopee.com.br/product/1045085918/20997654582",
-  "vendas": 9737,
-  "nota": 4.9,
-  "loja": "Droga Clara",
-  "palavra": "skincare",
-  "categoria": "Beleza",
-  "pontos": 167.28483305902392,
-  "numero": 167,
-  "legenda": "🔥 Tá barato demais pra deixar passar!\n\n🛍️ Hidratante Labial Carmed Crystal Pink Rose Gold Dentadura Beijo Banana Beijinho Rosa…\n\n💸 De R$ 36,63 por R$ 10,99 (70% OFF)\n⭐ 4.9 • +9737 vendidos\n\n🔗 Link na bio → procure o achado nº 167\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
-  "tentativas": 0
- },
+ "pendente": null,
  "ofertas": [
   {
    "numero": 167,
