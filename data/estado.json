@@ -1,5 +1,5 @@
 {
- "contador": 169,
+ "contador": 170,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -226,8 +226,8 @@
    "numero": 44
   },
   "21235699753": {
-   "data": "2026-10-09T12:31:11.191678-03:00",
-   "numero": 45
+   "data": "2026-11-08T14:55:56.452195-03:00",
+   "numero": 170
   },
   "20999566854": {
    "data": "2026-10-09T15:32:46.780572-03:00",
@@ -1227,6 +1227,10 @@
    {
     "data": "2026-10-09T12:31:11.191666-03:00",
     "preco": 22.25
+   },
+   {
+    "data": "2026-11-08T14:55:56.452182-03:00",
+    "preco": 19.99
    }
   ],
   "20999566854": [
@@ -1902,8 +1906,38 @@
    }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "21235699753",
+  "nome": "Fadvan 5D W Extensões De Cílios Em Forma De 0.07 C/D Faux Mink Natural Lashes Profissionais Suaves",
+  "preco": 19.99,
+  "preco_original": 58.79,
+  "desconto": 66,
+  "imagem": "https://cf.shopee.com.br/file/cn-11134207-820l4-mv13hxd19hxd38",
+  "link": "https://s.shopee.com.br/3VlfqgQDWq",
+  "link_produto": "https://shopee.com.br/product/711418084/21235699753",
+  "vendas": 20060,
+  "nota": 4.8,
+  "loja": "fadvan.br",
+  "palavra": "maquiagem",
+  "categoria": "Beleza",
+  "pontos": 171.48075075216872,
+  "baixou_de": 22.25,
+  "numero": 170,
+  "legenda": "🔥 Tá barato demais pra deixar passar!\n\n🛍️ Fadvan 5D W Extensões De Cílios Em Forma De 0.07 C/D Faux Mink Natural Lashes…\n\n📉 BAIXOU! Estava R$ 22,25\n💸 De R$ 58,79 por R$ 19,99 (66% OFF)\n⭐ 4.8 • +20060 vendidos\n\n🔗 Link na bio → procure o achado nº 170\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 170,
+   "id": "21235699753",
+   "nome": "Fadvan 5D W Extensões De Cílios Em Forma De 0.07 C/D Faux Mink Natural Lashes Profissionais Suaves",
+   "preco": 19.99,
+   "preco_original": 58.79,
+   "desconto": 66,
+   "imagem": "https://cf.shopee.com.br/file/cn-11134207-820l4-mv13hxd19hxd38",
+   "link": "https://s.shopee.com.br/3VlfqgQDWq",
+   "categoria": "Outros"
+  },
   {
    "numero": 169,
    "id": "58208872077",
