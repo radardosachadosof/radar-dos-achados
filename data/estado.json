@@ -1,5 +1,5 @@
 {
- "contador": 171,
+ "contador": 172,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -66,8 +66,8 @@
    "numero": 11
   },
   "23499025640": {
-   "data": "2026-10-01T21:36:43.749295-03:00",
-   "numero": 12
+   "data": "2026-11-09T03:28:07.391972-03:00",
+   "numero": 172
   },
   "22697654212": {
    "data": "2026-10-02T09:35:38.500398-03:00",
@@ -1009,6 +1009,10 @@
    {
     "data": "2026-10-01T21:36:43.749284-03:00",
     "preco": 13.88
+   },
+   {
+    "data": "2026-11-09T03:28:07.391961-03:00",
+    "preco": 11.88
    }
   ],
   "22697654212": [
@@ -1918,8 +1922,38 @@
    }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "23499025640",
+  "nome": "Bola Brinquedos com Cauda De Rolamento Automático Do Falso Recarregável Bola Inteligente Gato Interativo",
+  "preco": 11.88,
+  "preco_original": 36.0,
+  "desconto": 67,
+  "imagem": "https://cf.shopee.com.br/file/br-11134201-820lz-mqy706szhts7bf",
+  "link": "https://s.shopee.com.br/6AmRIfIyah",
+  "link_produto": "https://shopee.com.br/product/1291506568/23499025640",
+  "vendas": 1892,
+  "nota": 4.8,
+  "loja": "POPOCOLA",
+  "palavra": "acessorios pet",
+  "categoria": "Pets",
+  "pontos": 161.41154494471343,
+  "baixou_de": 13.88,
+  "numero": 172,
+  "legenda": "👀 Olha o que o radar encontrou:\n\n🛍️ Bola Brinquedos com Cauda De Rolamento Automático Do Falso Recarregável Bola Inteligente…\n\n📉 BAIXOU! Estava R$ 13,88\n💸 De R$ 36,00 por R$ 11,88 (67% OFF)\n⭐ 4.8 • +1892 vendidos\n\n🔗 Link na bio → procure o achado nº 172\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 172,
+   "id": "23499025640",
+   "nome": "Bola Brinquedos com Cauda De Rolamento Automático Do Falso Recarregável Bola Inteligente Gato Interativo",
+   "preco": 11.88,
+   "preco_original": 36.0,
+   "desconto": 67,
+   "imagem": "https://cf.shopee.com.br/file/br-11134201-820lz-mqy706szhts7bf",
+   "link": "https://s.shopee.com.br/6AmRIfIyah",
+   "categoria": "Pets"
+  },
   {
    "numero": 171,
    "id": "23592921540",
