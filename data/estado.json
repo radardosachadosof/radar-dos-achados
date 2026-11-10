@@ -123,7 +123,11 @@
   },
   "58206939329": {
    "data": "2026-11-10T04:17:38.562096-03:00",
-   "numero": 173
+   "numero": 173,
+   "redes": {
+    "instagram": "18108010625569350",
+    "facebook": "1285421497997084_122120062977496709"
+   }
   },
   "15295040993": {
    "data": "2026-11-04T16:44:56.845687-03:00",
@@ -1930,26 +1934,7 @@
    }
   ]
  },
- "pendente": {
-  "id": "58206939329",
-  "nome": "KIT CESTOS ORGANIZADOR CESTINHO MULTIUSO GAVETA ESCRITORIO CLINICA",
-  "preco": 11.5,
-  "preco_original": 30.26,
-  "desconto": 62,
-  "imagem": "https://cf.shopee.com.br/file/br-11134201-820m1-mqy9yaulsqvb79",
-  "link": "https://s.shopee.com.br/6VPJd7qfDv",
-  "link_produto": "https://shopee.com.br/product/1542205488/58206939329",
-  "vendas": 1854,
-  "nota": 4.8,
-  "loja": "House Gourmett",
-  "palavra": "organizador closet",
-  "categoria": "Outros",
-  "pontos": 148.34852632198442,
-  "bonus_tendencia": 0,
-  "numero": 173,
-  "legenda": "🔥 Tá barato demais pra deixar passar!\n\n🛍️ KIT CESTOS ORGANIZADOR CESTINHO MULTIUSO GAVETA ESCRITORIO CLINICA\n\n💸 De R$ 30,26 por R$ 11,50 (62% OFF)\n⭐ 4.8 • +1854 vendidos\n\n🔗 Link na bio → procure o achado nº 173\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
-  "tentativas": 0
- },
+ "pendente": null,
  "ofertas": [
   {
    "numero": 173,
