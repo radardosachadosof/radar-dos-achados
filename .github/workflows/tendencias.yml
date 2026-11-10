@@ -1,0 +1,76 @@
+name: Radar de tendências
+
+on:
+  schedule:
+    # 9:07 UTC = 6h07 em Brasília. Todo dia mede o termômetro;
+    # na segunda-feira também escreve o relatório na planilha.
+    - cron: "7 9 * * *"
+  workflow_dispatch:
+    inputs:
+      comando:
+        description: "O que fazer"
+        type: choice
+        options: [coletar, relatorio, coletar-e-relatorio, ver]
+        default: coletar
+
+permissions:
+  contents: write
+
+concurrency:
+  group: postar          # mesmo grupo dos outros robôs: nunca rodam juntos
+  cancel-in-progress: false
+
+jobs:
+  tendencias:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      SHOPEE_APP_ID: ${{ secrets.SHOPEE_APP_ID }}
+      SHOPEE_SECRET: ${{ secrets.SHOPEE_SECRET }}
+      GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
+      GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
+      GOOGLE_REFRESH_TOKEN: ${{ secrets.GOOGLE_REFRESH_TOKEN }}
+      DRY_RUN: ${{ vars.DRY_RUN }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Instalar dependências
+        run: pip install -r requirements.txt
+
+      - name: Decidir o que rodar
+        id: plano
+        run: |
+          CMD="${{ inputs.comando }}"
+          if [ -z "$CMD" ]; then
+            # execução agendada: coleta todo dia; relatório só na segunda (1)
+            if [ "$(TZ=America/Sao_Paulo date +%u)" = "1" ]; then CMD=coletar-e-relatorio; else CMD=coletar; fi
+          fi
+          echo "cmd=$CMD" >> "$GITHUB_OUTPUT"
+          echo "Comando: $CMD"
+
+      - name: Medir o termômetro
+        if: steps.plano.outputs.cmd == 'coletar' || steps.plano.outputs.cmd == 'coletar-e-relatorio'
+        run: python tendencias.py coletar
+
+      - name: Salvar o termômetro
+        if: steps.plano.outputs.cmd == 'coletar' || steps.plano.outputs.cmd == 'coletar-e-relatorio'
+        run: |
+          git config user.name "radar-bot"
+          git config user.email "radar-bot@users.noreply.github.com"
+          git add data/termometro.json
+          git diff --cached --quiet || (git commit -m "Termômetro de tendências" && git pull --rebase -q && git push)
+
+      - name: Escrever relatório na planilha
+        if: steps.plano.outputs.cmd == 'relatorio' || steps.plano.outputs.cmd == 'coletar-e-relatorio'
+        run: python tendencias.py relatorio
+
+      - name: Mostrar ranking no log
+        if: steps.plano.outputs.cmd == 'ver'
+        run: python tendencias.py ver

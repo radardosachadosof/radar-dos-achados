@@ -61,6 +61,16 @@
     "planilha_id": "1ldoOVt9vSpgLiF7-Uc_dQ2SG_hjTRQfPczMxvfGI5Ak"
   },
 
+  "tendencias": {
+    "termos_extra": [],
+    "produtos_por_palavra": 50,
+    "paginas": 2,
+    "dias_guardados": 21,
+    "itens_no_relatorio": 40,
+    "aba": "Tendências",
+    "aba_palavras": "Tendências - palavras"
+  },
+
   "vitrine": {
     "quantidade_na_pagina": 60
   }

@@ -187,8 +187,17 @@ def escolher_oferta(estado):
         return None
 
     # Pontuação: desconto + popularidade + nota, com um pouco de sorte para variar
+    # Bônus do termômetro de tendências: quem está vendendo rápido nesta semana sobe na fila
+    try:
+        from tendencias import bonus_tendencia, carregar as carregar_termometro
+        termometro = carregar_termometro()
+    except Exception as e:
+        log(f"Termômetro indisponível ({e}); seguindo sem ele.")
+        termometro, bonus_tendencia = {}, lambda pid, dados: 0
     for p in bons:
         p["pontos"] = p["desconto"] * 1.5 + math.log10(p["vendas"] + 1) * 10 + (p["nota"] - 4) * 20 + random.uniform(0, 15)
+        p["bonus_tendencia"] = bonus_tendencia(p["id"], termometro)
+        p["pontos"] += p["bonus_tendencia"]
     bons.sort(key=lambda p: p["pontos"], reverse=True)
     escolhida = bons[0]
 
