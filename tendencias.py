@@ -19,6 +19,7 @@ import json
 import math
 import re
 import sys
+import time
 from datetime import date, timedelta
 
 from radar import CONFIG, DRY_RUN, RAIZ, agora, brl, categoria_de, log, normalizar, shopee
@@ -64,7 +65,17 @@ def buscar(palavra, pagina):
         "productLink sales ratingStar shopName commissionRate}}}"
         % (json.dumps(palavra, ensure_ascii=False), pagina, PRODUTOS_POR_PALAVRA)
     )
-    return shopee(q)["productOfferV2"]["nodes"] or []
+    # A API da Shopee às vezes devolve "System Error [10000]" quando recebe muitas
+    # buscas seguidas; esperar um pouco e tentar de novo costuma resolver.
+    for tentativa in range(4):
+        try:
+            nos = shopee(q)["productOfferV2"]["nodes"] or []
+            time.sleep(3)
+            return nos
+        except RuntimeError as e:
+            if "10000" not in str(e) or tentativa == 3:
+                raise
+            time.sleep(10 * (tentativa + 1))
 
 
 def coletar():
