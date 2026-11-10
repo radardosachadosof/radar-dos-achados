@@ -22,6 +22,7 @@
   "categorias": {
     "Beleza": ["skincare", "maquiagem", "necessaire", "batom", "base ", "rimel", "máscara de cílios", "sérum", "serum", "hidratante", "protetor solar", "pincel", "esmalte", "perfume", "cabelo", "escova de cabelo", "secador", "chapinha"],
     "Pets": ["pet", "gato", "cachorro", "cão", "coleira", "arranhador", "comedouro", "bebedouro", "caminha", "ração", "petisco", "brinquedo para gato", "brinquedo para cachorro"],
+    "Estudos": ["caderno", "planner", "agenda", "marca texto", "marca-texto", "caneta", "estojo", "post-it", "post it", "bloco de notas", "washi", "papelaria", "porta caneta", "porta-caneta", "organizador de mesa", "luminária de mesa", "luminaria de mesa", "suporte para notebook", "mousepad", "mouse pad"],
     "Cozinha": ["cozinha", "utensilio", "utensílio", "garrafa termica", "garrafa térmica", "pote", "panela", "frigideira", "airfryer", "air fryer", "talher", "copo", "caneca", "tábua", "tabua", "escorredor", "porta tempero", "marmita"]
   },
   "palavras_por_execucao": 3,
@@ -63,5 +64,79 @@
 
   "vitrine": {
     "quantidade_na_pagina": 60
+  },
+
+  "manchetes": {
+    "_como_funciona": "Cada manchete = [frase manuscrita, parte em negrito, palavra em destaque]. A palavra em destaque fica sobre uma pincelada colorida.",
+    "gerais": [
+      ["pequenos achados", "que fazem a", "diferença"],
+      ["achadinho do dia", "pra deixar tudo", "mais bonito"],
+      ["olha esse", "achado", "fofo"],
+      ["achado que", "parece", "caro"],
+      ["o radar achou", "e eu", "amei"],
+      ["pra quem ama", "achadinho", "barato"],
+      ["daqueles achados", "que dá vontade de", "ter"],
+      ["da série:", "achados que", "valem a pena"],
+      ["simples, mas", "faz toda a", "diferença"],
+      ["achadinho", "bom e", "barato"]
+    ],
+    "por_categoria": {
+      "Cozinha": [["pra cozinha", "ficar mais", "linda"], ["achadinho", "de", "cozinha"]],
+      "Beleza": [["momento", "auto", "cuidado"], ["achadinho", "de", "beleza"]],
+      "Pets": [["pro seu", "bichinho", "amar"], ["achadinho", "pet", "fofo"]],
+      "Estudos": [["pro cantinho", "de", "estudos"], ["papelaria", "mais", "fofa"]]
+    }
+  },
+
+  "frases": {
+    "_como_funciona": "Textos dos balões. As genéricas servem para qualquer produto. As 'por_palavra' só aparecem se a palavra estiver no nome do produto. Cada post usa 3 frases, sem repetir as dos últimos posts.",
+    "genericas": {
+      "visual": ["design minimalista", "lindo e funcional", "simples e lindo", "cheio de charme", "deixa tudo mais bonito", "cara de loja cara", "estética de Pinterest", "detalhe que faz diferença", "fofo demais", "elegante sem esforço"],
+      "praticidade": ["facilita a rotina", "prático no dia a dia", "fácil de usar", "ajuda a organizar", "perfeito para o dia a dia", "útil de verdade", "resolve rapidinho"],
+      "espaco": ["compacto", "cabe em qualquer cantinho", "ocupa pouco espaço"],
+      "emocao": ["meu favorito!", "amei demais", "vale cada centavo", "ótimo para presentear", "queridinho da Shopee", "bem avaliado", "achado do dia"]
+    },
+    "por_palavra": {
+      "bambu": "detalhe em bambu",
+      "vidro": "vidro transparente",
+      "inox": "aço inox resistente",
+      "silicone": "silicone flexível",
+      "hermético": "fecha bem",
+      "hermetico": "fecha bem",
+      "dobrável": "dobra e guarda fácil",
+      "dobravel": "dobra e guarda fácil",
+      "recarregável": "recarregável",
+      "recarregavel": "recarregável",
+      "usb": "recarregável",
+      "portátil": "leva para qualquer lugar",
+      "portatil": "leva para qualquer lugar",
+      "led": "luz de LED",
+      "kit": "vem em kit",
+      "conjunto": "vem em kit",
+      "antiaderente": "antiaderente",
+      "magnético": "prende com ímã",
+      "magnetico": "prende com ímã",
+      "imã": "prende com ímã",
+      "impermeável": "resistente à água",
+      "impermeavel": "resistente à água"
+    },
+    "por_categoria": {
+      "Cozinha": ["cozinha mais organizada", "facilita o preparo"],
+      "Beleza": ["momento autocuidado", "me cuido, me amo"],
+      "Pets": ["seu pet vai amar", "para o seu bichinho"],
+      "Estudos": ["rotina mais organizada", "estudar fica mais gostoso"]
+    }
+  },
+
+  "legenda": {
+    "ganchos": [
+      "Esse achadinho tá fazendo a diferença por aqui 👀",
+      "Achado que parece caro (mas não é) ✨",
+      "Pra quem ama deixar tudo mais bonito gastando pouco 💛",
+      "O radar apitou e eu precisei te mostrar 📡",
+      "Daqueles achados que a gente se pergunta como viveu sem 🫶",
+      "Achadinho bom, bonito e barato: tem sim! 🛍️",
+      "Olha que fofura esse achado 🥹"
+    ]
   }
 }

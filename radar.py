@@ -30,6 +30,8 @@ from pathlib import Path
 import requests
 from PIL import Image, ImageDraw, ImageFont, ImageOps
 
+import arte
+
 RAIZ = Path(__file__).resolve().parent
 CONFIG = json.loads((RAIZ / "config.json").read_text(encoding="utf-8"))
 ARQ_ESTADO = RAIZ / "data" / "estado.json"
@@ -218,18 +220,26 @@ def nome_curto(nome, limite=90):
     return nome if len(nome) <= limite else nome[: limite - 1].rsplit(" ", 1)[0] + "…"
 
 
+def vendas_txt(n):
+    return f"+{n / 1000:.1f} mil".replace(".0 mil", " mil").replace(".", ",") if n >= 1000 else f"+{n}"
+
+
 def montar_legenda(p):
-    linhas = [random.choice(ABERTURAS), "", f"🛍️ {nome_curto(p['nome'])}", ""]
+    ganchos = CONFIG.get("legenda", {}).get("ganchos") or ABERTURAS
+    linhas = [random.choice(ganchos), "", f"🛍️ {nome_curto(p['nome'])}", ""]
     if p.get("baixou_de"):
         linhas.append(f"📉 BAIXOU! Estava {brl(p['baixou_de'])}")
     if p["preco_original"]:
         linhas.append(f"💸 De {brl(p['preco_original'])} por {brl(p['preco'])} ({p['desconto']}% OFF)")
     else:
-        linhas.append(f"💸 Por apenas {brl(p['preco'])}")
-    linhas.append(f"⭐ {p['nota']:.1f} • +{p['vendas']} vendidos")
+        linhas.append(f"💸 Por {brl(p['preco'])}")
+    linhas.append(f"⭐ {p['nota']:.1f} • {vendas_txt(p['vendas'])} vendidos")
     linhas += [
         "",
-        f"🔗 Link na bio → procure o achado nº {p['numero']}",
+        "💬 Comenta ACHADO que eu te mando o link!",
+        f"🔗 Ou procura o achado nº {p['numero']} na vitrine do link da bio.",
+        "",
+        "💾 Salva pra não perder e manda pra quem ama um achadinho.",
         "",
         "⚠️ Preço e estoque podem mudar a qualquer momento.",
         "#publi • link de afiliado",
@@ -281,74 +291,13 @@ def quebrar(draw, texto, fnt, largura, max_linhas):
 CHAMADAS = ["QUERO O MEU", "CORRE, QUE ACABA", "PEGA O SEU", "APROVEITA"]
 
 
-def gerar_arte(p, destino):
-    """Arte 1080x1350: produto em destaque, marca discreta e chamada para ação."""
-    W, H = 1080, 1350
-    img = Image.new("RGB", (W, H), COR_FUNDO)
-    d = ImageDraw.Draw(img)
-
-    # Faixa fina da marca
-    d.rectangle([0, 0, W, 84], fill=COR_MARCA)
-    x_nome = 40
-    if LOGO.exists():
-        logo = ImageOps.fit(Image.open(LOGO).convert("RGBA"), (68, 68), Image.LANCZOS)
-        redondo = Image.new("L", (272, 272), 0)
-        ImageDraw.Draw(redondo).ellipse([0, 0, 271, 271], fill=255)
-        redondo = redondo.resize((68, 68), Image.LANCZOS)
-        alfa = Image.composite(logo.getchannel("A"), Image.new("L", (68, 68), 0), redondo)
-        logo.putalpha(alfa)
-        img.paste(logo, (40, 42 - logo.height // 2), logo)
-        x_nome = 124
-    d.text((x_nome, 42), CONFIG["nome_perfil"], font=fonte(30, "Bold"), fill="white", anchor="lm")
-
-    # Foto do produto, grande e inteira (sem cortar)
+def gerar_arte(p, destino, evitar_frases=()):
+    """Arte 1080x1350 no visual novo (post anotado). A lógica de layout fica em arte.py."""
     resp = requests.get(p["imagem"], headers=UA, timeout=30)
     resp.raise_for_status()
-    foto = Image.open(io.BytesIO(resp.content)).convert("RGB")
-    CX, CY, CW, CH = 40, 108, 1000, 870
-    foto = ImageOps.contain(foto, (CW - 40, CH - 40), Image.LANCZOS)
-    caixa = Image.new("RGB", (CW, CH), "white")
-    caixa.paste(foto, ((CW - foto.width) // 2, (CH - foto.height) // 2))
-    mascara = Image.new("L", caixa.size, 0)
-    ImageDraw.Draw(mascara).rounded_rectangle([0, 0, CW, CH], radius=36, fill=255)
-    img.paste(caixa, (CX, CY), mascara)
-
-    # Selo de desconto
-    if p["desconto"]:
-        sx, sy, sr = W - 130, CY + 110, 88
-        d.ellipse([sx - sr, sy - sr, sx + sr, sy + sr], fill=COR_MARCA)
-        d.text((sx, sy - 16), f"-{p['desconto']}%", font=fonte(50, "ExtraBold"), fill="white", anchor="mm")
-        d.text((sx, sy + 32), "OFF", font=fonte(30, "Bold"), fill="white", anchor="mm")
-
-    # Nome (1 linha)
-    f_nome = fonte(34, "Regular")
-    d.text((50, 1000), quebrar(d, p["nome"], f_nome, W - 100, 1)[0], font=f_nome, fill=COR_TEXTO)
-
-    # Preços
-    y = 1058
-    if p["preco_original"]:
-        txt = f"de {brl(p['preco_original'])}"
-        f_de = fonte(34, "Regular")
-        d.text((50, y), txt, font=f_de, fill=COR_SUAVE)
-        d.line([50 + d.textlength("de ", font=f_de), y + 22, 50 + d.textlength(txt, font=f_de), y + 22], fill=COR_SUAVE, width=3)
-        y += 46
-    d.text((50, y), f"por {brl(p['preco'])}", font=fonte(76, "ExtraBold"), fill=COR_MARCA)
-
-    # Chamada para ação + número discreto
-    chamada = random.choice(CHAMADAS)
-    f_cta = fonte(32, "ExtraBold")
-    larg = int(d.textlength(chamada, font=f_cta)) + 120
-    bx1, by0 = W - 50, 1226
-    d.rounded_rectangle([bx1 - larg, by0, bx1, by0 + 84], radius=42, fill=COR_AZUL)
-    tx = bx1 - larg / 2 - 18
-    d.text((tx, by0 + 42), chamada, font=f_cta, fill="white", anchor="mm")
-    ax = tx + d.textlength(chamada, font=f_cta) / 2 + 22  # seta desenhada
-    d.line([ax, by0 + 42, ax + 26, by0 + 42], fill="white", width=5)
-    d.polygon([(ax + 34, by0 + 42), (ax + 20, by0 + 31), (ax + 20, by0 + 53)], fill="white")
-    d.text((50, by0 + 42), f"achado nº {p['numero']} • link na bio", font=fonte(28, "Regular"), fill=COR_SUAVE, anchor="lm")
-
-    destino.parent.mkdir(parents=True, exist_ok=True)
-    img.save(destino, "JPEG", quality=90)
+    foto = Image.open(io.BytesIO(resp.content))
+    frases = arte.escolher_frases(p, CONFIG, evitar=evitar_frases)
+    return arte.post_anotado(foto, p, CONFIG, destino, frases=frases)
 
 
 # ------------------------------------------------------------------ vitrine
@@ -594,7 +543,8 @@ def preparar():
     p["numero"] = estado["contador"]
     p["legenda"] = montar_legenda(p)
     arquivo_arte = PASTA_SITE / "img" / f"{p['numero']}.jpg"
-    gerar_arte(p, arquivo_arte)
+    usado = gerar_arte(p, arquivo_arte, evitar_frases=estado.get("ultimas_frases", []))
+    estado["ultimas_frases"] = (usado["frases"] + estado.get("ultimas_frases", []))[:12]
 
     oferta_vitrine = {k: p[k] for k in ("numero", "id", "nome", "preco", "preco_original", "desconto", "imagem", "link")}
     oferta_vitrine["categoria"] = p.get("categoria", "Outros")
