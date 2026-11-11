@@ -417,11 +417,14 @@ def gerar_vitrine(estado):
     colecoes_link = (
         '<div class="atalhos"><a href="colecoes.html#colecoes">✨ Coleções</a><a href="colecoes.html#reels">🎬 Reels e Stories</a></div>'
         if (PASTA_SITE / "colecoes.html").exists() else "")
+    grupo_link = (  # faixa "Entre no grupo do WhatsApp" (aparece se existir docs/grupo.html)
+        '<a href="grupo.html" style="display:flex;align-items:center;gap:12px;max-width:640px;margin:14px auto 0;width:calc(100% - 32px);background:#fff;color:#012143;text-decoration:none;border-radius:16px;padding:12px 14px;box-shadow:0 2px 10px rgba(1,33,67,.10);border:2px solid #25D366"><span style="font-size:1.6rem">📲</span><span style="flex:1;text-align:left;line-height:1.25"><b style="display:block;font-size:.98rem">Receba os achados no WhatsApp</b><span style="font-size:.82rem;color:#555">Grupo VIP do Radar • grátis</span></span><span style="background:#25D366;color:#fff;font-weight:800;font-size:.85rem;padding:9px 14px;border-radius:999px;white-space:nowrap">ENTRAR</span></a>'
+        if (PASTA_SITE / "grupo.html").exists() else "")
     pagina = f"""<!doctype html><html lang="pt-BR"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1"><title>{nome}</title>
 <meta name="description" content="Os melhores achadinhos da Shopee, atualizados todo dia.">
 <style>{ESTILO}</style></head><body>
-<header>{marca}<p>Digite o número do achado que você viu no post</p>{colecoes_link}</header>
+<header>{marca}<p>Digite o número do achado que você viu no post</p>{colecoes_link}</header>{grupo_link}
 <nav class="abas" id="abas">{abas}</nav>
 <main><input id="busca" type="search" inputmode="numeric" placeholder="Ex.: 123 ou fone">
 <div class="grade" id="grade">{cards}</div></main>
