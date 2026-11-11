@@ -139,6 +139,42 @@
       "precisando disso?"
     ],
     "temas": {
+      "Tecnologia": {
+        "termos": [
+          "fone",
+          "fones",
+          "bluetooth",
+          "carregador",
+          "cabo usb",
+          "smartwatch",
+          "relógio inteligente",
+          "caixa de som",
+          "mouse",
+          "teclado",
+          "power bank",
+          "ring light",
+          "tripé",
+          "tripe"
+        ],
+        "manchetes": [
+          [
+            "tecnologia que",
+            "FACILITA"
+          ],
+          [
+            "seu dia mais",
+            "PRÁTICO"
+          ],
+          [
+            "pra levar",
+            "PRA TODO LADO"
+          ]
+        ],
+        "frases": [
+          "tecnologia prática",
+          "leva pra todo lado"
+        ]
+      },
       "Organização": {
         "termos": [
           "organizador",
@@ -213,7 +249,6 @@
           "caneta",
           "marca texto",
           "marca-texto",
-          "estojo",
           "post-it",
           "post it",
           "washi",
@@ -221,7 +256,10 @@
           "lapiseira",
           "papelaria",
           "fichário",
-          "fichario"
+          "fichario",
+          "estojo escolar",
+          "estojo de lápis",
+          "estojo de canetas"
         ],
         "manchetes": [
           [

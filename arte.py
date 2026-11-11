@@ -191,10 +191,11 @@ def escolher_cores(matizes, hist):
 
 # ------------------------------------------------------------------ textos
 def descobrir_tema(p, cfg):
-    texto = f"{p.get('nome', '')} {p.get('palavra', '')}"
-    for tema, t in cfg["temas"].items():
-        if any(_tem_palavra(texto, termo) for termo in t["termos"]):
-            return tema
+    # 1º a palavra usada na busca (mais confiável), depois o nome do produto
+    for texto in (p.get("palavra", ""), p.get("nome", "")):
+        for tema, t in cfg["temas"].items():
+            if texto and any(_tem_palavra(texto, termo) for termo in t["termos"]):
+                return tema
     cat = p.get("categoria")
     return cat if cat in cfg["temas"] else None
 
