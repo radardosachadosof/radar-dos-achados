@@ -935,7 +935,11 @@
   },
   "20498295169": {
    "data": "2026-11-10T22:14:15.351255-03:00",
-   "numero": 175
+   "numero": 175,
+   "redes": {
+    "instagram": "17971559412188500",
+    "facebook": "1285421497997084_122120260197496709"
+   }
   }
  },
  "precos": {
@@ -1958,26 +1962,7 @@
    }
   ]
  },
- "pendente": {
-  "id": "20498295169",
-  "nome": "Diversos modelos de bolsas térmicas, lancheiras, porta-garrafas, portáteis, ideais para o trabalho e para a academia.",
-  "preco": 19.99,
-  "preco_original": 49.97,
-  "desconto": 60,
-  "imagem": "https://cf.shopee.com.br/file/sg-11134201-824hs-mdvqwtu13abm6f",
-  "link": "https://s.shopee.com.br/906fX983tu",
-  "link_produto": "https://shopee.com.br/product/1155855002/20498295169",
-  "vendas": 1733,
-  "nota": 4.8,
-  "loja": "INS estilo",
-  "palavra": "garrafa termica",
-  "categoria": "Cozinha",
-  "pontos": 150.9256103472943,
-  "bonus_tendencia": 0,
-  "numero": 175,
-  "legenda": "🚨 Achado detectado no radar!\n\n🛍️ Diversos modelos de bolsas térmicas, lancheiras, porta-garrafas, portáteis, ideais para…\n\n💸 De R$ 49,97 por R$ 19,99 (60% OFF)\n⭐ 4.8 • +1733 vendidos\n\n🔗 Link na bio → procure o achado nº 175\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
-  "tentativas": 0
- },
+ "pendente": null,
  "ofertas": [
   {
    "numero": 175,
