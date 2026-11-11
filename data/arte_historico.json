@@ -22,5 +22,28 @@
    "FOFA"
   ],
   "tema": "Estudos"
+ },
+ {
+  "fundo": "rosado",
+  "destaques": [
+   "amarelo",
+   "salvia",
+   "coral"
+  ],
+  "baloes": [
+   "Bubble15",
+   "Bubble12",
+   "Bubble8"
+  ],
+  "frases": [
+   "tudo no lugar",
+   "amei demais",
+   "queridinho da Shopee"
+  ],
+  "manchete": [
+   "sua casa mais",
+   "ORGANIZADA"
+  ],
+  "tema": "Organização"
  }
 ]
