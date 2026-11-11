@@ -238,7 +238,12 @@ def montar_legenda(p):
     linhas.append(f"⭐ {p['nota']:.1f} • +{p['vendas']} vendidos")
     linhas += [
         "",
-        f"🔗 Link na bio → procure o achado nº {p['numero']}",
+        "💬 Comente ACHADO que eu te mando o link",
+        f"🔗 Ou procure o achado nº {p['numero']} no link da bio",
+    ]
+    if CONFIG.get("facebook", {}).get("link_grupo"):
+        linhas.append("📲 Mais achados todo dia no Grupo VIP: link na bio")
+    linhas += [
         "",
         "⚠️ Preço e estoque podem mudar a qualquer momento.",
         "#publi • link de afiliado",
@@ -291,7 +296,15 @@ CHAMADAS = ["QUERO O MEU", "CORRE, QUE ACABA", "PEGA O SEU", "APROVEITA"]
 
 
 def gerar_arte(p, destino):
-    """Arte 1080x1350: produto em destaque, marca discreta e chamada para ação."""
+    """Arte 1080x1350. Com "arte": {"ativo": true} no config usa o visual novo (arte.py)."""
+    if CONFIG.get("arte", {}).get("ativo"):
+        try:
+            from arte import gerar_arte_anotada
+            info = gerar_arte_anotada(p, destino, CONFIG["arte"])
+            log(f"Arte nova: fundo {info['fundo']}, tema {info['tema']}, frases {info['frases']}")
+            return
+        except Exception as e:  # se der qualquer erro, cai na arte antiga e o post sai mesmo assim
+            log(f"Erro na arte nova ({e}); usando a arte antiga.")
     W, H = 1080, 1350
     img = Image.new("RGB", (W, H), COR_FUNDO)
     d = ImageDraw.Draw(img)
