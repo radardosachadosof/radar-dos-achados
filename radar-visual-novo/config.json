@@ -1,0 +1,443 @@
+{
+  "nome_perfil": "Radar dos Achados",
+  "arroba_instagram": "@radardosachadosof",
+  "palavras_chave": [
+    "organizador cozinha",
+    "utensilios cozinha",
+    "decoracao quarto",
+    "luminaria led",
+    "fone bluetooth",
+    "suporte celular",
+    "garrafa termica",
+    "necessaire",
+    "skincare",
+    "maquiagem",
+    "organizador closet",
+    "acessorios pet",
+    "brinquedo educativo",
+    "tapete banheiro",
+    "mochila"
+  ],
+  "categorias": {
+    "Beleza": [
+      "skincare",
+      "maquiagem",
+      "necessaire",
+      "batom",
+      "base ",
+      "rimel",
+      "máscara de cílios",
+      "sérum",
+      "serum",
+      "hidratante",
+      "protetor solar",
+      "pincel",
+      "esmalte",
+      "perfume",
+      "cabelo",
+      "escova de cabelo",
+      "secador",
+      "chapinha"
+    ],
+    "Pets": [
+      "pet",
+      "gato",
+      "cachorro",
+      "cão",
+      "coleira",
+      "arranhador",
+      "comedouro",
+      "bebedouro",
+      "caminha",
+      "ração",
+      "petisco",
+      "brinquedo para gato",
+      "brinquedo para cachorro"
+    ],
+    "Cozinha": [
+      "cozinha",
+      "utensilio",
+      "utensílio",
+      "garrafa termica",
+      "garrafa térmica",
+      "pote",
+      "panela",
+      "frigideira",
+      "airfryer",
+      "air fryer",
+      "talher",
+      "copo",
+      "caneca",
+      "tábua",
+      "tabua",
+      "escorredor",
+      "porta tempero",
+      "marmita"
+    ]
+  },
+  "palavras_por_execucao": 3,
+  "produtos_por_palavra": 30,
+  "filtros": {
+    "desconto_minimo": 20,
+    "desconto_maximo": 70,
+    "nota_minima": 4.6,
+    "vendas_minimas": 100,
+    "preco_minimo": 10,
+    "preco_maximo": 300,
+    "dias_sem_repetir": 30,
+    "palavras_proibidas": [
+      "replica",
+      "réplica",
+      "sexy",
+      "adulto",
+      "cigarro",
+      "vape",
+      "arma"
+    ]
+  },
+  "instagram": {
+    "ativo": true,
+    "hashtags": "#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados"
+  },
+  "facebook": {
+    "ativo": true,
+    "comentario_com_link": true,
+    "link_grupo": "https://chat.whatsapp.com/Jyhx1Hf4E3SF0y3BCSUgwm",
+    "hashtags": "#achadinhos #achadosshopee #promocao #ofertas #radardosachados"
+  },
+  "pinterest": {
+    "ativo": false,
+    "sandbox": true,
+    "board_id": "COLE_AQUI_O_ID_DA_PASTA"
+  },
+  "fila": {
+    "ativo": true,
+    "planilha_id": "1ldoOVt9vSpgLiF7-Uc_dQ2SG_hjTRQfPczMxvfGI5Ak"
+  },
+  "tendencias": {
+    "termos_extra": [],
+    "produtos_por_palavra": 50,
+    "paginas": 2,
+    "dias_guardados": 21,
+    "itens_no_relatorio": 40,
+    "aba": "Tendências",
+    "aba_palavras": "Tendências - palavras"
+  },
+  "vitrine": {
+    "quantidade_na_pagina": 60
+  },
+  "arte": {
+    "ativo": true,
+    "aberturas": [
+      "olha esse achado!",
+      "amei demais!",
+      "o radar achou!",
+      "gente, olha isso!",
+      "salva pra não perder!",
+      "achado do dia!",
+      "que fofura!",
+      "precisando disso?"
+    ],
+    "temas": {
+      "Organização": {
+        "termos": [
+          "organizador",
+          "organizadora",
+          "cesto",
+          "cestinho",
+          "caixa organizadora",
+          "gaveta",
+          "colmeia",
+          "divisória",
+          "prateleira",
+          "porta objetos"
+        ],
+        "manchetes": [
+          [
+            "tudo no",
+            "LUGAR"
+          ],
+          [
+            "adeus,",
+            "BAGUNÇA"
+          ],
+          [
+            "sua casa mais",
+            "ORGANIZADA"
+          ],
+          [
+            "organizar ficou",
+            "FÁCIL"
+          ]
+        ],
+        "frases": [
+          "tudo no lugar",
+          "adeus bagunça",
+          "organiza tudinho"
+        ]
+      },
+      "Café": {
+        "termos": [
+          "café",
+          "cafe",
+          "cafeteira",
+          "caneca",
+          "xícara",
+          "xicara",
+          "moedor",
+          "chaleira"
+        ],
+        "manchetes": [
+          [
+            "seu cantinho do",
+            "CAFÉ"
+          ],
+          [
+            "cafezinho mais",
+            "BONITO"
+          ],
+          [
+            "pra quem ama",
+            "CAFÉ"
+          ]
+        ],
+        "frases": [
+          "cafezinho mais bonito",
+          "cantinho do café"
+        ]
+      },
+      "Estudos": {
+        "termos": [
+          "caderno",
+          "planner",
+          "caneta",
+          "marca texto",
+          "marca-texto",
+          "estojo",
+          "post-it",
+          "post it",
+          "washi",
+          "agenda",
+          "lapiseira",
+          "papelaria",
+          "fichário",
+          "fichario"
+        ],
+        "manchetes": [
+          [
+            "seu cantinho de",
+            "ESTUDOS"
+          ],
+          [
+            "estudar ficou mais",
+            "GOSTOSO"
+          ],
+          [
+            "papelaria",
+            "FOFA"
+          ]
+        ],
+        "frases": [
+          "rotina mais organizada",
+          "estudar fica gostoso"
+        ]
+      },
+      "Cozinha": {
+        "termos": [
+          "cozinha",
+          "utensilio",
+          "utensílio",
+          "pote",
+          "panela",
+          "frigideira",
+          "airfryer",
+          "air fryer",
+          "talher",
+          "tábua",
+          "tabua",
+          "escorredor",
+          "porta tempero",
+          "marmita",
+          "garrafa",
+          "copo",
+          "espátula",
+          "espatula",
+          "fatiador",
+          "ralador"
+        ],
+        "manchetes": [
+          [
+            "sua cozinha mais",
+            "PRÁTICA"
+          ],
+          [
+            "o achado que sua",
+            "COZINHA PEDIU"
+          ],
+          [
+            "cozinhar ficou mais",
+            "FÁCIL"
+          ],
+          [
+            "pra deixar a cozinha",
+            "LINDA"
+          ]
+        ],
+        "frases": [
+          "cozinha organizada",
+          "facilita o preparo"
+        ]
+      },
+      "Beleza": {
+        "termos": [
+          "skincare",
+          "maquiagem",
+          "necessaire",
+          "batom",
+          "sérum",
+          "serum",
+          "hidratante",
+          "pincel",
+          "esmalte",
+          "perfume",
+          "cabelo",
+          "cílios",
+          "cilios",
+          "secador",
+          "chapinha",
+          "espelho"
+        ],
+        "manchetes": [
+          [
+            "seu momento",
+            "AUTOCUIDADO"
+          ],
+          [
+            "me cuido,",
+            "ME AMO"
+          ],
+          [
+            "o queridinho da",
+            "NECESSAIRE"
+          ]
+        ],
+        "frases": [
+          "momento autocuidado",
+          "me cuido, me amo"
+        ]
+      },
+      "Pets": {
+        "termos": [
+          "pet",
+          "gato",
+          "gatos",
+          "cachorro",
+          "cão",
+          "coleira",
+          "arranhador",
+          "comedouro",
+          "bebedouro",
+          "caminha",
+          "petisco"
+        ],
+        "manchetes": [
+          [
+            "seu pet vai",
+            "AMAR"
+          ],
+          [
+            "achadinho pro seu",
+            "BICHINHO"
+          ],
+          [
+            "mimo pro seu",
+            "PET"
+          ]
+        ],
+        "frases": [
+          "seu pet vai amar",
+          "pro seu bichinho"
+        ]
+      }
+    },
+    "manchetes_gerais": [
+      [
+        "o achado que",
+        "FALTAVA"
+      ],
+      [
+        "achadinho",
+        "DO DIA"
+      ],
+      [
+        "vale cada",
+        "CENTAVO"
+      ],
+      [
+        "você precisa",
+        "DISSO"
+      ],
+      [
+        "pra facilitar sua",
+        "ROTINA"
+      ],
+      [
+        "simples e",
+        "LINDO"
+      ],
+      [
+        "olha que",
+        "ACHADO"
+      ]
+    ],
+    "frases_genericas": [
+      "design minimalista",
+      "lindo e funcional",
+      "simples e lindo",
+      "cheio de charme",
+      "deixa tudo mais bonito",
+      "cara de loja cara",
+      "estética de Pinterest",
+      "fofo demais",
+      "facilita a rotina",
+      "prático no dia a dia",
+      "fácil de usar",
+      "útil de verdade",
+      "perfeito pro dia a dia",
+      "cabe em qualquer cantinho",
+      "meu favorito!",
+      "amei demais",
+      "vale cada centavo",
+      "ótimo pra presentear",
+      "queridinho da Shopee",
+      "bem avaliado",
+      "achado do dia"
+    ],
+    "frases_por_palavra": {
+      "bambu": "detalhe em bambu",
+      "vidro": "vidro transparente",
+      "inox": "aço inox resistente",
+      "silicone": "silicone flexível",
+      "hermético": "fecha bem",
+      "hermetico": "fecha bem",
+      "dobrável": "dobra e guarda fácil",
+      "dobravel": "dobra e guarda fácil",
+      "recarregável": "recarregável",
+      "recarregavel": "recarregável",
+      "usb": "recarregável",
+      "portátil": "leva pra qualquer lugar",
+      "portatil": "leva pra qualquer lugar",
+      "mini": "leva pra qualquer lugar",
+      "led": "luz de LED",
+      "kit": "vem em kit",
+      "conjunto": "vem em kit",
+      "antiaderente": "antiaderente",
+      "magnético": "prende com ímã",
+      "magnetico": "prende com ímã",
+      "impermeável": "resistente à água",
+      "impermeavel": "resistente à água",
+      "compacto": "compacto",
+      "transparente": "transparente"
+    }
+  }
+}
