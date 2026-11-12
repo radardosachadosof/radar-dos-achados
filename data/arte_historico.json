@@ -45,5 +45,28 @@
    "ORGANIZADA"
   ],
   "tema": "Organização"
+ },
+ {
+  "fundo": "pessego",
+  "destaques": [
+   "rosa",
+   "salvia",
+   "amarelo"
+  ],
+  "baloes": [
+   "Bubble13",
+   "Bubble17",
+   "Bubble16"
+  ],
+  "frases": [
+   "leva pra qualquer lugar",
+   "bem avaliado",
+   "útil de verdade"
+  ],
+  "manchete": [
+   "pra deixar a cozinha",
+   "LINDA"
+  ],
+  "tema": "Cozinha"
  }
 ]

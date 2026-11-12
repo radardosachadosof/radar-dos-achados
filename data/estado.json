@@ -1,5 +1,5 @@
 {
- "contador": 177,
+ "contador": 178,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -146,8 +146,8 @@
    }
   },
   "52658057285": {
-   "data": "2026-10-05T15:35:37.386755-03:00",
-   "numero": 26
+   "data": "2026-11-11T23:16:18.486072-03:00",
+   "numero": 178
   },
   "23699159711": {
    "data": "2026-10-05T18:32:10.501558-03:00",
@@ -1145,6 +1145,10 @@
    {
     "data": "2026-10-05T15:35:37.386746-03:00",
     "preco": 79.98
+   },
+   {
+    "data": "2026-11-11T23:16:18.486063-03:00",
+    "preco": 71.98
    }
   ],
   "23699159711": [
@@ -1976,8 +1980,39 @@
    }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "52658057285",
+  "nome": "ROMANTIC CROWN Kit 2 Copo Térmico Inox Portátil 1200ml/600ml Garrafa Térmica Inoxidável com Tampa e Canudo",
+  "preco": 71.98,
+  "preco_original": 199.94,
+  "desconto": 64,
+  "imagem": "https://cf.shopee.com.br/file/br-11134207-820ln-ms9nflkeskck4f",
+  "link": "https://s.shopee.com.br/40i1mdmgIh",
+  "link_produto": "https://shopee.com.br/product/1350045638/52658057285",
+  "vendas": 1957,
+  "nota": 5.0,
+  "loja": "Romantic.Crown.07",
+  "palavra": "garrafa termica",
+  "categoria": "Cozinha",
+  "pontos": 162.17637603001413,
+  "bonus_tendencia": 0,
+  "baixou_de": 79.98,
+  "numero": 178,
+  "legenda": "👀 Olha o que o radar encontrou:\n\n🛍️ ROMANTIC CROWN Kit 2 Copo Térmico Inox Portátil 1200ml/600ml Garrafa Térmica Inoxidável…\n\n📉 BAIXOU! Estava R$ 79,98\n💸 De R$ 199,94 por R$ 71,98 (64% OFF)\n⭐ 5.0 • +1957 vendidos\n\n💬 Comente ACHADO que eu te mando o link\n🔗 Ou procure o achado nº 178 no link da bio\n📲 Mais achados todo dia no Grupo VIP: link na bio\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 178,
+   "id": "52658057285",
+   "nome": "ROMANTIC CROWN Kit 2 Copo Térmico Inox Portátil 1200ml/600ml Garrafa Térmica Inoxidável com Tampa e Canudo",
+   "preco": 71.98,
+   "preco_original": 199.94,
+   "desconto": 64,
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-820ln-ms9nflkeskck4f",
+   "link": "https://s.shopee.com.br/40i1mdmgIh",
+   "categoria": "Cozinha"
+  },
   {
    "numero": 177,
    "id": "20197726295",
