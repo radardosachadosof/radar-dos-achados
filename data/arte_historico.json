@@ -68,5 +68,29 @@
    "LINDA"
   ],
   "tema": "Cozinha"
+ },
+ {
+  "fundo": "creme",
+  "destaques": [
+   "rosa",
+   "salvia",
+   "amarelo",
+   "coral"
+  ],
+  "baloes": [
+   "Bubble2",
+   "Bubble11",
+   "Bubble14"
+  ],
+  "frases": [
+   "tecnologia prática",
+   "simples e lindo",
+   "facilita a rotina"
+  ],
+  "manchete": [
+   "seu dia mais",
+   "PRÁTICO"
+  ],
+  "tema": "Tecnologia"
  }
 ]

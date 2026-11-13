@@ -1,5 +1,5 @@
 {
- "contador": 178,
+ "contador": 179,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -948,6 +948,10 @@
   "20197726295": {
    "data": "2026-11-11T18:54:38.696291-03:00",
    "numero": 177
+  },
+  "22997591579": {
+   "data": "2026-11-12T22:49:08.598186-03:00",
+   "numero": 179
   }
  },
  "precos": {
@@ -1982,10 +1986,46 @@
     "data": "2026-11-11T18:54:38.696281-03:00",
     "preco": 24.99
    }
+  ],
+  "22997591579": [
+   {
+    "data": "2026-11-12T22:49:08.598176-03:00",
+    "preco": 19.99
+   }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "22997591579",
+  "nome": "Air Pro 4 Tws Fone De Ouvido Sem Fio Bluetooth 5.1Mini Fones Esportivos Para Android / Ios iphone",
+  "preco": 19.99,
+  "preco_original": 60.58,
+  "desconto": 67,
+  "imagem": "https://cf.shopee.com.br/file/sg-11134201-7rd3v-lwp2d1s7sky0f0",
+  "link": "https://s.shopee.com.br/AUvWXmPVo4",
+  "link_produto": "https://shopee.com.br/product/1060793149/22997591579",
+  "vendas": 4755,
+  "nota": 4.6,
+  "loja": "Pinduoduo Store",
+  "palavra": "fone bluetooth",
+  "categoria": "Outros",
+  "pontos": 161.6382428393413,
+  "bonus_tendencia": 0,
+  "numero": 179,
+  "legenda": "🔥 Tá barato demais pra deixar passar!\n\n🛍️ Air Pro 4 Tws Fone De Ouvido Sem Fio Bluetooth 5.1Mini Fones Esportivos Para Android /…\n\n💸 De R$ 60,58 por R$ 19,99 (67% OFF)\n⭐ 4.6 • +4755 vendidos\n\n💬 Comente ACHADO que eu te mando o link\n🔗 Ou procure o achado nº 179 no link da bio\n📲 Mais achados todo dia no Grupo VIP: link na bio\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 179,
+   "id": "22997591579",
+   "nome": "Air Pro 4 Tws Fone De Ouvido Sem Fio Bluetooth 5.1Mini Fones Esportivos Para Android / Ios iphone",
+   "preco": 19.99,
+   "preco_original": 60.58,
+   "desconto": 67,
+   "imagem": "https://cf.shopee.com.br/file/sg-11134201-7rd3v-lwp2d1s7sky0f0",
+   "link": "https://s.shopee.com.br/AUvWXmPVo4",
+   "categoria": "Outros"
+  },
   {
    "numero": 178,
    "id": "52658057285",
