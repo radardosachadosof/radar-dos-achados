@@ -92,5 +92,28 @@
    "PRÁTICO"
   ],
   "tema": "Tecnologia"
+ },
+ {
+  "fundo": "amarelo",
+  "destaques": [
+   "rosa",
+   "salvia",
+   "coral"
+  ],
+  "baloes": [
+   "Bubble1",
+   "Bubble21",
+   "Bubble3"
+  ],
+  "frases": [
+   "me cuido, me amo",
+   "meu favorito!",
+   "prático no dia a dia"
+  ],
+  "manchete": [
+   "o queridinho da",
+   "NECESSAIRE"
+  ],
+  "tema": "Beleza"
  }
 ]
