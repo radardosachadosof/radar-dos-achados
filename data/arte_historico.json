@@ -115,5 +115,27 @@
    "NECESSAIRE"
   ],
   "tema": "Beleza"
+ },
+ {
+  "fundo": "creme",
+  "destaques": [
+   "amarelo",
+   "salvia"
+  ],
+  "baloes": [
+   "Bubble19",
+   "Bubble4",
+   "Bubble20"
+  ],
+  "frases": [
+   "momento autocuidado",
+   "vale cada centavo",
+   "cara de loja cara"
+  ],
+  "manchete": [
+   "me cuido,",
+   "ME AMO"
+  ],
+  "tema": "Beleza"
  }
 ]
