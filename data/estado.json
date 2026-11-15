@@ -967,7 +967,11 @@
   },
   "22293575369": {
    "data": "2026-11-15T03:31:33.303564-03:00",
-   "numero": 181
+   "numero": 181,
+   "redes": {
+    "instagram": "18121713737006092",
+    "facebook": "1285421497997084_122121446751496709"
+   }
   }
  },
  "precos": {
@@ -2022,26 +2026,7 @@
    }
   ]
  },
- "pendente": {
-  "id": "22293575369",
-  "nome": "Mascara De Cilios Melu Ruby Rose Rimel Peel Off Alta Fixação-14.5g",
-  "preco": 11.99,
-  "preco_original": 39.97,
-  "desconto": 70,
-  "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-m36oq3afyevv79",
-  "link": "https://s.shopee.com.br/4fxlAXLhpP",
-  "link_produto": "https://shopee.com.br/product/488948242/22293575369",
-  "vendas": 4315,
-  "nota": 4.9,
-  "loja": "AAB Mega Compras",
-  "palavra": "maquiagem",
-  "categoria": "Beleza",
-  "pontos": 194.2433210863107,
-  "bonus_tendencia": 24.0,
-  "numero": 181,
-  "legenda": "🔥 Tá barato demais pra deixar passar!\n\n🛍️ Mascara De Cilios Melu Ruby Rose Rimel Peel Off Alta Fixação-14.5g\n\n💸 De R$ 39,97 por R$ 11,99 (70% OFF)\n⭐ 4.9 • +4315 vendidos\n\n💬 Comente ACHADO que eu te mando o link\n🔗 Ou procure o achado nº 181 no link da bio\n📲 Mais achados todo dia no Grupo VIP: link na bio\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
-  "tentativas": 0
- },
+ "pendente": null,
  "ofertas": [
   {
    "numero": 181,
