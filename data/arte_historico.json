@@ -137,5 +137,28 @@
    "ME AMO"
   ],
   "tema": "Beleza"
+ },
+ {
+  "fundo": "amarelo",
+  "destaques": [
+   "salvia",
+   "coral",
+   "rosa"
+  ],
+  "baloes": [
+   "Bubble12",
+   "Bubble8",
+   "Bubble6"
+  ],
+  "frases": [
+   "luz de LED",
+   "fofo demais",
+   "design minimalista"
+  ],
+  "manchete": [
+   "olha que",
+   "ACHADO"
+  ],
+  "tema": null
  }
 ]

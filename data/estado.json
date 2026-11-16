@@ -1,5 +1,5 @@
 {
- "contador": 181,
+ "contador": 182,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -972,6 +972,10 @@
     "instagram": "18121713737006092",
     "facebook": "1285421497997084_122121446751496709"
    }
+  },
+  "58270107598": {
+   "data": "2026-11-16T19:01:33.775895-03:00",
+   "numero": 182
   }
  },
  "precos": {
@@ -2024,10 +2028,46 @@
     "data": "2026-11-15T03:31:33.303554-03:00",
     "preco": 11.99
    }
+  ],
+  "58270107598": [
+   {
+    "data": "2026-11-16T19:01:33.775887-03:00",
+    "preco": 33.89
+   }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "58270107598",
+  "nome": "Luminária de Mesa Abajur Cabeceira Escrivaninha LED 3 em 1 Recarregável Tipo C Preto Cromado Dourado",
+  "preco": 33.89,
+  "preco_original": 109.32,
+  "desconto": 69,
+  "imagem": "https://cf.shopee.com.br/file/sg-11134201-8259q-mu34lij5zldufd",
+  "link": "https://s.shopee.com.br/4fxq6lgio6",
+  "link_produto": "https://shopee.com.br/product/544374309/58270107598",
+  "vendas": 2038,
+  "nota": 4.8,
+  "loja": "Behemoth's Cornucopia",
+  "palavra": "luminaria led",
+  "categoria": "Outros",
+  "pontos": 183.31162649735273,
+  "bonus_tendencia": 24.5,
+  "numero": 182,
+  "legenda": "👀 Olha o que o radar encontrou:\n\n🛍️ Luminária de Mesa Abajur Cabeceira Escrivaninha LED 3 em 1 Recarregável Tipo C Preto…\n\n💸 De R$ 109,32 por R$ 33,89 (69% OFF)\n⭐ 4.8 • +2038 vendidos\n\n💬 Comente ACHADO que eu te mando o link\n🔗 Ou procure o achado nº 182 no link da bio\n📲 Mais achados todo dia no Grupo VIP: link na bio\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 182,
+   "id": "58270107598",
+   "nome": "Luminária de Mesa Abajur Cabeceira Escrivaninha LED 3 em 1 Recarregável Tipo C Preto Cromado Dourado",
+   "preco": 33.89,
+   "preco_original": 109.32,
+   "desconto": 69,
+   "imagem": "https://cf.shopee.com.br/file/sg-11134201-8259q-mu34lij5zldufd",
+   "link": "https://s.shopee.com.br/4fxq6lgio6",
+   "categoria": "Outros"
+  },
   {
    "numero": 181,
    "id": "22293575369",
