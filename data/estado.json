@@ -991,7 +991,11 @@
   },
   "19499319154": {
    "data": "2026-11-17T17:55:33.842236-03:00",
-   "numero": 184
+   "numero": 184,
+   "redes": {
+    "instagram": "17912582688571090",
+    "facebook": "1285421497997084_122122111665496709"
+   }
   }
  },
  "precos": {
@@ -2064,26 +2068,7 @@
    }
   ]
  },
- "pendente": {
-  "id": "19499319154",
-  "nome": "Kit2/4 Caixa Saco Organizador Grande Edredom Cobertor Casaco Guarda Roupa Ecológico Anti-Poeira Umidade Insetos Multiuso",
-  "preco": 37.98,
-  "preco_original": 97.38,
-  "desconto": 61,
-  "imagem": "https://cf.shopee.com.br/file/br-11134207-820ld-mtaqzxib59tv3b",
-  "link": "https://s.shopee.com.br/7KybI7Q8l1",
-  "link_produto": "https://shopee.com.br/product/816808254/19499319154",
-  "vendas": 1510,
-  "nota": 4.8,
-  "loja": "Paizão Variedades",
-  "palavra": "organizador closet",
-  "categoria": "Outros",
-  "pontos": 172.2274562286743,
-  "bonus_tendencia": 19.1,
-  "numero": 184,
-  "legenda": "🔥 Tá barato demais pra deixar passar!\n\n🛍️ Kit2/4 Caixa Saco Organizador Grande Edredom Cobertor Casaco Guarda Roupa Ecológico…\n\n💸 De R$ 97,38 por R$ 37,98 (61% OFF)\n⭐ 4.8 • +1510 vendidos\n\n💬 Comente ACHADO que eu te mando o link\n🔗 Ou procure o achado nº 184 no link da bio\n📲 Mais achados todo dia no Grupo VIP: link na bio\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
-  "tentativas": 0
- },
+ "pendente": null,
  "ofertas": [
   {
    "numero": 184,
