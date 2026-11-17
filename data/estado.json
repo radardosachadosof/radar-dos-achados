@@ -983,7 +983,11 @@
   },
   "58257263745": {
    "data": "2026-11-17T04:54:48.488771-03:00",
-   "numero": 183
+   "numero": 183,
+   "redes": {
+    "instagram": "17888936658689706",
+    "facebook": "1285421497997084_122121967365496709"
+   }
   }
  },
  "precos": {
@@ -2050,26 +2054,7 @@
    }
   ]
  },
- "pendente": {
-  "id": "58257263745",
-  "nome": "New Show Cílios Postiços MINK Tufos sem Nó 20P+30P/40P+50P D Mix9-14mm-Extensão Profissional",
-  "preco": 17.68,
-  "preco_original": 40.18,
-  "desconto": 56,
-  "imagem": "https://cf.shopee.com.br/file/br-11134207-820ma-mm0zoiak42yse5",
-  "link": "https://s.shopee.com.br/8AXiHcWVTF",
-  "link_produto": "https://shopee.com.br/product/1430626556/58257263745",
-  "vendas": 5831,
-  "nota": 4.9,
-  "loja": "New Show Oficial",
-  "palavra": "maquiagem",
-  "categoria": "Beleza",
-  "pontos": 178.30792326660898,
-  "bonus_tendencia": 24.7,
-  "numero": 183,
-  "legenda": "👀 Olha o que o radar encontrou:\n\n🛍️ New Show Cílios Postiços MINK Tufos sem Nó 20P+30P/40P+50P D Mix9-14mm-Extensão…\n\n💸 De R$ 40,18 por R$ 17,68 (56% OFF)\n⭐ 4.9 • +5831 vendidos\n\n💬 Comente ACHADO que eu te mando o link\n🔗 Ou procure o achado nº 183 no link da bio\n📲 Mais achados todo dia no Grupo VIP: link na bio\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
-  "tentativas": 0
- },
+ "pendente": null,
  "ofertas": [
   {
    "numero": 183,
