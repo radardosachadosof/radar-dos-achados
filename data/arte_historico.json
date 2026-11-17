@@ -183,5 +183,28 @@
    "AUTOCUIDADO"
   ],
   "tema": "Beleza"
+ },
+ {
+  "fundo": "pessego",
+  "destaques": [
+   "rosa",
+   "salvia",
+   "amarelo"
+  ],
+  "baloes": [
+   "Bubble11",
+   "Bubble17",
+   "Bubble9"
+  ],
+  "frases": [
+   "tudo no lugar",
+   "amei demais",
+   "queridinho da Shopee"
+  ],
+  "manchete": [
+   "organizar ficou",
+   "FÁCIL"
+  ],
+  "tema": "Organização"
  }
 ]
