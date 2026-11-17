@@ -160,5 +160,28 @@
    "ACHADO"
   ],
   "tema": null
+ },
+ {
+  "fundo": "creme",
+  "destaques": [
+   "coral",
+   "amarelo",
+   "salvia"
+  ],
+  "baloes": [
+   "Bubble2",
+   "Bubble14",
+   "Bubble18"
+  ],
+  "frases": [
+   "me cuido, me amo",
+   "fácil de usar",
+   "lindo e funcional"
+  ],
+  "manchete": [
+   "seu momento",
+   "AUTOCUIDADO"
+  ],
+  "tema": "Beleza"
  }
 ]
