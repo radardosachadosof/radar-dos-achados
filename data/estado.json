@@ -999,7 +999,11 @@
   },
   "23194355178": {
    "data": "2026-11-17T23:54:07.916366-03:00",
-   "numero": 185
+   "numero": 185,
+   "redes": {
+    "instagram": "18143134111745161",
+    "facebook": "1285421497997084_122122159725496709"
+   }
   }
  },
  "precos": {
@@ -2078,26 +2082,7 @@
    }
   ]
  },
- "pendente": {
-  "id": "23194355178",
-  "nome": "Kit Viagem 11 Peças Frascos para Shampoo Creme Sabonete Líquido com Estojo Transparente Spray Pump Potes",
-  "preco": 16.99,
-  "preco_original": 48.54,
-  "desconto": 65,
-  "imagem": "https://cf.shopee.com.br/file/br-11134207-81z1k-mdzuyew9ixoicd",
-  "link": "https://s.shopee.com.br/9KjhBr2sDz",
-  "link_produto": "https://shopee.com.br/product/612306550/23194355178",
-  "vendas": 1957,
-  "nota": 5.0,
-  "loja": "YwY Shop",
-  "palavra": "necessaire",
-  "categoria": "Beleza",
-  "pontos": 184.733866200054,
-  "bonus_tendencia": 22.3,
-  "numero": 185,
-  "legenda": "✨ Achadinho do dia!\n\n🛍️ Kit Viagem 11 Peças Frascos para Shampoo Creme Sabonete Líquido com Estojo Transparente…\n\n💸 De R$ 48,54 por R$ 16,99 (65% OFF)\n⭐ 5.0 • +1957 vendidos\n\n💬 Comente ACHADO que eu te mando o link\n🔗 Ou procure o achado nº 185 no link da bio\n📲 Mais achados todo dia no Grupo VIP: link na bio\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
-  "tentativas": 0
- },
+ "pendente": null,
  "ofertas": [
   {
    "numero": 185,
