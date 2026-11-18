@@ -1007,7 +1007,11 @@
   },
   "23993213382": {
    "data": "2026-11-18T17:30:30.785175-03:00",
-   "numero": 186
+   "numero": 186,
+   "redes": {
+    "instagram": "18202192828387070",
+    "facebook": "1285421497997084_122122332867496709"
+   }
   }
  },
  "precos": {
@@ -2092,26 +2096,7 @@
    }
   ]
  },
- "pendente": {
-  "id": "23993213382",
-  "nome": "Garrafa Térmica 800ml Garrafa Espacial Quente & Frio Com Isolamento De Inox Grande Capacidade",
-  "preco": 28.99,
-  "preco_original": 60.4,
-  "desconto": 52,
-  "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-lyw9adaeiywx98",
-  "link": "https://s.shopee.com.br/5fqOp6Ha16",
-  "link_produto": "https://shopee.com.br/product/1107305320/23993213382",
-  "vendas": 2110,
-  "nota": 4.9,
-  "loja": "Pink Corazon",
-  "palavra": "garrafa termica",
-  "categoria": "Cozinha",
-  "pontos": 165.93294815619808,
-  "bonus_tendencia": 22.6,
-  "numero": 186,
-  "legenda": "📡 O radar apitou!\n\n🛍️ Garrafa Térmica 800ml Garrafa Espacial Quente & Frio Com Isolamento De Inox Grande…\n\n💸 De R$ 60,40 por R$ 28,99 (52% OFF)\n⭐ 4.9 • +2110 vendidos\n\n💬 Comente ACHADO que eu te mando o link\n🔗 Ou procure o achado nº 186 no link da bio\n📲 Mais achados todo dia no Grupo VIP: link na bio\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
-  "tentativas": 0
- },
+ "pendente": null,
  "ofertas": [
   {
    "numero": 186,
