@@ -229,5 +229,28 @@
    "NECESSAIRE"
   ],
   "tema": "Beleza"
+ },
+ {
+  "fundo": "pessego",
+  "destaques": [
+   "rosa",
+   "amarelo",
+   "salvia"
+  ],
+  "baloes": [
+   "Bubble4",
+   "Bubble15",
+   "Bubble21"
+  ],
+  "frases": [
+   "aço inox resistente",
+   "facilita a rotina",
+   "ótimo pra presentear"
+  ],
+  "manchete": [
+   "o achado que sua",
+   "COZINHA PEDIU"
+  ],
+  "tema": "Cozinha"
  }
 ]
