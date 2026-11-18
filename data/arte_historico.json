@@ -206,5 +206,28 @@
    "FÁCIL"
   ],
   "tema": "Organização"
+ },
+ {
+  "fundo": "rosado",
+  "destaques": [
+   "amarelo",
+   "salvia",
+   "coral"
+  ],
+  "baloes": [
+   "Bubble20",
+   "Bubble16",
+   "Bubble13"
+  ],
+  "frases": [
+   "transparente",
+   "cabe em qualquer cantinho",
+   "achado do dia"
+  ],
+  "manchete": [
+   "o queridinho da",
+   "NECESSAIRE"
+  ],
+  "tema": "Beleza"
  }
 ]
