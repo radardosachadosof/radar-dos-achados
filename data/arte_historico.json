@@ -1,29 +1,5 @@
 [
  {
-  "fundo": "creme",
-  "destaques": [
-   "salvia",
-   "coral",
-   "rosa",
-   "amarelo"
-  ],
-  "baloes": [
-   "Bubble20",
-   "Bubble19",
-   "Bubble6"
-  ],
-  "frases": [
-   "recarregável",
-   "ótimo pra presentear",
-   "cabe em qualquer cantinho"
-  ],
-  "manchete": [
-   "papelaria",
-   "FOFA"
-  ],
-  "tema": "Estudos"
- },
- {
   "fundo": "rosado",
   "destaques": [
    "amarelo",
@@ -275,5 +251,26 @@
    "LINDA"
   ],
   "tema": "Cozinha"
+ },
+ {
+  "fundo": "creme",
+  "destaques": [
+   "salvia"
+  ],
+  "baloes": [
+   "Bubble9",
+   "Bubble19",
+   "Bubble12"
+  ],
+  "frases": [
+   "momento autocuidado",
+   "deixa tudo mais bonito",
+   "meu favorito!"
+  ],
+  "manchete": [
+   "o achado que",
+   "FALTAVA"
+  ],
+  "tema": "Beleza"
  }
 ]
