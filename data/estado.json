@@ -1023,7 +1023,11 @@
   },
   "13494334390": {
    "data": "2026-11-19T17:37:02.802371-03:00",
-   "numero": 188
+   "numero": 188,
+   "redes": {
+    "instagram": "17994454086073361",
+    "facebook": "1285421497997084_122122570659496709"
+   }
   }
  },
  "precos": {
@@ -2120,26 +2124,7 @@
    }
   ]
  },
- "pendente": {
-  "id": "13494334390",
-  "nome": "Cílios Fadvan W 4D Extensão De Cílios Alongamento W Novidade Volume Híbrido Maquiagem",
-  "preco": 21.98,
-  "preco_original": 68.69,
-  "desconto": 68,
-  "imagem": "https://cf.shopee.com.br/file/cn-11134207-7ras8-md41zddja3uz7d",
-  "link": "https://s.shopee.com.br/1gKJEdByT1",
-  "link_produto": "https://shopee.com.br/product/711418084/13494334390",
-  "vendas": 5500,
-  "nota": 4.8,
-  "loja": "fadvan.br",
-  "palavra": "maquiagem",
-  "categoria": "Beleza",
-  "pontos": 190.73540524785219,
-  "bonus_tendencia": 23.3,
-  "numero": 188,
-  "legenda": "✨ Achadinho do dia!\n\n🛍️ Cílios Fadvan W 4D Extensão De Cílios Alongamento W Novidade Volume Híbrido Maquiagem\n\n💸 De R$ 68,69 por R$ 21,98 (68% OFF)\n⭐ 4.8 • +5500 vendidos\n\n💬 Comente ACHADO que eu te mando o link\n🔗 Ou procure o achado nº 188 no link da bio\n📲 Mais achados todo dia no Grupo VIP: link na bio\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
-  "tentativas": 0
- },
+ "pendente": null,
  "ofertas": [
   {
    "numero": 188,
