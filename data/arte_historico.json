@@ -252,5 +252,28 @@
    "COZINHA PEDIU"
   ],
   "tema": "Cozinha"
+ },
+ {
+  "fundo": "rosado",
+  "destaques": [
+   "amarelo",
+   "coral",
+   "salvia"
+  ],
+  "baloes": [
+   "Bubble14",
+   "Bubble2",
+   "Bubble5"
+  ],
+  "frases": [
+   "cozinha organizada",
+   "bem avaliado",
+   "estética de Pinterest"
+  ],
+  "manchete": [
+   "pra deixar a cozinha",
+   "LINDA"
+  ],
+  "tema": "Cozinha"
  }
 ]
