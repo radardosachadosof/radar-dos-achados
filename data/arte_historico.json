@@ -1,28 +1,5 @@
 [
  {
-  "fundo": "rosado",
-  "destaques": [
-   "amarelo",
-   "salvia",
-   "coral"
-  ],
-  "baloes": [
-   "Bubble15",
-   "Bubble12",
-   "Bubble8"
-  ],
-  "frases": [
-   "tudo no lugar",
-   "amei demais",
-   "queridinho da Shopee"
-  ],
-  "manchete": [
-   "sua casa mais",
-   "ORGANIZADA"
-  ],
-  "tema": "Organização"
- },
- {
   "fundo": "pessego",
   "destaques": [
    "rosa",
@@ -272,5 +249,26 @@
    "FALTAVA"
   ],
   "tema": "Beleza"
+ },
+ {
+  "fundo": "rosado",
+  "destaques": [
+   "salvia"
+  ],
+  "baloes": [
+   "Bubble20",
+   "Bubble6",
+   "Bubble17"
+  ],
+  "frases": [
+   "recarregável",
+   "fofo demais",
+   "útil de verdade"
+  ],
+  "manchete": [
+   "vale cada",
+   "CENTAVO"
+  ],
+  "tema": null
  }
 ]

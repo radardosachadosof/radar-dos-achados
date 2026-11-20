@@ -1,5 +1,5 @@
 {
- "contador": 188,
+ "contador": 189,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -58,8 +58,8 @@
    "numero": 9
   },
   "23098686875": {
-   "data": "2026-10-01T15:34:26.234263-03:00",
-   "numero": 10
+   "data": "2026-11-19T23:19:18.971956-03:00",
+   "numero": 189
   },
   "20298320200": {
    "data": "2026-10-01T18:28:44.776991-03:00",
@@ -1109,6 +1109,10 @@
    {
     "data": "2026-10-01T15:34:26.234251-03:00",
     "preco": 29.99
+   },
+   {
+    "data": "2026-11-19T23:19:18.971943-03:00",
+    "preco": 29.99
    }
   ],
   "20298320200": [
@@ -2124,8 +2128,38 @@
    }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "23098686875",
+  "nome": "Abajur Recarregável Touch Luminária Retrátil em Aço com Luz de Led Branco Quente Ajustável-USB",
+  "preco": 29.99,
+  "preco_original": 99.97,
+  "desconto": 70,
+  "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-mbpku4t6ql3t16",
+  "link": "https://s.shopee.com.br/8VAdMsc2KF",
+  "link_produto": "https://shopee.com.br/product/1541994310/23098686875",
+  "vendas": 4907,
+  "nota": 4.8,
+  "loja": "Nova Link",
+  "palavra": "luminaria led",
+  "categoria": "Outros",
+  "pontos": 181.87029142074118,
+  "bonus_tendencia": 15.2,
+  "numero": 189,
+  "legenda": "🔥 Tá barato demais pra deixar passar!\n\n🛍️ Abajur Recarregável Touch Luminária Retrátil em Aço com Luz de Led Branco Quente…\n\n💸 De R$ 99,97 por R$ 29,99 (70% OFF)\n⭐ 4.8 • +4907 vendidos\n\n💬 Comente ACHADO que eu te mando o link\n🔗 Ou procure o achado nº 189 no link da bio\n📲 Mais achados todo dia no Grupo VIP: link na bio\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 189,
+   "id": "23098686875",
+   "nome": "Abajur Recarregável Touch Luminária Retrátil em Aço com Luz de Led Branco Quente Ajustável-USB",
+   "preco": 29.99,
+   "preco_original": 99.97,
+   "desconto": 70,
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-mbpku4t6ql3t16",
+   "link": "https://s.shopee.com.br/8VAdMsc2KF",
+   "categoria": "Outros"
+  },
   {
    "numero": 188,
    "id": "13494334390",
