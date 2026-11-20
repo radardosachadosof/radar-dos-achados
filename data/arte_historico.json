@@ -1,28 +1,5 @@
 [
  {
-  "fundo": "pessego",
-  "destaques": [
-   "rosa",
-   "salvia",
-   "amarelo"
-  ],
-  "baloes": [
-   "Bubble13",
-   "Bubble17",
-   "Bubble16"
-  ],
-  "frases": [
-   "leva pra qualquer lugar",
-   "bem avaliado",
-   "útil de verdade"
-  ],
-  "manchete": [
-   "pra deixar a cozinha",
-   "LINDA"
-  ],
-  "tema": "Cozinha"
- },
- {
   "fundo": "creme",
   "destaques": [
    "rosa",
@@ -270,5 +247,27 @@
    "CENTAVO"
   ],
   "tema": null
+ },
+ {
+  "fundo": "creme",
+  "destaques": [
+   "salvia",
+   "amarelo"
+  ],
+  "baloes": [
+   "Bubble15",
+   "Bubble21",
+   "Bubble4"
+  ],
+  "frases": [
+   "facilita o preparo",
+   "prático no dia a dia",
+   "cara de loja cara"
+  ],
+  "manchete": [
+   "sua cozinha mais",
+   "PRÁTICA"
+  ],
+  "tema": "Cozinha"
  }
 ]
