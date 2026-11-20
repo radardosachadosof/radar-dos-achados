@@ -363,7 +363,11 @@
   },
   "55666184367": {
    "data": "2026-11-20T17:19:09.110204-03:00",
-   "numero": 190
+   "numero": 190,
+   "redes": {
+    "instagram": "18195441412407456",
+    "facebook": "1285421497997084_122122802391496709"
+   }
   },
   "40579805420": {
    "data": "2026-10-15T09:55:04.008073-03:00",
@@ -2136,26 +2140,7 @@
    }
   ]
  },
- "pendente": {
-  "id": "55666184367",
-  "nome": "ROMANTIC CROWN Garrafa Térmica 800ml Aço Inox 304 Grande Capacidade com 2 Formas de Beber para Viagem e Esporte",
-  "preco": 44.98,
-  "preco_original": 99.96,
-  "desconto": 55,
-  "imagem": "https://cf.shopee.com.br/file/br-11134207-820m6-muvpgy6h648z59",
-  "link": "https://s.shopee.com.br/8AXmyOmrQE",
-  "link_produto": "https://shopee.com.br/product/1350045638/55666184367",
-  "vendas": 4794,
-  "nota": 5.0,
-  "loja": "Romantic.Crown.07",
-  "palavra": "garrafa termica",
-  "categoria": "Cozinha",
-  "pontos": 170.74199918192204,
-  "bonus_tendencia": 24.8,
-  "numero": 190,
-  "legenda": "🔥 Tá barato demais pra deixar passar!\n\n🛍️ ROMANTIC CROWN Garrafa Térmica 800ml Aço Inox 304 Grande Capacidade com 2 Formas de…\n\n💸 De R$ 99,96 por R$ 44,98 (55% OFF)\n⭐ 5.0 • +4794 vendidos\n\n💬 Comente ACHADO que eu te mando o link\n🔗 Ou procure o achado nº 190 no link da bio\n📲 Mais achados todo dia no Grupo VIP: link na bio\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
-  "tentativas": 0
- },
+ "pendente": null,
  "ofertas": [
   {
    "numero": 190,
