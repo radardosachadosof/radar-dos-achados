@@ -275,7 +275,11 @@
   },
   "22798224799": {
    "data": "2026-11-20T23:14:00.432511-03:00",
-   "numero": 191
+   "numero": 191,
+   "redes": {
+    "instagram": "17882076069633098",
+    "facebook": "1285421497997084_122122852161496709"
+   }
   },
   "40010876912": {
    "data": "2026-10-10T18:28:04.683531-03:00",
@@ -2144,26 +2148,7 @@
    }
   ]
  },
- "pendente": {
-  "id": "22798224799",
-  "nome": "Papel de Parede Autocolante Textura Madeira 5m x 45cm, Impermeável Removível, Ideal para Parede, Móveis, Sala e Quarto",
-  "preco": 17.99,
-  "preco_original": 49.97,
-  "desconto": 64,
-  "imagem": "https://cf.shopee.com.br/file/br-11134207-820lq-mndneuqbbbwh90",
-  "link": "https://s.shopee.com.br/60TIOFvEMT",
-  "link_produto": "https://shopee.com.br/product/1416381986/22798224799",
-  "vendas": 5256,
-  "nota": 4.8,
-  "loja": "Papel de Parede - Loja",
-  "palavra": "decoracao quarto",
-  "categoria": "Outros",
-  "pontos": 183.34754902399328,
-  "bonus_tendencia": 21.8,
-  "numero": 191,
-  "legenda": "🔥 Tá barato demais pra deixar passar!\n\n🛍️ Papel de Parede Autocolante Textura Madeira 5m x 45cm, Impermeável Removível, Ideal para…\n\n💸 De R$ 49,97 por R$ 17,99 (64% OFF)\n⭐ 4.8 • +5256 vendidos\n\n💬 Comente ACHADO que eu te mando o link\n🔗 Ou procure o achado nº 191 no link da bio\n📲 Mais achados todo dia no Grupo VIP: link na bio\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
-  "tentativas": 0
- },
+ "pendente": null,
  "ofertas": [
   {
    "numero": 191,
