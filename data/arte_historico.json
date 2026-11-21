@@ -1,28 +1,5 @@
 [
  {
-  "fundo": "amarelo",
-  "destaques": [
-   "rosa",
-   "salvia",
-   "coral"
-  ],
-  "baloes": [
-   "Bubble1",
-   "Bubble21",
-   "Bubble3"
-  ],
-  "frases": [
-   "me cuido, me amo",
-   "meu favorito!",
-   "prático no dia a dia"
-  ],
-  "manchete": [
-   "o queridinho da",
-   "NECESSAIRE"
-  ],
-  "tema": "Beleza"
- },
- {
   "fundo": "creme",
   "destaques": [
    "amarelo",
@@ -266,5 +243,28 @@
    "LINDO"
   ],
   "tema": null
+ },
+ {
+  "fundo": "amarelo",
+  "destaques": [
+   "rosa",
+   "salvia",
+   "coral"
+  ],
+  "baloes": [
+   "Bubble8",
+   "Bubble12",
+   "Bubble5"
+  ],
+  "frases": [
+   "leva pra todo lado",
+   "fácil de usar",
+   "design minimalista"
+  ],
+  "manchete": [
+   "tecnologia que",
+   "FACILITA"
+  ],
+  "tema": "Tecnologia"
  }
 ]
