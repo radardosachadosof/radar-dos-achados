@@ -1,28 +1,5 @@
 [
  {
-  "fundo": "amarelo",
-  "destaques": [
-   "salvia",
-   "coral",
-   "rosa"
-  ],
-  "baloes": [
-   "Bubble12",
-   "Bubble8",
-   "Bubble6"
-  ],
-  "frases": [
-   "luz de LED",
-   "fofo demais",
-   "design minimalista"
-  ],
-  "manchete": [
-   "olha que",
-   "ACHADO"
-  ],
-  "tema": null
- },
- {
   "fundo": "creme",
   "destaques": [
    "coral",
@@ -268,5 +245,27 @@
    "DO DIA"
   ],
   "tema": null
+ },
+ {
+  "fundo": "rosado",
+  "destaques": [
+   "salvia",
+   "coral"
+  ],
+  "baloes": [
+   "Bubble14",
+   "Bubble21",
+   "Bubble4"
+  ],
+  "frases": [
+   "tecnologia prática",
+   "achado do dia",
+   "bem avaliado"
+  ],
+  "manchete": [
+   "pra facilitar sua",
+   "ROTINA"
+  ],
+  "tema": "Tecnologia"
  }
 ]
