@@ -1,27 +1,5 @@
 [
  {
-  "fundo": "creme",
-  "destaques": [
-   "amarelo",
-   "salvia"
-  ],
-  "baloes": [
-   "Bubble19",
-   "Bubble4",
-   "Bubble20"
-  ],
-  "frases": [
-   "momento autocuidado",
-   "vale cada centavo",
-   "cara de loja cara"
-  ],
-  "manchete": [
-   "me cuido,",
-   "ME AMO"
-  ],
-  "tema": "Beleza"
- },
- {
   "fundo": "amarelo",
   "destaques": [
    "salvia",
@@ -266,5 +244,29 @@
    "FACILITA"
   ],
   "tema": "Tecnologia"
+ },
+ {
+  "fundo": "creme",
+  "destaques": [
+   "rosa",
+   "amarelo",
+   "coral",
+   "salvia"
+  ],
+  "baloes": [
+   "Bubble9",
+   "Bubble11",
+   "Bubble16"
+  ],
+  "frases": [
+   "cabe em qualquer cantinho",
+   "cheio de charme",
+   "queridinho da Shopee"
+  ],
+  "manchete": [
+   "achadinho",
+   "DO DIA"
+  ],
+  "tema": null
  }
 ]

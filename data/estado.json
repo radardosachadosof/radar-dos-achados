@@ -1,5 +1,5 @@
 {
- "contador": 192,
+ "contador": 193,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -1048,6 +1048,10 @@
     "instagram": "17961541581324306",
     "facebook": "1285421497997084_122123036571496709"
    }
+  },
+  "22693562781": {
+   "data": "2026-11-21T22:18:46.775470-03:00",
+   "numero": 193
   }
  },
  "precos": {
@@ -2160,10 +2164,46 @@
     "data": "2026-11-21T16:15:14.041974-03:00",
     "preco": 16.97
    }
+  ],
+  "22693562781": [
+   {
+    "data": "2026-11-21T22:18:46.775459-03:00",
+    "preco": 15.88
+   }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "22693562781",
+  "nome": "Suporte Para Celular GPS Bike Bicicleta E Moto Em Aluminio",
+  "preco": 15.88,
+  "preco_original": 39.7,
+  "desconto": 60,
+  "imagem": "https://cf.shopee.com.br/file/sg-11134201-8261x-ml0txranjz7rdd",
+  "link": "https://s.shopee.com.br/4LL5yMn9iK",
+  "link_produto": "https://shopee.com.br/product/1374123670/22693562781",
+  "vendas": 2511,
+  "nota": 4.9,
+  "loja": "Shoyyi by ZEMSHOP",
+  "palavra": "suporte celular",
+  "categoria": "Outros",
+  "pontos": 163.6165708938621,
+  "bonus_tendencia": 17.1,
+  "numero": 193,
+  "legenda": "✨ Achadinho do dia!\n\n🛍️ Suporte Para Celular GPS Bike Bicicleta E Moto Em Aluminio\n\n💸 De R$ 39,70 por R$ 15,88 (60% OFF)\n⭐ 4.9 • +2511 vendidos\n\n💬 Comente ACHADO que eu te mando o link\n🔗 Ou procure o achado nº 193 no link da bio\n📲 Mais achados todo dia no Grupo VIP: link na bio\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 193,
+   "id": "22693562781",
+   "nome": "Suporte Para Celular GPS Bike Bicicleta E Moto Em Aluminio",
+   "preco": 15.88,
+   "preco_original": 39.7,
+   "desconto": 60,
+   "imagem": "https://cf.shopee.com.br/file/sg-11134201-8261x-ml0txranjz7rdd",
+   "link": "https://s.shopee.com.br/4LL5yMn9iK",
+   "categoria": "Outros"
+  },
   {
    "numero": 192,
    "id": "19099611326",
