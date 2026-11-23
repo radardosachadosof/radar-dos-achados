@@ -1,5 +1,5 @@
 {
- "contador": 194,
+ "contador": 195,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -1064,6 +1064,10 @@
     "instagram": "18079059749750065",
     "facebook": "1285421497997084_122123290707496709"
    }
+  },
+  "23194055670": {
+   "data": "2026-11-22T22:43:06.254011-03:00",
+   "numero": 195
   }
  },
  "precos": {
@@ -2188,10 +2192,46 @@
     "data": "2026-11-22T16:39:27.799813-03:00",
     "preco": 19.99
    }
+  ],
+  "23194055670": [
+   {
+    "data": "2026-11-22T22:43:06.253998-03:00",
+    "preco": 40.0
+   }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "23194055670",
+  "nome": "Kit 12 Marmitas Potes 800ml com Travas Laterais BPA FREE - Alimentos organizadores de congelador PLASTICOS",
+  "preco": 40.0,
+  "preco_original": 100.0,
+  "desconto": 60,
+  "imagem": "https://cf.shopee.com.br/file/br-11134207-820l4-mrzweol0dfk5ee",
+  "link": "https://s.shopee.com.br/1CAWnk6bz",
+  "link_produto": "https://shopee.com.br/product/507645665/23194055670",
+  "vendas": 5036,
+  "nota": 4.8,
+  "loja": "PoliPlast",
+  "palavra": "organizador cozinha",
+  "categoria": "Cozinha",
+  "pontos": 176.87132337836917,
+  "bonus_tendencia": 23.0,
+  "numero": 195,
+  "legenda": "💥 Oferta fresquinha!\n\n🛍️ Kit 12 Marmitas Potes 800ml com Travas Laterais BPA FREE - Alimentos organizadores de…\n\n💸 De R$ 100,00 por R$ 40,00 (60% OFF)\n⭐ 4.8 • +5036 vendidos\n\n💬 Comente ACHADO que eu te mando o link\n🔗 Ou procure o achado nº 195 no link da bio\n📲 Mais achados todo dia no Grupo VIP: link na bio\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 195,
+   "id": "23194055670",
+   "nome": "Kit 12 Marmitas Potes 800ml com Travas Laterais BPA FREE - Alimentos organizadores de congelador PLASTICOS",
+   "preco": 40.0,
+   "preco_original": 100.0,
+   "desconto": 60,
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-820l4-mrzweol0dfk5ee",
+   "link": "https://s.shopee.com.br/1CAWnk6bz",
+   "categoria": "Outros"
+  },
   {
    "numero": 194,
    "id": "23799171599",

@@ -1,28 +1,5 @@
 [
  {
-  "fundo": "creme",
-  "destaques": [
-   "coral",
-   "amarelo",
-   "salvia"
-  ],
-  "baloes": [
-   "Bubble2",
-   "Bubble14",
-   "Bubble18"
-  ],
-  "frases": [
-   "me cuido, me amo",
-   "fácil de usar",
-   "lindo e funcional"
-  ],
-  "manchete": [
-   "seu momento",
-   "AUTOCUIDADO"
-  ],
-  "tema": "Beleza"
- },
- {
   "fundo": "pessego",
   "destaques": [
    "rosa",
@@ -267,5 +244,28 @@
    "ROTINA"
   ],
   "tema": "Tecnologia"
+ },
+ {
+  "fundo": "pessego",
+  "destaques": [
+   "rosa",
+   "salvia",
+   "amarelo"
+  ],
+  "baloes": [
+   "Bubble1",
+   "Bubble20",
+   "Bubble3"
+  ],
+  "frases": [
+   "organiza tudinho",
+   "estética de Pinterest",
+   "facilita a rotina"
+  ],
+  "manchete": [
+   "sua casa mais",
+   "ORGANIZADA"
+  ],
+  "tema": "Organização"
  }
 ]
