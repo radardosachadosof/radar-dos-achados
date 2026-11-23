@@ -1,28 +1,5 @@
 [
  {
-  "fundo": "pessego",
-  "destaques": [
-   "rosa",
-   "salvia",
-   "amarelo"
-  ],
-  "baloes": [
-   "Bubble11",
-   "Bubble17",
-   "Bubble9"
-  ],
-  "frases": [
-   "tudo no lugar",
-   "amei demais",
-   "queridinho da Shopee"
-  ],
-  "manchete": [
-   "organizar ficou",
-   "FÁCIL"
-  ],
-  "tema": "Organização"
- },
- {
   "fundo": "rosado",
   "destaques": [
    "amarelo",
@@ -267,5 +244,28 @@
    "ORGANIZADA"
   ],
   "tema": "Organização"
+ },
+ {
+  "fundo": "rosado",
+  "destaques": [
+   "coral",
+   "amarelo",
+   "salvia"
+  ],
+  "baloes": [
+   "Bubble18",
+   "Bubble12",
+   "Bubble19"
+  ],
+  "frases": [
+   "vem em kit",
+   "vale cada centavo",
+   "fofo demais"
+  ],
+  "manchete": [
+   "o achado que",
+   "FALTAVA"
+  ],
+  "tema": null
  }
 ]

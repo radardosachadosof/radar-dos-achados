@@ -1,5 +1,5 @@
 {
- "contador": 195,
+ "contador": 196,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -1072,6 +1072,10 @@
     "instagram": "18139795294670673",
     "facebook": "1285421497997084_122123335743496709"
    }
+  },
+  "19597455368": {
+   "data": "2026-11-23T20:53:03.699117-03:00",
+   "numero": 196
   }
  },
  "precos": {
@@ -2202,10 +2206,46 @@
     "data": "2026-11-22T22:43:06.253998-03:00",
     "preco": 40.0
    }
+  ],
+  "19597455368": [
+   {
+    "data": "2026-11-23T20:53:03.699102-03:00",
+    "preco": 39.9
+   }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "19597455368",
+  "nome": "Kit 3 Luminaria de emergencia 30 leds 2W Branco Frio",
+  "preco": 39.9,
+  "preco_original": 133.0,
+  "desconto": 70,
+  "imagem": "https://cf.shopee.com.br/file/br-11134207-820mf-mu3sumfeuio007",
+  "link": "https://s.shopee.com.br/1W0zmteHVN",
+  "link_produto": "https://shopee.com.br/product/902298974/19597455368",
+  "vendas": 2362,
+  "nota": 4.8,
+  "loja": "Fábrica De Led",
+  "palavra": "luminaria led",
+  "categoria": "Outros",
+  "pontos": 184.7883700146625,
+  "bonus_tendencia": 28.0,
+  "numero": 196,
+  "legenda": "👀 Olha o que o radar encontrou:\n\n🛍️ Kit 3 Luminaria de emergencia 30 leds 2W Branco Frio\n\n💸 De R$ 133,00 por R$ 39,90 (70% OFF)\n⭐ 4.8 • +2362 vendidos\n\n💬 Comente ACHADO que eu te mando o link\n🔗 Ou procure o achado nº 196 no link da bio\n📲 Mais achados todo dia no Grupo VIP: link na bio\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 196,
+   "id": "19597455368",
+   "nome": "Kit 3 Luminaria de emergencia 30 leds 2W Branco Frio",
+   "preco": 39.9,
+   "preco_original": 133.0,
+   "desconto": 70,
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-820mf-mu3sumfeuio007",
+   "link": "https://s.shopee.com.br/1W0zmteHVN",
+   "categoria": "Outros"
+  },
   {
    "numero": 195,
    "id": "23194055670",
