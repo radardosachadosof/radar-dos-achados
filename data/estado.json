@@ -1091,7 +1091,11 @@
   },
   "58257479264": {
    "data": "2026-11-24T19:26:10.571887-03:00",
-   "numero": 198
+   "numero": 198,
+   "redes": {
+    "instagram": "17964931715997747",
+    "facebook": "1285421497997084_122123768805496709"
+   }
   }
  },
  "precos": {
@@ -2242,26 +2246,7 @@
    }
   ]
  },
- "pendente": {
-  "id": "58257479264",
-  "nome": "Mochila Masculina Grande Reforçada Resistente à Água para Faculdade Trabalho e Uso Diário",
-  "preco": 59.9,
-  "preco_original": 199.67,
-  "desconto": 70,
-  "imagem": "https://cf.shopee.com.br/file/br-11134207-820le-mm6ygc5xehacb1",
-  "link": "https://s.shopee.com.br/gRtSbnElT",
-  "link_produto": "https://shopee.com.br/product/1734810849/58257479264",
-  "vendas": 1966,
-  "nota": 4.9,
-  "loja": "Loja Oficial N&M 1",
-  "palavra": "mochila",
-  "categoria": "Outros",
-  "pontos": 196.25369410731096,
-  "bonus_tendencia": 26.1,
-  "numero": 198,
-  "legenda": "📡 O radar apitou!\n\n🛍️ Mochila Masculina Grande Reforçada Resistente à Água para Faculdade Trabalho e Uso Diário\n\n💸 De R$ 199,67 por R$ 59,90 (70% OFF)\n⭐ 4.9 • +1966 vendidos\n\n💬 Comente ACHADO que eu te mando o link\n🔗 Ou procure o achado nº 198 no link da bio\n📲 Mais achados todo dia no Grupo VIP: link na bio\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
-  "tentativas": 0
- },
+ "pendente": null,
  "ofertas": [
   {
    "numero": 198,
