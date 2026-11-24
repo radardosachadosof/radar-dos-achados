@@ -1,28 +1,5 @@
 [
  {
-  "fundo": "rosado",
-  "destaques": [
-   "amarelo",
-   "salvia",
-   "coral"
-  ],
-  "baloes": [
-   "Bubble20",
-   "Bubble16",
-   "Bubble13"
-  ],
-  "frases": [
-   "transparente",
-   "cabe em qualquer cantinho",
-   "achado do dia"
-  ],
-  "manchete": [
-   "o queridinho da",
-   "NECESSAIRE"
-  ],
-  "tema": "Beleza"
- },
- {
   "fundo": "pessego",
   "destaques": [
    "rosa",
@@ -267,5 +244,29 @@
    "FALTAVA"
   ],
   "tema": null
+ },
+ {
+  "fundo": "creme",
+  "destaques": [
+   "amarelo",
+   "coral",
+   "salvia",
+   "rosa"
+  ],
+  "baloes": [
+   "Bubble13",
+   "Bubble16",
+   "Bubble5"
+  ],
+  "frases": [
+   "leva pra todo lado",
+   "ótimo pra presentear",
+   "prático no dia a dia"
+  ],
+  "manchete": [
+   "tecnologia que",
+   "FACILITA"
+  ],
+  "tema": "Tecnologia"
  }
 ]
