@@ -1,28 +1,5 @@
 [
  {
-  "fundo": "pessego",
-  "destaques": [
-   "rosa",
-   "amarelo",
-   "salvia"
-  ],
-  "baloes": [
-   "Bubble4",
-   "Bubble15",
-   "Bubble21"
-  ],
-  "frases": [
-   "aço inox resistente",
-   "facilita a rotina",
-   "ótimo pra presentear"
-  ],
-  "manchete": [
-   "o achado que sua",
-   "COZINHA PEDIU"
-  ],
-  "tema": "Cozinha"
- },
- {
   "fundo": "rosado",
   "destaques": [
    "amarelo",
@@ -268,5 +245,28 @@
    "FACILITA"
   ],
   "tema": "Tecnologia"
+ },
+ {
+  "fundo": "amarelo",
+  "destaques": [
+   "salvia",
+   "coral",
+   "rosa"
+  ],
+  "baloes": [
+   "Bubble4",
+   "Bubble2",
+   "Bubble14"
+  ],
+  "frases": [
+   "lindo e funcional",
+   "útil de verdade",
+   "perfeito pro dia a dia"
+  ],
+  "manchete": [
+   "você precisa",
+   "DISSO"
+  ],
+  "tema": null
  }
 ]
