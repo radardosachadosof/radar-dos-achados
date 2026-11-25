@@ -1,26 +1,5 @@
 [
  {
-  "fundo": "creme",
-  "destaques": [
-   "salvia"
-  ],
-  "baloes": [
-   "Bubble9",
-   "Bubble19",
-   "Bubble12"
-  ],
-  "frases": [
-   "momento autocuidado",
-   "deixa tudo mais bonito",
-   "meu favorito!"
-  ],
-  "manchete": [
-   "o achado que",
-   "FALTAVA"
-  ],
-  "tema": "Beleza"
- },
- {
   "fundo": "rosado",
   "destaques": [
    "salvia"
@@ -267,5 +246,26 @@
    "DO DIA"
   ],
   "tema": null
+ },
+ {
+  "fundo": "amarelo",
+  "destaques": [
+   "salvia"
+  ],
+  "baloes": [
+   "Bubble3",
+   "Bubble6",
+   "Bubble17"
+  ],
+  "frases": [
+   "momento autocuidado",
+   "cabe em qualquer cantinho",
+   "cheio de charme"
+  ],
+  "manchete": [
+   "o queridinho da",
+   "NECESSAIRE"
+  ],
+  "tema": "Beleza"
  }
 ]
