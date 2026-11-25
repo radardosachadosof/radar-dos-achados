@@ -1,28 +1,5 @@
 [
  {
-  "fundo": "rosado",
-  "destaques": [
-   "amarelo",
-   "coral",
-   "salvia"
-  ],
-  "baloes": [
-   "Bubble14",
-   "Bubble2",
-   "Bubble5"
-  ],
-  "frases": [
-   "cozinha organizada",
-   "bem avaliado",
-   "estética de Pinterest"
-  ],
-  "manchete": [
-   "pra deixar a cozinha",
-   "LINDA"
-  ],
-  "tema": "Cozinha"
- },
- {
   "fundo": "creme",
   "destaques": [
    "salvia"
@@ -266,6 +243,28 @@
   "manchete": [
    "você precisa",
    "DISSO"
+  ],
+  "tema": null
+ },
+ {
+  "fundo": "creme",
+  "destaques": [
+   "rosa",
+   "salvia"
+  ],
+  "baloes": [
+   "Bubble1",
+   "Bubble9",
+   "Bubble11"
+  ],
+  "frases": [
+   "deixa tudo mais bonito",
+   "design minimalista",
+   "simples e lindo"
+  ],
+  "manchete": [
+   "achadinho",
+   "DO DIA"
   ],
   "tema": null
  }

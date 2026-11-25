@@ -1,5 +1,5 @@
 {
- "contador": 198,
+ "contador": 199,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -1096,6 +1096,10 @@
     "instagram": "17964931715997747",
     "facebook": "1285421497997084_122123768805496709"
    }
+  },
+  "18799676156": {
+   "data": "2026-11-25T05:32:46.224041-03:00",
+   "numero": 199
   }
  },
  "precos": {
@@ -2244,10 +2248,46 @@
     "data": "2026-11-24T19:26:10.571872-03:00",
     "preco": 59.9
    }
+  ],
+  "18799676156": [
+   {
+    "data": "2026-11-25T05:32:46.224030-03:00",
+    "preco": 17.99
+   }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "18799676156",
+  "nome": "Papel Adesivo Madeira Escura Varias Cores 5 Metros x 45cm para Decoração de Sala, Quarto. Escritório",
+  "preco": 17.99,
+  "preco_original": 49.97,
+  "desconto": 64,
+  "imagem": "https://cf.shopee.com.br/file/br-11134207-820l5-mo3px2q6o6bk9d",
+  "link": "https://s.shopee.com.br/7KymYnTspC",
+  "link_produto": "https://shopee.com.br/product/1449227467/18799676156",
+  "vendas": 4177,
+  "nota": 4.8,
+  "loja": "LSGG-LOJA2",
+  "palavra": "decoracao quarto",
+  "categoria": "Outros",
+  "pontos": 185.4337056758518,
+  "bonus_tendencia": 27.2,
+  "numero": 199,
+  "legenda": "💥 Oferta fresquinha!\n\n🛍️ Papel Adesivo Madeira Escura Varias Cores 5 Metros x 45cm para Decoração de Sala,…\n\n💸 De R$ 49,97 por R$ 17,99 (64% OFF)\n⭐ 4.8 • +4177 vendidos\n\n💬 Comente ACHADO que eu te mando o link\n🔗 Ou procure o achado nº 199 no link da bio\n📲 Mais achados todo dia no Grupo VIP: link na bio\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 199,
+   "id": "18799676156",
+   "nome": "Papel Adesivo Madeira Escura Varias Cores 5 Metros x 45cm para Decoração de Sala, Quarto. Escritório",
+   "preco": 17.99,
+   "preco_original": 49.97,
+   "desconto": 64,
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-820l5-mo3px2q6o6bk9d",
+   "link": "https://s.shopee.com.br/7KymYnTspC",
+   "categoria": "Outros"
+  },
   {
    "numero": 198,
    "id": "58257479264",
