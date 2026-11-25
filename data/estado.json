@@ -1107,7 +1107,11 @@
   },
   "18240198975": {
    "data": "2026-11-25T18:41:43.430930-03:00",
-   "numero": 200
+   "numero": 200,
+   "redes": {
+    "instagram": "18114043757140602",
+    "facebook": "1285421497997084_122124008229496709"
+   }
   }
  },
  "precos": {
@@ -2270,26 +2274,7 @@
    }
   ]
  },
- "pendente": {
-  "id": "18240198975",
-  "nome": "FADVAN 8D W Cílios Dupla Camada 4D Extensões De Forma Ventilador De Volume Macio 8D Pré-Fabricados",
-  "preco": 22.98,
-  "preco_original": 62.11,
-  "desconto": 63,
-  "imagem": "https://cf.shopee.com.br/file/cn-11134207-820l4-mlr6ydww9x4x9a",
-  "link": "https://s.shopee.com.br/8AXtYZKJED",
-  "link_produto": "https://shopee.com.br/product/711418084/18240198975",
-  "vendas": 4199,
-  "nota": 4.8,
-  "loja": "fadvan.br",
-  "palavra": "maquiagem",
-  "categoria": "Beleza",
-  "pontos": 180.8745126874398,
-  "bonus_tendencia": 21.8,
-  "numero": 200,
-  "legenda": "🚨 Achado detectado no radar!\n\n🛍️ FADVAN 8D W Cílios Dupla Camada 4D Extensões De Forma Ventilador De Volume Macio 8D…\n\n💸 De R$ 62,11 por R$ 22,98 (63% OFF)\n⭐ 4.8 • +4199 vendidos\n\n💬 Comente ACHADO que eu te mando o link\n🔗 Ou procure o achado nº 200 no link da bio\n📲 Mais achados todo dia no Grupo VIP: link na bio\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
-  "tentativas": 0
- },
+ "pendente": null,
  "ofertas": [
   {
    "numero": 200,
