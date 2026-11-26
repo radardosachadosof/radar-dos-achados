@@ -1,26 +1,5 @@
 [
  {
-  "fundo": "rosado",
-  "destaques": [
-   "salvia"
-  ],
-  "baloes": [
-   "Bubble20",
-   "Bubble6",
-   "Bubble17"
-  ],
-  "frases": [
-   "recarregável",
-   "fofo demais",
-   "útil de verdade"
-  ],
-  "manchete": [
-   "vale cada",
-   "CENTAVO"
-  ],
-  "tema": null
- },
- {
   "fundo": "creme",
   "destaques": [
    "salvia",
@@ -267,5 +246,28 @@
    "NECESSAIRE"
   ],
   "tema": "Beleza"
+ },
+ {
+  "fundo": "pessego",
+  "destaques": [
+   "rosa",
+   "salvia",
+   "amarelo"
+  ],
+  "baloes": [
+   "Bubble12",
+   "Bubble8",
+   "Bubble18"
+  ],
+  "frases": [
+   "resistente à água",
+   "meu favorito!",
+   "queridinho da Shopee"
+  ],
+  "manchete": [
+   "o achado que",
+   "FALTAVA"
+  ],
+  "tema": null
  }
 ]

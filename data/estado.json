@@ -1,5 +1,5 @@
 {
- "contador": 200,
+ "contador": 201,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -262,8 +262,8 @@
    "numero": 47
   },
   "58252296191": {
-   "data": "2026-10-09T21:41:21.771860-03:00",
-   "numero": 48
+   "data": "2026-11-26T05:16:39.974116-03:00",
+   "numero": 201
   },
   "22197716365": {
    "data": "2026-10-10T09:33:51.468439-03:00",
@@ -1477,6 +1477,10 @@
    {
     "data": "2026-10-09T21:41:21.771850-03:00",
     "preco": 29.99
+   },
+   {
+    "data": "2026-11-26T05:16:39.974103-03:00",
+    "preco": 29.99
    }
   ],
   "22197716365": [
@@ -2274,8 +2278,38 @@
    }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "58252296191",
+  "nome": "Mochila Executiva Impermeável Unissex Reforçada com Cabo de Aço para Notebook 17'' Grande Capacidade Viagem Trabalho",
+  "preco": 29.99,
+  "preco_original": 90.88,
+  "desconto": 67,
+  "imagem": "https://cf.shopee.com.br/file/sg-11134201-825a1-mtxr443g2ha9f6",
+  "link": "https://s.shopee.com.br/9pgBSZeukH",
+  "link_produto": "https://shopee.com.br/product/1676487555/58252296191",
+  "vendas": 1967,
+  "nota": 4.8,
+  "loja": "TUCAN ",
+  "palavra": "mochila",
+  "categoria": "Outros",
+  "pontos": 180.09270091789355,
+  "bonus_tendencia": 17.1,
+  "numero": 201,
+  "legenda": "🚨 Achado detectado no radar!\n\n🛍️ Mochila Executiva Impermeável Unissex Reforçada com Cabo de Aço para Notebook 17''…\n\n💸 De R$ 90,88 por R$ 29,99 (67% OFF)\n⭐ 4.8 • +1967 vendidos\n\n💬 Comente ACHADO que eu te mando o link\n🔗 Ou procure o achado nº 201 no link da bio\n📲 Mais achados todo dia no Grupo VIP: link na bio\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 201,
+   "id": "58252296191",
+   "nome": "Mochila Executiva Impermeável Unissex Reforçada com Cabo de Aço para Notebook 17'' Grande Capacidade Viagem Trabalho",
+   "preco": 29.99,
+   "preco_original": 90.88,
+   "desconto": 67,
+   "imagem": "https://cf.shopee.com.br/file/sg-11134201-825a1-mtxr443g2ha9f6",
+   "link": "https://s.shopee.com.br/9pgBSZeukH",
+   "categoria": "Outros"
+  },
   {
    "numero": 200,
    "id": "18240198975",
@@ -4464,17 +4498,6 @@
    "imagem": "https://cf.shopee.com.br/file/br-11134207-820lc-mscge5xo2rk7e9",
    "link": "https://s.shopee.com.br/5AssLsl7Jn",
    "categoria": "Outros"
-  },
-  {
-   "numero": 1,
-   "id": "22099285853",
-   "nome": "Bola Brinquedos De Rolamento Automático Cauda Do Falso Recarregável Bola Inteligente Gato Interativo",
-   "preco": 12.99,
-   "preco_original": 99.92,
-   "desconto": 87,
-   "imagem": "https://cf.shopee.com.br/file/br-11134207-81z1k-mio4meb5vj7q60",
-   "link": "https://s.shopee.com.br/4qG1tJkMjD",
-   "categoria": "Pets"
   }
  ]
 }
