@@ -1119,7 +1119,11 @@
   },
   "58268287031": {
    "data": "2026-11-26T18:31:19.511976-03:00",
-   "numero": 202
+   "numero": 202,
+   "redes": {
+    "instagram": "17911306032332089",
+    "facebook": "1285421497997084_122124243981496709"
+   }
   }
  },
  "precos": {
@@ -2292,26 +2296,7 @@
    }
   ]
  },
- "pendente": {
-  "id": "58268287031",
-  "nome": "Fone de Ouvido Sem Fio Bluetooth Pro 5 Com Cancelamento De Ruído Pop-Up para iOS -GPS",
-  "preco": 42.98,
-  "preco_original": 99.95,
-  "desconto": 57,
-  "imagem": "https://cf.shopee.com.br/file/sg-11134201-8259z-mt7y5h6w2gi20b",
-  "link": "https://s.shopee.com.br/AUvsxupWLC",
-  "link_produto": "https://shopee.com.br/product/1599453710/58268287031",
-  "vendas": 4914,
-  "nota": 4.7,
-  "loja": "SULAN SELL",
-  "palavra": "fone bluetooth",
-  "categoria": "Outros",
-  "pontos": 178.32082122597916,
-  "bonus_tendencia": 30.0,
-  "numero": 202,
-  "legenda": "🔥 Tá barato demais pra deixar passar!\n\n🛍️ Fone de Ouvido Sem Fio Bluetooth Pro 5 Com Cancelamento De Ruído Pop-Up para iOS -GPS\n\n💸 De R$ 99,95 por R$ 42,98 (57% OFF)\n⭐ 4.7 • +4914 vendidos\n\n💬 Comente ACHADO que eu te mando o link\n🔗 Ou procure o achado nº 202 no link da bio\n📲 Mais achados todo dia no Grupo VIP: link na bio\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
-  "tentativas": 0
- },
+ "pendente": null,
  "ofertas": [
   {
    "numero": 202,
