@@ -739,7 +739,11 @@
   },
   "22192647025": {
    "data": "2026-11-27T18:16:17.237272-03:00",
-   "numero": 204
+   "numero": 204,
+   "redes": {
+    "instagram": "18095163278215975",
+    "facebook": "1285421497997084_122124492801496709"
+   }
   },
   "22894378689": {
    "data": "2026-10-26T15:57:29.152606-03:00",
@@ -2310,27 +2314,7 @@
    }
   ]
  },
- "pendente": {
-  "id": "22192647025",
-  "nome": "caneca Kit Garrafa Térmica Vacuum Bottle Inox 500ml + 3 Xícaras Bebidas Fria ou Quente",
-  "preco": 20.99,
-  "preco_original": 59.97,
-  "desconto": 65,
-  "imagem": "https://cf.shopee.com.br/file/sg-11134201-7rfgr-m9srcfiqmq8s1a",
-  "link": "https://s.shopee.com.br/2qWRprvQaw",
-  "link_produto": "https://shopee.com.br/product/1108921660/22192647025",
-  "vendas": 9807,
-  "nota": 4.7,
-  "loja": "XIXI-STORE3",
-  "palavra": "garrafa termica",
-  "categoria": "Cozinha",
-  "pontos": 191.05822837769435,
-  "bonus_tendencia": 28.7,
-  "baixou_de": 24.98,
-  "numero": 204,
-  "legenda": "👀 Olha o que o radar encontrou:\n\n🛍️ caneca Kit Garrafa Térmica Vacuum Bottle Inox 500ml + 3 Xícaras Bebidas Fria ou Quente\n\n📉 BAIXOU! Estava R$ 24,98\n💸 De R$ 59,97 por R$ 20,99 (65% OFF)\n⭐ 4.7 • +9807 vendidos\n\n💬 Comente ACHADO que eu te mando o link\n🔗 Ou procure o achado nº 204 no link da bio\n📲 Mais achados todo dia no Grupo VIP: link na bio\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
-  "tentativas": 0
- },
+ "pendente": null,
  "ofertas": [
   {
    "numero": 204,
