@@ -1,28 +1,5 @@
 [
  {
-  "fundo": "amarelo",
-  "destaques": [
-   "rosa",
-   "salvia",
-   "coral"
-  ],
-  "baloes": [
-   "Bubble8",
-   "Bubble12",
-   "Bubble5"
-  ],
-  "frases": [
-   "leva pra todo lado",
-   "fácil de usar",
-   "design minimalista"
-  ],
-  "manchete": [
-   "tecnologia que",
-   "FACILITA"
-  ],
-  "tema": "Tecnologia"
- },
- {
   "fundo": "creme",
   "destaques": [
    "rosa",
@@ -272,5 +249,28 @@
    "PET"
   ],
   "tema": "Pets"
+ },
+ {
+  "fundo": "pessego",
+  "destaques": [
+   "salvia",
+   "amarelo",
+   "rosa"
+  ],
+  "baloes": [
+   "Bubble6",
+   "Bubble15",
+   "Bubble3"
+  ],
+  "frases": [
+   "aço inox resistente",
+   "vale cada centavo",
+   "ótimo pra presentear"
+  ],
+  "manchete": [
+   "sua cozinha mais",
+   "PRÁTICA"
+  ],
+  "tema": "Cozinha"
  }
 ]
