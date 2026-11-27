@@ -1,26 +1,5 @@
 [
  {
-  "fundo": "rosado",
-  "destaques": [
-   "salvia"
-  ],
-  "baloes": [
-   "Bubble1",
-   "Bubble2",
-   "Bubble18"
-  ],
-  "frases": [
-   "resistente à água",
-   "simples e lindo",
-   "perfeito pro dia a dia"
-  ],
-  "manchete": [
-   "simples e",
-   "LINDO"
-  ],
-  "tema": null
- },
- {
   "fundo": "amarelo",
   "destaques": [
    "rosa",
@@ -270,5 +249,28 @@
    "PRÁTICO"
   ],
   "tema": "Tecnologia"
+ },
+ {
+  "fundo": "rosado",
+  "destaques": [
+   "amarelo",
+   "coral",
+   "salvia"
+  ],
+  "baloes": [
+   "Bubble11",
+   "Bubble13",
+   "Bubble4"
+  ],
+  "frases": [
+   "pro seu bichinho",
+   "estética de Pinterest",
+   "fofo demais"
+  ],
+  "manchete": [
+   "mimo pro seu",
+   "PET"
+  ],
+  "tema": "Pets"
  }
 ]

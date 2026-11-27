@@ -1,5 +1,5 @@
 {
- "contador": 202,
+ "contador": 203,
  "postados": {
   "22099285853": {
    "data": "2026-09-29T18:46:06.117480-03:00",
@@ -1124,6 +1124,10 @@
     "instagram": "17911306032332089",
     "facebook": "1285421497997084_122124243981496709"
    }
+  },
+  "23598482764": {
+   "data": "2026-11-27T05:32:26.773181-03:00",
+   "numero": 203
   }
  },
  "precos": {
@@ -2294,10 +2298,46 @@
     "data": "2026-11-26T18:31:19.511967-03:00",
     "preco": 42.98
    }
+  ],
+  "23598482764": [
+   {
+    "data": "2026-11-27T05:32:26.773171-03:00",
+    "preco": 39.9
+   }
   ]
  },
- "pendente": null,
+ "pendente": {
+  "id": "23598482764",
+  "nome": "Tela de proteção para cachorro ou bebê cerca para interior de casa -PROMOÇÃO! ENVIO IMEDIATO!!!",
+  "preco": 39.9,
+  "preco_original": 114.0,
+  "desconto": 65,
+  "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-m9z7hig3vm6aa1",
+  "link": "https://s.shopee.com.br/8VAns7t8K0",
+  "link_produto": "https://shopee.com.br/product/1097148583/23598482764",
+  "vendas": 2689,
+  "nota": 4.7,
+  "loja": "jvch21my_o",
+  "palavra": "acessorios pet",
+  "categoria": "Pets",
+  "pontos": 177.39459411762232,
+  "bonus_tendencia": 19.5,
+  "numero": 203,
+  "legenda": "🚨 Achado detectado no radar!\n\n🛍️ Tela de proteção para cachorro ou bebê cerca para interior de casa -PROMOÇÃO! ENVIO…\n\n💸 De R$ 114,00 por R$ 39,90 (65% OFF)\n⭐ 4.7 • +2689 vendidos\n\n💬 Comente ACHADO que eu te mando o link\n🔗 Ou procure o achado nº 203 no link da bio\n📲 Mais achados todo dia no Grupo VIP: link na bio\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
+  "tentativas": 0
+ },
  "ofertas": [
+  {
+   "numero": 203,
+   "id": "23598482764",
+   "nome": "Tela de proteção para cachorro ou bebê cerca para interior de casa -PROMOÇÃO! ENVIO IMEDIATO!!!",
+   "preco": 39.9,
+   "preco_original": 114.0,
+   "desconto": 65,
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-m9z7hig3vm6aa1",
+   "link": "https://s.shopee.com.br/8VAns7t8K0",
+   "categoria": "Pets"
+  },
   {
    "numero": 202,
    "id": "58268287031",
@@ -4486,17 +4526,6 @@
    "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-m0ejjwwjyv1c68",
    "link": "https://s.shopee.com.br/4B0LA2kf7T",
    "categoria": "Beleza"
-  },
-  {
-   "numero": 3,
-   "id": "58208872077",
-   "nome": "mochila grande unissex resistente impermeável notebook alta capacidade com compartimentos ideal trabalho faculdade",
-   "preco": 59.9,
-   "preco_original": 199.67,
-   "desconto": 70,
-   "imagem": "https://cf.shopee.com.br/file/br-11134207-820lk-ms4ydyx58xdy23",
-   "link": "https://s.shopee.com.br/1BMkVtT57b",
-   "categoria": "Outros"
   }
  ]
 }
