@@ -1127,7 +1127,11 @@
   },
   "23598482764": {
    "data": "2026-11-27T05:32:26.773181-03:00",
-   "numero": 203
+   "numero": 203,
+   "redes": {
+    "instagram": "18161893738515569",
+    "facebook": "1285421497997084_122124353811496709"
+   }
   }
  },
  "precos": {
@@ -2306,26 +2310,7 @@
    }
   ]
  },
- "pendente": {
-  "id": "23598482764",
-  "nome": "Tela de proteção para cachorro ou bebê cerca para interior de casa -PROMOÇÃO! ENVIO IMEDIATO!!!",
-  "preco": 39.9,
-  "preco_original": 114.0,
-  "desconto": 65,
-  "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-m9z7hig3vm6aa1",
-  "link": "https://s.shopee.com.br/8VAns7t8K0",
-  "link_produto": "https://shopee.com.br/product/1097148583/23598482764",
-  "vendas": 2689,
-  "nota": 4.7,
-  "loja": "jvch21my_o",
-  "palavra": "acessorios pet",
-  "categoria": "Pets",
-  "pontos": 177.39459411762232,
-  "bonus_tendencia": 19.5,
-  "numero": 203,
-  "legenda": "🚨 Achado detectado no radar!\n\n🛍️ Tela de proteção para cachorro ou bebê cerca para interior de casa -PROMOÇÃO! ENVIO…\n\n💸 De R$ 114,00 por R$ 39,90 (65% OFF)\n⭐ 4.7 • +2689 vendidos\n\n💬 Comente ACHADO que eu te mando o link\n🔗 Ou procure o achado nº 203 no link da bio\n📲 Mais achados todo dia no Grupo VIP: link na bio\n\n⚠️ Preço e estoque podem mudar a qualquer momento.\n#publi • link de afiliado\n\n#achadinhos #achadosshopee #shopee #promocao #ofertas #radardosachados",
-  "tentativas": 0
- },
+ "pendente": null,
  "ofertas": [
   {
    "numero": 203,
