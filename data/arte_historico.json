@@ -1,29 +1,5 @@
 [
  {
-  "fundo": "creme",
-  "destaques": [
-   "rosa",
-   "amarelo",
-   "coral",
-   "salvia"
-  ],
-  "baloes": [
-   "Bubble9",
-   "Bubble11",
-   "Bubble16"
-  ],
-  "frases": [
-   "cabe em qualquer cantinho",
-   "cheio de charme",
-   "queridinho da Shopee"
-  ],
-  "manchete": [
-   "achadinho",
-   "DO DIA"
-  ],
-  "tema": null
- },
- {
   "fundo": "rosado",
   "destaques": [
    "salvia",
@@ -272,5 +248,26 @@
    "PRÁTICA"
   ],
   "tema": "Cozinha"
+ },
+ {
+  "fundo": "rosado",
+  "destaques": [
+   "salvia"
+  ],
+  "baloes": [
+   "Bubble17",
+   "Bubble1",
+   "Bubble8"
+  ],
+  "frases": [
+   "recarregável",
+   "prático no dia a dia",
+   "cara de loja cara"
+  ],
+  "manchete": [
+   "simples e",
+   "LINDO"
+  ],
+  "tema": null
  }
 ]
